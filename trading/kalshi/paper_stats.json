@@ -1,7 +1,7 @@
 {
-  "total_trades": 332,
-  "wins": 77,
-  "losses": 243,
+  "total_trades": 334,
+  "wins": 78,
+  "losses": 244,
   "pending": {
     "KXBTC-26FEB1417-B69000": {
       "ticker": "KXBTC-26FEB1417-B69000",
@@ -113,27 +113,27 @@
       "timestamp": "2026-02-14T11:24:09.098000+00:00",
       "hour": 11
     },
-    "KXBTC-26FEB1410-B69375": {
-      "ticker": "KXBTC-26FEB1410-B69375",
+    "KXBTC-26FEB1411-B69625": {
+      "ticker": "KXBTC-26FEB1411-B69625",
       "direction": "YES",
-      "entry_price": 33,
-      "subtitle": "$69,250 to 69,499.99",
-      "btc_at_entry": 69402,
-      "event_key": "26FEB1410",
-      "close_time": "2026-02-14T15:00:00Z",
-      "timestamp": "2026-02-14T14:04:55.359652+00:00",
-      "hour": 14
-    },
-    "KXBTC-26FEB1410-B69625": {
-      "ticker": "KXBTC-26FEB1410-B69625",
-      "direction": "YES",
-      "entry_price": 40,
+      "entry_price": 37,
       "subtitle": "$69,500 to 69,749.99",
-      "btc_at_entry": 69564,
-      "event_key": "26FEB1410",
-      "close_time": "2026-02-14T15:00:00Z",
-      "timestamp": "2026-02-14T14:35:48.710294+00:00",
-      "hour": 14
+      "btc_at_entry": 69698,
+      "event_key": "26FEB1411",
+      "close_time": "2026-02-14T16:00:00Z",
+      "timestamp": "2026-02-14T15:01:33.223080+00:00",
+      "hour": 15
+    },
+    "KXBTC-26FEB1411-B69875": {
+      "ticker": "KXBTC-26FEB1411-B69875",
+      "direction": "YES",
+      "entry_price": 37,
+      "subtitle": "$69,750 to 69,999.99",
+      "btc_at_entry": 69781,
+      "event_key": "26FEB1411",
+      "close_time": "2026-02-14T16:00:00Z",
+      "timestamp": "2026-02-14T15:21:51.591215+00:00",
+      "hour": 15
     }
   },
   "by_hour": {
@@ -168,10 +168,10 @@
       "pnl": -21
     },
     "14": {
-      "trades": 26,
-      "wins": 3,
-      "losses": 23,
-      "pnl": -235
+      "trades": 28,
+      "wins": 4,
+      "losses": 24,
+      "pnl": -208
     },
     "15": {
       "trades": 26,
@@ -282,5 +282,5 @@
       "pnl": -14
     }
   },
-  "total_pnl": -545
+  "total_pnl": -518
 }
