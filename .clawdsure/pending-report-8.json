@@ -1,0 +1,16 @@
+{
+  "action": "attestation",
+  "agent": {
+    "id": "CLWD-3F8B0233",
+    "fingerprint": "3f8b0233ca80c92a679e5b32541a2e4bef2f651cef9cee90e77b44e915ad4342"
+  },
+  "attestation": {"seq":8,"prev":"3400e35088a9f286c08ca9b4675106fabc3722c4a4fa93f189ccceb352e35a96","ts":"2026-02-10T11:29:55Z","agent":"CLWD-3F8B0233","result":"PASS","critical":0,"warn":2,"info":1,"version":"2026.2.9","threats":{"checked":20,"mitigated":20,"unmitigated":0,"critical_unmitigated":0,"high_unmitigated":0},"sig":"MEUCIDPHCo19ZPmA6IgmEctd8BErYuqXJTaG8ntv6dyTC6/ZAiEAlrRVXvQH2V3C03E++SUgWFdRSOFp9WUYm1rS9tNpjEI="},
+  "ipfs": {
+    "cid": "",
+    "gateway": "https://gateway.pinata.cloud/ipfs/"
+  },
+  "chain": {
+    "length": 8,
+    "prevHash": "3400e35088a9f286c08ca9b4675106fabc3722c4a4fa93f189ccceb352e35a96"
+  }
+}

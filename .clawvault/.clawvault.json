@@ -1,0 +1,27 @@
+{
+  "name": ".clawvault",
+  "version": "1.0.0",
+  "created": "2026-02-14T08:42:51.169Z",
+  "lastUpdated": "2026-02-14T08:46:30.914Z",
+  "categories": [
+    "preferences",
+    "decisions",
+    "patterns",
+    "people",
+    "projects",
+    "goals",
+    "transcripts",
+    "inbox",
+    "templates",
+    "lessons",
+    "agents",
+    "commitments",
+    "handoffs",
+    "research",
+    "tasks",
+    "backlog"
+  ],
+  "documentCount": 20,
+  "qmdCollection": ".clawvault",
+  "qmdRoot": "/Users/clawdine/.openclaw/workspace/.clawvault"
+}

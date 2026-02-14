@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-02-11T17:00:05.529068+00:00",
+  "strategies": [
+    {
+      "name": "Weather Gap",
+      "total_trades": 1,
+      "settled": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "pnl": -50.0,
+      "avg_return": -50.0,
+      "open_count": 0
+    },
+    {
+      "name": "BTC Range (Kalshi)",
+      "total_trades": 182,
+      "settled": 157,
+      "wins": 36,
+      "losses": 121,
+      "win_rate": 22.9,
+      "pnl": -5.28,
+      "avg_return": -0.03,
+      "open_count": 25
+    }
+  ],
+  "combined": {
+    "total_trades": 183,
+    "settled": 158,
+    "wins": 36,
+    "losses": 122,
+    "win_rate": 22.8,
+    "total_pnl": -55.28,
+    "avg_return": -0.35,
+    "sharpe": -0.09,
+    "open_positions": 25
+  },
+  "open_positions": [
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B69750",
+      "description": "$69,500 to 69,999.99 (26FEB1317)",
+      "entry_price": "5\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B69250",
+      "description": "$69,000 to 69,499.99 (26FEB1317)",
+      "entry_price": "6\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B68750",
+      "description": "$68,500 to 68,999.99 (26FEB1317)",
+      "entry_price": "5\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B68250",
+      "description": "$68,000 to 68,499.99 (26FEB1317)",
+      "entry_price": "4\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B70250",
+      "description": "$70,000 to 70,499.99 (26FEB1317)",
+      "entry_price": "7\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B70750",
+      "description": "$70,500 to 70,999.99 (26FEB1317)",
+      "entry_price": "8\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B71250",
+      "description": "$71,000 to 71,499.99 (26FEB1317)",
+      "entry_price": "6\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-09"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B67750",
+      "description": "$67,500 to 67,999.99 (26FEB1317)",
+      "entry_price": "4\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-10"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B68750",
+      "description": "$68,500 to 68,999.99 (26FEB1117)",
+      "entry_price": "12\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-10"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B69250",
+      "description": "$69,000 to 69,499.99 (26FEB1117)",
+      "entry_price": "14\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B68250",
+      "description": "$68,000 to 68,499.99 (26FEB1117)",
+      "entry_price": "12\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B67750",
+      "description": "$67,500 to 67,999.99 (26FEB1117)",
+      "entry_price": "12\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B67250",
+      "description": "$67,000 to 67,499.99 (26FEB1117)",
+      "entry_price": "10\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B67250",
+      "description": "$67,000 to 67,499.99 (26FEB1317)",
+      "entry_price": "6\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B66750",
+      "description": "$66,500 to 66,999.99 (26FEB1117)",
+      "entry_price": "12\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B66750",
+      "description": "$66,500 to 66,999.99 (26FEB1317)",
+      "entry_price": "6\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B66250",
+      "description": "$66,000 to 66,499.99 (26FEB1117)",
+      "entry_price": "17\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B66250",
+      "description": "$66,000 to 66,499.99 (26FEB1317)",
+      "entry_price": "7\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1117-B65750",
+      "description": "$65,500 to 65,999.99 (26FEB1117)",
+      "entry_price": "13\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1317-B65750",
+      "description": "$65,500 to 65,999.99 (26FEB1317)",
+      "entry_price": "6\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1112-B66625",
+      "description": "$66,500 to 66,749.99 (26FEB1112)",
+      "entry_price": "17\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1112-B67125",
+      "description": "$67,000 to 67,249.99 (26FEB1112)",
+      "entry_price": "18\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1112-B66875",
+      "description": "$66,750 to 66,999.99 (26FEB1112)",
+      "entry_price": "18\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1112-B66375",
+      "description": "$66,250 to 66,499.99 (26FEB1112)",
+      "entry_price": "27\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    },
+    {
+      "strategy": "btc",
+      "id": "KXBTC-26FEB1112-B66125",
+      "description": "$66,000 to 66,249.99 (26FEB1112)",
+      "entry_price": "31\u00a2",
+      "bet_size": "$1",
+      "opened": "2026-02-11"
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-02-09",
+      "bucket": "Will the highest temperature in New York City be between 26-27\u00b0F on February 9?",
+      "condition_id": "WX-001-manual",
+      "entry_price": 0.033,
+      "bet_size": 50,
+      "forecast_temp": 30,
+      "market_implied": 30.0,
+      "gap_size": 4.7,
+      "direction": "colder",
+      "opened_at": "2026-02-09T15:01:55Z",
+      "status": "settled",
+      "result": "loss",
+      "pnl": -50.0,
+      "settled_at": "2026-02-10T07:03:00Z",
+      "_strategy": "Weather Gap"
+    }
+  ]
+}

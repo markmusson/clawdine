@@ -1,0 +1,25 @@
+{
+  "total_trades": 1,
+  "wins": 0,
+  "losses": 1,
+  "total_pnl": -50.0,
+  "pending": {},
+  "history": [
+    {
+      "date": "2026-02-09",
+      "bucket": "Will the highest temperature in New York City be between 26-27\u00b0F on February 9?",
+      "condition_id": "WX-001-manual",
+      "entry_price": 0.033,
+      "bet_size": 50,
+      "forecast_temp": 30,
+      "market_implied": 30.0,
+      "gap_size": 4.7,
+      "direction": "colder",
+      "opened_at": "2026-02-09T15:01:55Z",
+      "status": "settled",
+      "result": "loss",
+      "pnl": -50.0,
+      "settled_at": "2026-02-10T07:03:00Z"
+    }
+  ]
+}

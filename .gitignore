@@ -1,0 +1,62 @@
+# Secrets & credentials
+.env
+*.pem
+*.key
+private-key.*
+.credentials/
+.clawdsure/.pinata-jwt
+projects/clawdsure/.clawdsure/.pinata-jwt
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+
+# Trading data (large, regenerable)
+projects/prediction-market-analysis/data/
+projects/prediction-market-analysis/.venv/
+projects/prediction-market-analysis/output/
+projects/prediction-market-analysis/logs/
+
+# ClawVault internals (contains embeddings, large)
+.clawvault/store/
+.clawvault/embeddings/
+
+# ClawdSure state (chain is the source of truth, not git)
+.clawdsure/attestation.jsonl
+.clawdsure/quarantine/
+.clawdsure/patches/
+
+# SecureClaw review (cloned repo, not ours)
+projects/secureclaw-review/
+
+# Embedded git repos (have their own repos or are clones)
+antfarm-src/
+chief-of-staff/
+openclaw-src/
+openclaw-studio/
+projects/btc-intel/
+projects/prediction-market-analysis/
+skills/x-twitter/
+
+# Temp files
+*.tmp
+*.bak
+*.bak.*
+/tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

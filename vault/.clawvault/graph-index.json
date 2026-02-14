@@ -1,0 +1,1650 @@
+{
+  "schemaVersion": 1,
+  "vaultPath": "/Users/clawdine/.openclaw/workspace/vault",
+  "generatedAt": "2026-02-14T08:30:46.497Z",
+  "files": {
+    "commitments/andrew-dsouza-follow-up.md": {
+      "relativePath": "commitments/andrew-dsouza-follow-up.md",
+      "mtimeMs": 1771057820999.7703,
+      "nodes": [
+        {
+          "id": "note:commitments/andrew-dsouza-follow-up",
+          "title": "Andrew DSouza follow-up",
+          "type": "commitment",
+          "category": "commitment",
+          "path": "commitments/andrew-dsouza-follow-up.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:20.999Z"
+        }
+      ],
+      "edges": []
+    },
+    "commitments/clawdsure-relay-api-build.md": {
+      "relativePath": "commitments/clawdsure-relay-api-build.md",
+      "mtimeMs": 1771057821281.61,
+      "nodes": [
+        {
+          "id": "note:commitments/clawdsure-relay-api-build",
+          "title": "ClawdSure relay API build",
+          "type": "commitment",
+          "category": "commitment",
+          "path": "commitments/clawdsure-relay-api-build.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:21.281Z"
+        }
+      ],
+      "edges": []
+    },
+    "commitments/git-backup-repo.md": {
+      "relativePath": "commitments/git-backup-repo.md",
+      "mtimeMs": 1771057821139.0781,
+      "nodes": [
+        {
+          "id": "note:commitments/git-backup-repo",
+          "title": "Git backup repo",
+          "type": "commitment",
+          "category": "commitment",
+          "path": "commitments/git-backup-repo.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:21.139Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/causal-product-positioning.md": {
+      "relativePath": "decisions/causal-product-positioning.md",
+      "mtimeMs": 1771057504287.712,
+      "nodes": [
+        {
+          "id": "note:decisions/causal-product-positioning",
+          "title": "Causal product positioning",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/causal-product-positioning.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:04.287Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/dont-relay-between-ais.md": {
+      "relativePath": "decisions/dont-relay-between-ais.md",
+      "mtimeMs": 1771057776948.6443,
+      "nodes": [
+        {
+          "id": "note:decisions/dont-relay-between-ais",
+          "title": "Don't relay between AIs",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/dont-relay-between-ais.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:36.948Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/dont-touch-code.md": {
+      "relativePath": "decisions/dont-touch-code.md",
+      "mtimeMs": 1771057776811.8525,
+      "nodes": [
+        {
+          "id": "note:decisions/dont-touch-code",
+          "title": "Don't touch code",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/dont-touch-code.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:36.811Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/operating-model-chief-of-staff.md": {
+      "relativePath": "decisions/operating-model-chief-of-staff.md",
+      "mtimeMs": 1771057776534.9856,
+      "nodes": [
+        {
+          "id": "note:decisions/operating-model-chief-of-staff",
+          "title": "Operating model: chief of staff",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/operating-model-chief-of-staff.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:36.534Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/priority-stack.md": {
+      "relativePath": "decisions/priority-stack.md",
+      "mtimeMs": 1771057776670.5405,
+      "nodes": [
+        {
+          "id": "note:decisions/priority-stack",
+          "title": "Priority stack",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/priority-stack.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:36.670Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/agentmail-credentials.md": {
+      "relativePath": "facts/agentmail-credentials.md",
+      "mtimeMs": 1771057486971.8267,
+      "nodes": [
+        {
+          "id": "note:facts/agentmail-credentials",
+          "title": "AgentMail credentials",
+          "type": "note",
+          "category": "note",
+          "path": "facts/agentmail-credentials.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:46.971Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/ben-pouladian-ops-reference.md": {
+      "relativePath": "facts/ben-pouladian-ops-reference.md",
+      "mtimeMs": 1771057792526.871,
+      "nodes": [
+        {
+          "id": "note:facts/ben-pouladian-ops-reference",
+          "title": "Ben Pouladian ops reference",
+          "type": "note",
+          "category": "note",
+          "path": "facts/ben-pouladian-ops-reference.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.526Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/causal-attestation-spec-needs-cleanup.md": {
+      "relativePath": "facts/causal-attestation-spec-needs-cleanup.md",
+      "mtimeMs": 1771057820574.3003,
+      "nodes": [
+        {
+          "id": "note:facts/causal-attestation-spec-needs-cleanup",
+          "title": "CAUSAL-ATTESTATION-SPEC needs cleanup",
+          "type": "note",
+          "category": "note",
+          "path": "facts/causal-attestation-spec-needs-cleanup.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:20.574Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/clawdsure-stealth-mode.md": {
+      "relativePath": "facts/clawdsure-stealth-mode.md",
+      "mtimeMs": 1771057518560.6357,
+      "nodes": [
+        {
+          "id": "note:facts/clawdsure-stealth-mode",
+          "title": "ClawdSure stealth mode",
+          "type": "note",
+          "category": "note",
+          "path": "facts/clawdsure-stealth-mode.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:18.560Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/clawhub-marketplace-audit.md": {
+      "relativePath": "facts/clawhub-marketplace-audit.md",
+      "mtimeMs": 1771057777228.7651,
+      "nodes": [
+        {
+          "id": "note:facts/clawhub-marketplace-audit",
+          "title": "ClawHub marketplace audit",
+          "type": "note",
+          "category": "note",
+          "path": "facts/clawhub-marketplace-audit.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:37.228Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/clawhub-supply-chain-attack.md": {
+      "relativePath": "facts/clawhub-supply-chain-attack.md",
+      "mtimeMs": 1771057777088.8699,
+      "nodes": [
+        {
+          "id": "note:facts/clawhub-supply-chain-attack",
+          "title": "ClawHub supply chain attack",
+          "type": "note",
+          "category": "note",
+          "path": "facts/clawhub-supply-chain-attack.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:37.088Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/cost-patterns.md": {
+      "relativePath": "facts/cost-patterns.md",
+      "mtimeMs": 1771057792384.7522,
+      "nodes": [
+        {
+          "id": "note:facts/cost-patterns",
+          "title": "Cost patterns",
+          "type": "note",
+          "category": "note",
+          "path": "facts/cost-patterns.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.384Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/cron-jobs-active.md": {
+      "relativePath": "facts/cron-jobs-active.md",
+      "mtimeMs": 1771057820857.6172,
+      "nodes": [
+        {
+          "id": "note:facts/cron-jobs-active",
+          "title": "Cron jobs active",
+          "type": "note",
+          "category": "note",
+          "path": "facts/cron-jobs-active.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:20.857Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/designmd-v31-shipped.md": {
+      "relativePath": "facts/designmd-v31-shipped.md",
+      "mtimeMs": 1771057820432.485,
+      "nodes": [
+        {
+          "id": "note:facts/designmd-v31-shipped",
+          "title": "DESIGN.md v3.1 shipped",
+          "type": "note",
+          "category": "note",
+          "path": "facts/designmd-v31-shipped.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:20.432Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/failed-experiments-kpi.md": {
+      "relativePath": "facts/failed-experiments-kpi.md",
+      "mtimeMs": 1771057777505.5872,
+      "nodes": [
+        {
+          "id": "note:facts/failed-experiments-kpi",
+          "title": "Failed experiments KPI",
+          "type": "note",
+          "category": "note",
+          "path": "facts/failed-experiments-kpi.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:37.505Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/gog-cli-email-setup.md": {
+      "relativePath": "facts/gog-cli-email-setup.md",
+      "mtimeMs": 1771057504149.8997,
+      "nodes": [
+        {
+          "id": "note:facts/gog-cli-email-setup",
+          "title": "gog CLI email setup",
+          "type": "note",
+          "category": "note",
+          "path": "facts/gog-cli-email-setup.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:04.149Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/mark-neurology.md": {
+      "relativePath": "facts/mark-neurology.md",
+      "mtimeMs": 1771057792668.1553,
+      "nodes": [
+        {
+          "id": "note:facts/mark-neurology",
+          "title": "Mark neurology",
+          "type": "note",
+          "category": "note",
+          "path": "facts/mark-neurology.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.668Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/openclaw-2026213-beta.md": {
+      "relativePath": "facts/openclaw-2026213-beta.md",
+      "mtimeMs": 1771057821424.2463,
+      "nodes": [
+        {
+          "id": "note:facts/openclaw-2026213-beta",
+          "title": "OpenClaw 2026.2.13 beta",
+          "type": "note",
+          "category": "note",
+          "path": "facts/openclaw-2026213-beta.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:21.424Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/openclaw-config.md": {
+      "relativePath": "facts/openclaw-config.md",
+      "mtimeMs": 1771057792244.4314,
+      "nodes": [
+        {
+          "id": "note:facts/openclaw-config",
+          "title": "OpenClaw config",
+          "type": "note",
+          "category": "note",
+          "path": "facts/openclaw-config.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.244Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/openclaw-creator.md": {
+      "relativePath": "facts/openclaw-creator.md",
+      "mtimeMs": 1771057777366.8608,
+      "nodes": [
+        {
+          "id": "note:facts/openclaw-creator",
+          "title": "OpenClaw creator",
+          "type": "note",
+          "category": "note",
+          "path": "facts/openclaw-creator.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:37.366Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/owasp-ai-exchange.md": {
+      "relativePath": "facts/owasp-ai-exchange.md",
+      "mtimeMs": 1771057504424.4214,
+      "nodes": [
+        {
+          "id": "note:facts/owasp-ai-exchange",
+          "title": "OWASP AI Exchange",
+          "type": "note",
+          "category": "note",
+          "path": "facts/owasp-ai-exchange.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:04.424Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/trading-portfolio-feb-14.md": {
+      "relativePath": "facts/trading-portfolio-feb-14.md",
+      "mtimeMs": 1771057820717.0037,
+      "nodes": [
+        {
+          "id": "note:facts/trading-portfolio-feb-14",
+          "title": "Trading portfolio Feb 14",
+          "type": "note",
+          "category": "note",
+          "path": "facts/trading-portfolio-feb-14.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:20.717Z"
+        }
+      ],
+      "edges": []
+    },
+    "inbox/welcome.md": {
+      "relativePath": "inbox/welcome.md",
+      "mtimeMs": 1771057460802.4023,
+      "nodes": [
+        {
+          "id": "note:inbox/welcome",
+          "title": "Welcome to vault",
+          "type": "note",
+          "category": "note",
+          "path": "inbox/welcome.md",
+          "tags": [
+            "getting-started",
+            "welcome"
+          ],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.802Z"
+        },
+        {
+          "id": "tag:getting-started",
+          "title": "#getting-started",
+          "type": "tag",
+          "category": "tag",
+          "path": null,
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": null
+        },
+        {
+          "id": "tag:welcome",
+          "title": "#welcome",
+          "type": "tag",
+          "category": "tag",
+          "path": null,
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": null
+        },
+        {
+          "id": "unresolved:double-brackets",
+          "title": "Double Brackets",
+          "type": "unresolved",
+          "category": "unresolved",
+          "path": null,
+          "tags": [],
+          "missing": true,
+          "degree": 0,
+          "modifiedAt": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "tag:note:inbox/welcome->tag:getting-started",
+          "source": "note:inbox/welcome",
+          "target": "tag:getting-started",
+          "type": "tag"
+        },
+        {
+          "id": "tag:note:inbox/welcome->tag:welcome",
+          "source": "note:inbox/welcome",
+          "target": "tag:welcome",
+          "type": "tag"
+        },
+        {
+          "id": "wiki_link:note:inbox/welcome->unresolved:double-brackets",
+          "source": "note:inbox/welcome",
+          "target": "unresolved:double-brackets",
+          "type": "wiki_link"
+        }
+      ]
+    },
+    "lessons/data-source-verification.md": {
+      "relativePath": "lessons/data-source-verification.md",
+      "mtimeMs": 1771057764058.9558,
+      "nodes": [
+        {
+          "id": "note:lessons/data-source-verification",
+          "title": "Data source verification",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/data-source-verification.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:24.058Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/fix-stale-info-immediately.md": {
+      "relativePath": "lessons/fix-stale-info-immediately.md",
+      "mtimeMs": 1771057763918.2195,
+      "nodes": [
+        {
+          "id": "note:lessons/fix-stale-info-immediately",
+          "title": "Fix stale info immediately",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/fix-stale-info-immediately.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:23.918Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/hindsight-plugin-is-dead.md": {
+      "relativePath": "lessons/hindsight-plugin-is-dead.md",
+      "mtimeMs": 1771057764468.0684,
+      "nodes": [
+        {
+          "id": "note:lessons/hindsight-plugin-is-dead",
+          "title": "Hindsight plugin is dead",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/hindsight-plugin-is-dead.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:24.468Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/never-ship-raw-sub-agent-output.md": {
+      "relativePath": "lessons/never-ship-raw-sub-agent-output.md",
+      "mtimeMs": 1771057504560.3223,
+      "nodes": [
+        {
+          "id": "note:lessons/never-ship-raw-sub-agent-output",
+          "title": "Never ship raw sub-agent output",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/never-ship-raw-sub-agent-output.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:04.560Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/sub-agents-lie.md": {
+      "relativePath": "lessons/sub-agents-lie.md",
+      "mtimeMs": 1771057763782.9143,
+      "nodes": [
+        {
+          "id": "note:lessons/sub-agents-lie",
+          "title": "Sub-agents lie",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/sub-agents-lie.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:23.782Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/telegram-bot-groups.md": {
+      "relativePath": "lessons/telegram-bot-groups.md",
+      "mtimeMs": 1771057764332.7866,
+      "nodes": [
+        {
+          "id": "note:lessons/telegram-bot-groups",
+          "title": "Telegram bot groups",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/telegram-bot-groups.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:24.332Z"
+        }
+      ],
+      "edges": []
+    },
+    "lessons/voice-drift-in-writing.md": {
+      "relativePath": "lessons/voice-drift-in-writing.md",
+      "mtimeMs": 1771057764195.1226,
+      "nodes": [
+        {
+          "id": "note:lessons/voice-drift-in-writing",
+          "title": "Voice drift in writing",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/voice-drift-in-writing.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:24.195Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/andrew-dsouza.md": {
+      "relativePath": "people/andrew-dsouza.md",
+      "mtimeMs": 1771057841524.1365,
+      "nodes": [
+        {
+          "id": "note:people/andrew-dsouza",
+          "title": "Andrew DSouza",
+          "type": "person",
+          "category": "person",
+          "path": "people/andrew-dsouza.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:41.524Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/daren-mccauley.md": {
+      "relativePath": "people/daren-mccauley.md",
+      "mtimeMs": 1771057792810.214,
+      "nodes": [
+        {
+          "id": "note:people/daren-mccauley",
+          "title": "Daren McCauley",
+          "type": "person",
+          "category": "person",
+          "path": "people/daren-mccauley.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.810Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/frank-mccosker.md": {
+      "relativePath": "people/frank-mccosker.md",
+      "mtimeMs": 1771057841665.3494,
+      "nodes": [
+        {
+          "id": "note:people/frank-mccosker",
+          "title": "Frank McCosker",
+          "type": "person",
+          "category": "person",
+          "path": "people/frank-mccosker.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:41.665Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/mark-musson.md": {
+      "relativePath": "people/mark-musson.md",
+      "mtimeMs": 1771057518421.4688,
+      "nodes": [
+        {
+          "id": "note:people/mark-musson",
+          "title": "Mark Musson",
+          "type": "person",
+          "category": "person",
+          "path": "people/mark-musson.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:18.421Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/peter-steinberger.md": {
+      "relativePath": "people/peter-steinberger.md",
+      "mtimeMs": 1771057841809.7917,
+      "nodes": [
+        {
+          "id": "note:people/peter-steinberger",
+          "title": "Peter Steinberger",
+          "type": "person",
+          "category": "person",
+          "path": "people/peter-steinberger.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:41.809Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/sam-clifton.md": {
+      "relativePath": "people/sam-clifton.md",
+      "mtimeMs": 1771057792948.9163,
+      "nodes": [
+        {
+          "id": "note:people/sam-clifton",
+          "title": "Sam Clifton",
+          "type": "person",
+          "category": "person",
+          "path": "people/sam-clifton.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:29:52.948Z"
+        }
+      ],
+      "edges": []
+    },
+    "preferences/no-code-writing.md": {
+      "relativePath": "preferences/no-code-writing.md",
+      "mtimeMs": 1771057518697.0393,
+      "nodes": [
+        {
+          "id": "note:preferences/no-code-writing",
+          "title": "No code writing",
+          "type": "note",
+          "category": "note",
+          "path": "preferences/no-code-writing.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:25:18.697Z"
+        }
+      ],
+      "edges": []
+    },
+    "projects/causal-insurance.md": {
+      "relativePath": "projects/causal-insurance.md",
+      "mtimeMs": 1771057842240.1365,
+      "nodes": [
+        {
+          "id": "note:projects/causal-insurance",
+          "title": "Causal Insurance",
+          "type": "project",
+          "category": "project",
+          "path": "projects/causal-insurance.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:42.240Z"
+        }
+      ],
+      "edges": []
+    },
+    "projects/nightjar.md": {
+      "relativePath": "projects/nightjar.md",
+      "mtimeMs": 1771057841952.993,
+      "nodes": [
+        {
+          "id": "note:projects/nightjar",
+          "title": "Nightjar",
+          "type": "project",
+          "category": "project",
+          "path": "projects/nightjar.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:41.952Z"
+        }
+      ],
+      "edges": []
+    },
+    "projects/polymarket-trading.md": {
+      "relativePath": "projects/polymarket-trading.md",
+      "mtimeMs": 1771057842382.059,
+      "nodes": [
+        {
+          "id": "note:projects/polymarket-trading",
+          "title": "Polymarket trading",
+          "type": "project",
+          "category": "project",
+          "path": "projects/polymarket-trading.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:42.382Z"
+        }
+      ],
+      "edges": []
+    },
+    "projects/roundy.md": {
+      "relativePath": "projects/roundy.md",
+      "mtimeMs": 1771057842097.9812,
+      "nodes": [
+        {
+          "id": "note:projects/roundy",
+          "title": "Roundy",
+          "type": "project",
+          "category": "project",
+          "path": "projects/roundy.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:30:42.097Z"
+        }
+      ],
+      "edges": []
+    },
+    "README.md": {
+      "relativePath": "README.md",
+      "mtimeMs": 1771057460800.255,
+      "nodes": [
+        {
+          "id": "note:README",
+          "title": "README",
+          "type": "note",
+          "category": "note",
+          "path": "README.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.800Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/checkpoint.md": {
+      "relativePath": "templates/checkpoint.md",
+      "mtimeMs": 1771057460797.063,
+      "nodes": [
+        {
+          "id": "note:templates/checkpoint",
+          "title": "Checkpoint {{datetime}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/checkpoint.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.797Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/daily-note.md": {
+      "relativePath": "templates/daily-note.md",
+      "mtimeMs": 1771057460797.697,
+      "nodes": [
+        {
+          "id": "note:templates/daily-note",
+          "title": "{{date}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/daily-note.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.797Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/decision.md": {
+      "relativePath": "templates/decision.md",
+      "mtimeMs": 1771057460798.1262,
+      "nodes": [
+        {
+          "id": "note:templates/decision",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/decision.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.798Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/handoff.md": {
+      "relativePath": "templates/handoff.md",
+      "mtimeMs": 1771057460798.4924,
+      "nodes": [
+        {
+          "id": "note:templates/handoff",
+          "title": "Handoff {{datetime}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/handoff.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.798Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/lesson.md": {
+      "relativePath": "templates/lesson.md",
+      "mtimeMs": 1771057460798.8599,
+      "nodes": [
+        {
+          "id": "note:templates/lesson",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/lesson.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.798Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/person.md": {
+      "relativePath": "templates/person.md",
+      "mtimeMs": 1771057460799.2217,
+      "nodes": [
+        {
+          "id": "note:templates/person",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/person.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.799Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/project.md": {
+      "relativePath": "templates/project.md",
+      "mtimeMs": 1771057460799.6018,
+      "nodes": [
+        {
+          "id": "note:templates/project",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/project.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:24:20.799Z"
+        }
+      ],
+      "edges": []
+    }
+  },
+  "graph": {
+    "schemaVersion": 1,
+    "nodes": [
+      {
+        "id": "note:commitments/andrew-dsouza-follow-up",
+        "title": "Andrew DSouza follow-up",
+        "type": "commitment",
+        "category": "commitment",
+        "path": "commitments/andrew-dsouza-follow-up.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:20.999Z"
+      },
+      {
+        "id": "note:commitments/clawdsure-relay-api-build",
+        "title": "ClawdSure relay API build",
+        "type": "commitment",
+        "category": "commitment",
+        "path": "commitments/clawdsure-relay-api-build.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:21.281Z"
+      },
+      {
+        "id": "note:commitments/git-backup-repo",
+        "title": "Git backup repo",
+        "type": "commitment",
+        "category": "commitment",
+        "path": "commitments/git-backup-repo.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:21.139Z"
+      },
+      {
+        "id": "note:decisions/causal-product-positioning",
+        "title": "Causal product positioning",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/causal-product-positioning.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:04.287Z"
+      },
+      {
+        "id": "note:decisions/dont-relay-between-ais",
+        "title": "Don't relay between AIs",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/dont-relay-between-ais.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:36.948Z"
+      },
+      {
+        "id": "note:decisions/dont-touch-code",
+        "title": "Don't touch code",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/dont-touch-code.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:36.811Z"
+      },
+      {
+        "id": "note:decisions/operating-model-chief-of-staff",
+        "title": "Operating model: chief of staff",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/operating-model-chief-of-staff.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:36.534Z"
+      },
+      {
+        "id": "note:decisions/priority-stack",
+        "title": "Priority stack",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/priority-stack.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:36.670Z"
+      },
+      {
+        "id": "note:facts/agentmail-credentials",
+        "title": "AgentMail credentials",
+        "type": "note",
+        "category": "note",
+        "path": "facts/agentmail-credentials.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:46.971Z"
+      },
+      {
+        "id": "note:facts/ben-pouladian-ops-reference",
+        "title": "Ben Pouladian ops reference",
+        "type": "note",
+        "category": "note",
+        "path": "facts/ben-pouladian-ops-reference.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.526Z"
+      },
+      {
+        "id": "note:facts/causal-attestation-spec-needs-cleanup",
+        "title": "CAUSAL-ATTESTATION-SPEC needs cleanup",
+        "type": "note",
+        "category": "note",
+        "path": "facts/causal-attestation-spec-needs-cleanup.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:20.574Z"
+      },
+      {
+        "id": "note:facts/clawdsure-stealth-mode",
+        "title": "ClawdSure stealth mode",
+        "type": "note",
+        "category": "note",
+        "path": "facts/clawdsure-stealth-mode.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:18.560Z"
+      },
+      {
+        "id": "note:facts/clawhub-marketplace-audit",
+        "title": "ClawHub marketplace audit",
+        "type": "note",
+        "category": "note",
+        "path": "facts/clawhub-marketplace-audit.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:37.228Z"
+      },
+      {
+        "id": "note:facts/clawhub-supply-chain-attack",
+        "title": "ClawHub supply chain attack",
+        "type": "note",
+        "category": "note",
+        "path": "facts/clawhub-supply-chain-attack.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:37.088Z"
+      },
+      {
+        "id": "note:facts/cost-patterns",
+        "title": "Cost patterns",
+        "type": "note",
+        "category": "note",
+        "path": "facts/cost-patterns.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.384Z"
+      },
+      {
+        "id": "note:facts/cron-jobs-active",
+        "title": "Cron jobs active",
+        "type": "note",
+        "category": "note",
+        "path": "facts/cron-jobs-active.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:20.857Z"
+      },
+      {
+        "id": "note:facts/designmd-v31-shipped",
+        "title": "DESIGN.md v3.1 shipped",
+        "type": "note",
+        "category": "note",
+        "path": "facts/designmd-v31-shipped.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:20.432Z"
+      },
+      {
+        "id": "note:facts/failed-experiments-kpi",
+        "title": "Failed experiments KPI",
+        "type": "note",
+        "category": "note",
+        "path": "facts/failed-experiments-kpi.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:37.505Z"
+      },
+      {
+        "id": "note:facts/gog-cli-email-setup",
+        "title": "gog CLI email setup",
+        "type": "note",
+        "category": "note",
+        "path": "facts/gog-cli-email-setup.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:04.149Z"
+      },
+      {
+        "id": "note:facts/mark-neurology",
+        "title": "Mark neurology",
+        "type": "note",
+        "category": "note",
+        "path": "facts/mark-neurology.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.668Z"
+      },
+      {
+        "id": "note:facts/openclaw-2026213-beta",
+        "title": "OpenClaw 2026.2.13 beta",
+        "type": "note",
+        "category": "note",
+        "path": "facts/openclaw-2026213-beta.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:21.424Z"
+      },
+      {
+        "id": "note:facts/openclaw-config",
+        "title": "OpenClaw config",
+        "type": "note",
+        "category": "note",
+        "path": "facts/openclaw-config.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.244Z"
+      },
+      {
+        "id": "note:facts/openclaw-creator",
+        "title": "OpenClaw creator",
+        "type": "note",
+        "category": "note",
+        "path": "facts/openclaw-creator.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:37.366Z"
+      },
+      {
+        "id": "note:facts/owasp-ai-exchange",
+        "title": "OWASP AI Exchange",
+        "type": "note",
+        "category": "note",
+        "path": "facts/owasp-ai-exchange.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:04.424Z"
+      },
+      {
+        "id": "note:facts/trading-portfolio-feb-14",
+        "title": "Trading portfolio Feb 14",
+        "type": "note",
+        "category": "note",
+        "path": "facts/trading-portfolio-feb-14.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:20.717Z"
+      },
+      {
+        "id": "note:inbox/welcome",
+        "title": "Welcome to vault",
+        "type": "note",
+        "category": "note",
+        "path": "inbox/welcome.md",
+        "tags": [
+          "getting-started",
+          "welcome"
+        ],
+        "missing": false,
+        "degree": 3,
+        "modifiedAt": "2026-02-14T08:24:20.802Z"
+      },
+      {
+        "id": "note:lessons/data-source-verification",
+        "title": "Data source verification",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/data-source-verification.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:24.058Z"
+      },
+      {
+        "id": "note:lessons/fix-stale-info-immediately",
+        "title": "Fix stale info immediately",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/fix-stale-info-immediately.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:23.918Z"
+      },
+      {
+        "id": "note:lessons/hindsight-plugin-is-dead",
+        "title": "Hindsight plugin is dead",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/hindsight-plugin-is-dead.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:24.468Z"
+      },
+      {
+        "id": "note:lessons/never-ship-raw-sub-agent-output",
+        "title": "Never ship raw sub-agent output",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/never-ship-raw-sub-agent-output.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:04.560Z"
+      },
+      {
+        "id": "note:lessons/sub-agents-lie",
+        "title": "Sub-agents lie",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/sub-agents-lie.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:23.782Z"
+      },
+      {
+        "id": "note:lessons/telegram-bot-groups",
+        "title": "Telegram bot groups",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/telegram-bot-groups.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:24.332Z"
+      },
+      {
+        "id": "note:lessons/voice-drift-in-writing",
+        "title": "Voice drift in writing",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/voice-drift-in-writing.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:24.195Z"
+      },
+      {
+        "id": "note:people/andrew-dsouza",
+        "title": "Andrew DSouza",
+        "type": "person",
+        "category": "person",
+        "path": "people/andrew-dsouza.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:41.524Z"
+      },
+      {
+        "id": "note:people/daren-mccauley",
+        "title": "Daren McCauley",
+        "type": "person",
+        "category": "person",
+        "path": "people/daren-mccauley.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.810Z"
+      },
+      {
+        "id": "note:people/frank-mccosker",
+        "title": "Frank McCosker",
+        "type": "person",
+        "category": "person",
+        "path": "people/frank-mccosker.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:41.665Z"
+      },
+      {
+        "id": "note:people/mark-musson",
+        "title": "Mark Musson",
+        "type": "person",
+        "category": "person",
+        "path": "people/mark-musson.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:18.421Z"
+      },
+      {
+        "id": "note:people/peter-steinberger",
+        "title": "Peter Steinberger",
+        "type": "person",
+        "category": "person",
+        "path": "people/peter-steinberger.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:41.809Z"
+      },
+      {
+        "id": "note:people/sam-clifton",
+        "title": "Sam Clifton",
+        "type": "person",
+        "category": "person",
+        "path": "people/sam-clifton.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:29:52.948Z"
+      },
+      {
+        "id": "note:preferences/no-code-writing",
+        "title": "No code writing",
+        "type": "note",
+        "category": "note",
+        "path": "preferences/no-code-writing.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:25:18.697Z"
+      },
+      {
+        "id": "note:projects/causal-insurance",
+        "title": "Causal Insurance",
+        "type": "project",
+        "category": "project",
+        "path": "projects/causal-insurance.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:42.240Z"
+      },
+      {
+        "id": "note:projects/nightjar",
+        "title": "Nightjar",
+        "type": "project",
+        "category": "project",
+        "path": "projects/nightjar.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:41.952Z"
+      },
+      {
+        "id": "note:projects/polymarket-trading",
+        "title": "Polymarket trading",
+        "type": "project",
+        "category": "project",
+        "path": "projects/polymarket-trading.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:42.382Z"
+      },
+      {
+        "id": "note:projects/roundy",
+        "title": "Roundy",
+        "type": "project",
+        "category": "project",
+        "path": "projects/roundy.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:30:42.097Z"
+      },
+      {
+        "id": "note:README",
+        "title": "README",
+        "type": "note",
+        "category": "note",
+        "path": "README.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.800Z"
+      },
+      {
+        "id": "note:templates/checkpoint",
+        "title": "Checkpoint {{datetime}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/checkpoint.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.797Z"
+      },
+      {
+        "id": "note:templates/daily-note",
+        "title": "{{date}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/daily-note.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.797Z"
+      },
+      {
+        "id": "note:templates/decision",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/decision.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.798Z"
+      },
+      {
+        "id": "note:templates/handoff",
+        "title": "Handoff {{datetime}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/handoff.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.798Z"
+      },
+      {
+        "id": "note:templates/lesson",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/lesson.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.798Z"
+      },
+      {
+        "id": "note:templates/person",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/person.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.799Z"
+      },
+      {
+        "id": "note:templates/project",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/project.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:24:20.799Z"
+      },
+      {
+        "id": "tag:getting-started",
+        "title": "#getting-started",
+        "type": "tag",
+        "category": "tag",
+        "path": null,
+        "tags": [],
+        "missing": false,
+        "degree": 1,
+        "modifiedAt": null
+      },
+      {
+        "id": "tag:welcome",
+        "title": "#welcome",
+        "type": "tag",
+        "category": "tag",
+        "path": null,
+        "tags": [],
+        "missing": false,
+        "degree": 1,
+        "modifiedAt": null
+      },
+      {
+        "id": "unresolved:double-brackets",
+        "title": "Double Brackets",
+        "type": "unresolved",
+        "category": "unresolved",
+        "path": null,
+        "tags": [],
+        "missing": true,
+        "degree": 1,
+        "modifiedAt": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "tag:note:inbox/welcome->tag:getting-started",
+        "source": "note:inbox/welcome",
+        "target": "tag:getting-started",
+        "type": "tag"
+      },
+      {
+        "id": "tag:note:inbox/welcome->tag:welcome",
+        "source": "note:inbox/welcome",
+        "target": "tag:welcome",
+        "type": "tag"
+      },
+      {
+        "id": "wiki_link:note:inbox/welcome->unresolved:double-brackets",
+        "source": "note:inbox/welcome",
+        "target": "unresolved:double-brackets",
+        "type": "wiki_link"
+      }
+    ],
+    "stats": {
+      "generatedAt": "2026-02-14T08:30:46.497Z",
+      "nodeCount": 55,
+      "edgeCount": 3,
+      "nodeTypeCounts": {
+        "commitment": 3,
+        "decision": 5,
+        "note": 27,
+        "tag": 2,
+        "unresolved": 1,
+        "lesson": 7,
+        "person": 6,
+        "project": 4
+      },
+      "edgeTypeCounts": {
+        "tag": 2,
+        "wiki_link": 1
+      }
+    }
+  }
+}

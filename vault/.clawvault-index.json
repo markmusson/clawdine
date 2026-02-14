@@ -1,0 +1,817 @@
+{
+  "documents": [
+    {
+      "id": "README",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/README.md",
+      "category": "root",
+      "title": "README",
+      "content": "# vault\n\nAn elephant never forgets.\n\n## Structure\n\n### Memory Categories\n- `preferences/` — Likes, dislikes, how I want things\n- `decisions/` — Choices made with context and reasoning\n- `patterns/` — Recurring behaviors (→ lessons)\n- `people/` — Relationships, one file per person\n- `projects/` — Active work, ventures, ongoing efforts\n- `goals/` — Long-term and short-term objectives\n- `transcripts/` — Session summaries and logs\n- `inbox/` — Quick capture → process later\n- `lessons/` — What I learned, insights, patterns observed\n- `agents/` — Other agents — capabilities, trust levels, coordination notes\n- `commitments/` — Promises, goals, obligations to fulfill\n- `handoffs/` — Session bridges — what I was doing, what comes next\n- `research/` — Deep dives, analysis, reference material\n\n### Work Tracking\n- `tasks/` — Active work items with status and context\n- `backlog/` — Future work — ideas and tasks not yet started\n\n### Observational Memory\n- `ledger/raw/` — Raw session transcripts (source of truth)\n- `ledger/observations/` — Compressed observations with importance scores\n- `ledger/reflections/` — Weekly reflection summaries\n\n## Quick Reference\n\n```bash\n# Capture a thought\nclawvault capture \"important insight about X\"\n\n# Store structured memory\nclawvault store --category decisions --title \"Choice\" --content \"We chose X because...\"\n\n# Search\nclawvault search \"query\"\nclawvault vsearch \"semantic query\"    # vector search\n\n# Knowledge graph\nclawvault graph                       # vault stats\nclawvault context \"topic\"             # graph-aware context retrieval\n\n# Session lifecycle\nclawvault checkpoint --working-on \"task\"\nclawvault sleep \"what I did\" --next \"what's next\"\nclawvault wake                        # restore context on startup\n```\n\n---\n\n*Managed by [ClawVault](https://clawvault.dev)*\n",
+      "frontmatter": {},
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.800Z"
+    },
+    {
+      "id": "templates/project",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/project.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# {{title}}\n\n## Objective\n- \n\n## Status\n- [ ] Planning\n- [ ] In progress\n- [ ] Blocked\n- [ ] Done\n\n## Next\n- [ ]\n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "status": "active"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.800Z"
+    },
+    {
+      "id": "templates/person",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/person.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# {{title}}\n\n## Context\n- \n\n## Details\n- Contact:\n- Role:\n- Timezone:\n\n## History\n- {{date}}: \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "relationship": "contact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.799Z"
+    },
+    {
+      "id": "templates/lesson",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/lesson.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# Lesson: {{title}}\n\n## Insight\n- \n\n## Evidence\n- \n\n## Application\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.799Z"
+    },
+    {
+      "id": "templates/handoff",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/handoff.md",
+      "category": "templates",
+      "title": "Handoff {{datetime}}",
+      "content": "\n# Session Handoff\n\n## Working On\n- \n\n## Blocked\n- \n\n## Next\n- [ ]\n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "Handoff {{datetime}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.798Z"
+    },
+    {
+      "id": "templates/decision",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/decision.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# Decision: {{title}}\n\n## Context\n- \n\n## Decision\n- \n\n## Consequences\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "status": "decided"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.798Z"
+    },
+    {
+      "id": "templates/daily-note",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/daily-note.md",
+      "category": "templates",
+      "title": "{{date}}",
+      "content": "\n# {{date}}\n\n## Focus\n- \n\n## Wins\n- \n\n## Notes\n- \n\n## Next\n- [ ]\n",
+      "frontmatter": {
+        "title": "{{date}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.798Z"
+    },
+    {
+      "id": "templates/checkpoint",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/templates/checkpoint.md",
+      "category": "templates",
+      "title": "Checkpoint {{datetime}}",
+      "content": "\n# Checkpoint\n\n## Working On\n- \n\n## Focus\n- \n\n## Blocked\n- \n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "Checkpoint {{datetime}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.797Z"
+    },
+    {
+      "id": "projects/roundy",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/projects/roundy.md",
+      "category": "projects",
+      "title": "Roundy",
+      "content": "Fundraising wingman for founders. Separate machine + GitHub + Claude Code. Has paying customers. Potential 2M exit or co-launch with Boardy for 1M ARR. Migrating to Northflank. Pricing overhaul done (LTV/CAC 10.4x→20.7x).\n",
+      "frontmatter": {
+        "title": "Roundy",
+        "date": "2026-02-14",
+        "memoryType": "project"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:42.098Z"
+    },
+    {
+      "id": "projects/polymarket-trading",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/projects/polymarket-trading.md",
+      "category": "projects",
+      "title": "Polymarket trading",
+      "content": "Weather + BTC arb on Polygon. Wallet 0x81E053AcF0D4bcC47011630790e72D66885fbcb3 handle @misfittoy. Prove-out phase. Near-settlement sizing spec at projects/prediction-market-analysis/specs/NEAR-SETTLEMENT-SIZING.md. Margin-to-error ratio over raw edge (Wellington loss proved this).\n",
+      "frontmatter": {
+        "title": "Polymarket trading",
+        "date": "2026-02-14",
+        "memoryType": "project"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:42.382Z"
+    },
+    {
+      "id": "projects/nightjar",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/projects/nightjar.md",
+      "category": "projects",
+      "title": "Nightjar",
+      "content": "Wildlife conservation tech. Revenue 221k/yr. Raising 500k tranche 1 (SeaDream 300k commit pending), 1.5m tranche 2 (Superorganism interested). HyperSend sale ongoing (Aeryn handling). nightjar.tech.\n",
+      "frontmatter": {
+        "title": "Nightjar",
+        "date": "2026-02-14",
+        "memoryType": "project"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:41.953Z"
+    },
+    {
+      "id": "projects/causal-insurance",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/projects/causal-insurance.md",
+      "category": "projects",
+      "title": "Causal Insurance",
+      "content": "AI agent security insurance product. Domain: causal.insure. Two tiers: Tier 1 parametric B2C £50/yr £500 cap, Tier 2 SME £5K/yr £25K cap. Not cyber insurance. Daily attestation chain = telematics for agents. Live chain CLWD-3F8B0233 running since Feb 2026. Key contacts: Sam Clifton (Greenlight Re), Daren McCauley (regulated entity). THE priority.\n",
+      "frontmatter": {
+        "title": "Causal Insurance",
+        "date": "2026-02-14",
+        "memoryType": "project"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:42.240Z"
+    },
+    {
+      "id": "preferences/no-code-writing",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/preferences/no-code-writing.md",
+      "category": "preferences",
+      "title": "No code writing",
+      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan for unlimited builds. Expensive work through those, not my API tokens.\n",
+      "frontmatter": {
+        "title": "No code writing",
+        "date": "2026-02-14",
+        "memoryType": "preference"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:18.697Z"
+    },
+    {
+      "id": "people/sam-clifton",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/sam-clifton.md",
+      "category": "people",
+      "title": "Sam Clifton",
+      "content": "Greenlight Re. Reinsurer. Risk capital/capacity, Lloyd's syndicate. Very keen to hear more (replied Feb 12). Lunch being scheduled. Provided key product positioning feedback Feb 14: not cyber, two capped tiers, exclude enterprise, Linux in 1994 framing.\n",
+      "frontmatter": {
+        "title": "Sam Clifton",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.949Z"
+    },
+    {
+      "id": "people/peter-steinberger",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/peter-steinberger.md",
+      "category": "people",
+      "title": "Peter Steinberger",
+      "content": "OpenClaw creator. @steipete on X/GitHub. Also created summarize.sh and gogcli. Ships at inference speed.\n",
+      "frontmatter": {
+        "title": "Peter Steinberger",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:41.810Z"
+    },
+    {
+      "id": "people/mark-musson",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/mark-musson.md",
+      "category": "people",
+      "title": "Mark Musson",
+      "content": "Human/boss. South African, London, age 60. Telegram 7018377788. Email markmusson@gmail.com. WhatsApp +447592053287. ADHD + RAADS-R 135. CEO of Nightjar (nightjar.tech). Polymarket wallet 0x81E053AcF0D4bcC47011630790e72D66885fbcb3 handle @misfittoy. Values directness and speed. Failed experiments KPI. I am his external executive function.\n",
+      "frontmatter": {
+        "title": "Mark Musson",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:18.421Z"
+    },
+    {
+      "id": "people/frank-mccosker",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/frank-mccosker.md",
+      "category": "people",
+      "title": "Frank McCosker",
+      "content": "Atlantic Bridge. Investment contact. Meeting needs setup.\n",
+      "frontmatter": {
+        "title": "Frank McCosker",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:41.665Z"
+    },
+    {
+      "id": "people/daren-mccauley",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/daren-mccauley.md",
+      "category": "people",
+      "title": "Daren McCauley",
+      "content": "Actuary, ex-CEO of insurer behind Humn. Has regulated entity. Potential delegated authority/regulatory wrapper for Causal. One of two paths to market (other is Greenlight Re).\n",
+      "frontmatter": {
+        "title": "Daren McCauley",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.810Z"
+    },
+    {
+      "id": "people/andrew-dsouza",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/people/andrew-dsouza.md",
+      "category": "people",
+      "title": "Andrew DSouza",
+      "content": "Clearco co-founder. Boardy. Ontario/EST timezone. Roundy x Boardy co-launch potential. 3M pre-seed + 8M raised. Potential 1M ARR co-launch or 2M exit.\n",
+      "frontmatter": {
+        "title": "Andrew DSouza",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:41.524Z"
+    },
+    {
+      "id": "lessons/voice-drift-in-writing",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/voice-drift-in-writing.md",
+      "category": "lessons",
+      "title": "Voice drift in writing",
+      "content": "LinkedIn writing drifts to corporate garbage. Banned phrases: Here's the thing, Here's what nobody tells you, But here's what X missed. First draft is always suspect. Read kill list in SOUL.md before public writing. Channel Gilfoyle not VP of Thought Leadership.\n",
+      "frontmatter": {
+        "title": "Voice drift in writing",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:24.195Z"
+    },
+    {
+      "id": "lessons/telegram-bot-groups",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/telegram-bot-groups.md",
+      "category": "lessons",
+      "title": "Telegram bot groups",
+      "content": "If bot stops receiving messages: remove and re-add the bot. Subscription silently breaks.\n",
+      "frontmatter": {
+        "title": "Telegram bot groups",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:24.333Z"
+    },
+    {
+      "id": "lessons/sub-agents-lie",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/sub-agents-lie.md",
+      "category": "lessons",
+      "title": "Sub-agents lie",
+      "content": "Sub-agents (Sonnet) report all built and working when half is stubs/hardcoded/broken. ALWAYS run and verify yourself. Evidence: btc-intel build — schema crashed on re-run, treasury hardcoded 190k (real 714k), twitter was empty stub, on-chain collected zero.\n",
+      "frontmatter": {
+        "title": "Sub-agents lie",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:23.783Z"
+    },
+    {
+      "id": "lessons/never-ship-raw-sub-agent-output",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/never-ship-raw-sub-agent-output.md",
+      "category": "lessons",
+      "title": "Never ship raw sub-agent output",
+      "content": "CRITICAL — Sub-agents produce technically correct but obviously AI prose. This is X This is NOT Y scaffolding, repeated analogies, table disease. Mark called it out Feb 14. Rule: ALWAYS rewrite sub-agent output before sending to Mark or external. Not yet verified is not an excuse to ship AI slop. DESIGN.md went 37KB to 16KB same data half the words.\n",
+      "frontmatter": {
+        "title": "Never ship raw sub-agent output",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:04.560Z"
+    },
+    {
+      "id": "lessons/hindsight-plugin-is-dead",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/hindsight-plugin-is-dead.md",
+      "category": "lessons",
+      "title": "Hindsight plugin is dead",
+      "content": "Killed by loky semaphore leak in sentence-transformers on Python 3.13+. Replaced by memory-core plugin (SQLite + OpenAI embeddings). Don't revisit.\n",
+      "frontmatter": {
+        "title": "Hindsight plugin is dead",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:24.468Z"
+    },
+    {
+      "id": "lessons/fix-stale-info-immediately",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/fix-stale-info-immediately.md",
+      "category": "lessons",
+      "title": "Fix stale info immediately",
+      "content": "bird CLI was marked needs cookies in memory since day 1. Never tested. Worked the whole time. Stale info survives compaction and poisons future sessions. Don't defer corrections.\n",
+      "frontmatter": {
+        "title": "Fix stale info immediately",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:23.918Z"
+    },
+    {
+      "id": "lessons/data-source-verification",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/lessons/data-source-verification.md",
+      "category": "lessons",
+      "title": "Data source verification",
+      "content": "Polymarket resolves against KLGA (LaGuardia Airport) via Weather Underground, NOT Central Park. Open-Meteo was 5°F+ wrong. The gap signal was phantom — market was correct all along. Always verify resolution sources before trading.\n",
+      "frontmatter": {
+        "title": "Data source verification",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:24.059Z"
+    },
+    {
+      "id": "facts/trading-portfolio-feb-14",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/trading-portfolio-feb-14.md",
+      "category": "facts",
+      "title": "Trading portfolio Feb 14",
+      "content": "3 open positions: NYC NO 3.5 shares 2.03 cost, Wellington NO Feb14 29.4 shares 4.998 cost avg 0.17, Miami YES Feb14 20.6 shares 3.09 cost avg 0.15. ~0.08 cash. All-time realized PL: -2.99. Trading DB at projects/prediction-market-analysis/data/trading/weather/trader.db.\n",
+      "frontmatter": {
+        "title": "Trading portfolio Feb 14",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:20.717Z"
+    },
+    {
+      "id": "facts/owasp-ai-exchange",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/owasp-ai-exchange.md",
+      "category": "facts",
+      "title": "OWASP AI Exchange",
+      "content": "CRITICAL — Real AI security standards body at owaspai.org. OWASP Flagship, 300+ pages, 70+ experts. Contributed to EU AI Act and ISO/IEC 27090. Our attestation checks map to their taxonomy. When underwriters ask what standard: OWASP AI Exchange + ISO 27090. The OWASP Agentic Top 10 2026 was HALLUCINATED by sub-agent — does not exist.\n",
+      "frontmatter": {
+        "title": "OWASP AI Exchange",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:04.424Z"
+    },
+    {
+      "id": "facts/openclaw-creator",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/openclaw-creator.md",
+      "category": "facts",
+      "title": "OpenClaw creator",
+      "content": "Peter Steinberger (@steipete). Also created summarize.sh v0.11 and gogcli. Ships at inference speed, most code he doesn't read.\n",
+      "frontmatter": {
+        "title": "OpenClaw creator",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:37.367Z"
+    },
+    {
+      "id": "facts/openclaw-config",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/openclaw-config.md",
+      "category": "facts",
+      "title": "OpenClaw config",
+      "content": "Model routing: primary → fallbacks. Context window: explicit 1M (default 200k). Cache-TTL pruning 55m. Compaction: safeguard mode. Heartbeat every 55m for Anthropic cache warming. Hybrid search: 0.7 vector / 0.3 BM25, candidateMultiplier 4. OpenAI embeddings, batch mode. Session memory experimental.\n",
+      "frontmatter": {
+        "title": "OpenClaw config",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.244Z"
+    },
+    {
+      "id": "facts/openclaw-2026213-beta",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/openclaw-2026213-beta.md",
+      "category": "facts",
+      "title": "OpenClaw 2026.2.13 beta",
+      "content": "Available. Write-ahead delivery queue (crash recovery), auto-reply threading fixes, image-only message fix. Mark considering update. Recommended yes with config snapshot rollback plan.\n",
+      "frontmatter": {
+        "title": "OpenClaw 2026.2.13 beta",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.424Z"
+    },
+    {
+      "id": "facts/mark-neurology",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/mark-neurology.md",
+      "category": "facts",
+      "title": "Mark neurology",
+      "content": "ADHD + RAADS-R 135. Deep work is superpower. Task-switching and shiny objects are the risk. I am external executive function: track, prioritise, nudge, filter.\n",
+      "frontmatter": {
+        "title": "Mark neurology",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.668Z"
+    },
+    {
+      "id": "facts/gog-cli-email-setup",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/gog-cli-email-setup.md",
+      "category": "facts",
+      "title": "gog CLI email setup",
+      "content": "CRITICAL — gog v0.9.0 installed, v0.10.0 available. NO OAuth credentials configured. Need: gog auth credentials /path/to/client_secret.json then gog auth add account@gmail.com --services gmail. Mark sent github.com/steipete/gogcli/releases as hint. Update: brew upgrade steipete/tap/gogcli.\n",
+      "frontmatter": {
+        "title": "gog CLI email setup",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:04.150Z"
+    },
+    {
+      "id": "facts/failed-experiments-kpi",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/failed-experiments-kpi.md",
+      "category": "facts",
+      "title": "Failed experiments KPI",
+      "content": "Core operating principle from Mark. The more experiments validated or invalidated, the more valid results you generate. Framework: Hypothesis → Data → Model → Validate/Invalidate → Ship validations. Failure is data, not defeat.\n",
+      "frontmatter": {
+        "title": "Failed experiments KPI",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:37.506Z"
+    },
+    {
+      "id": "facts/designmd-v31-shipped",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/designmd-v31-shipped.md",
+      "category": "facts",
+      "title": "DESIGN.md v3.1 shipped",
+      "content": "Feb 14. Rewrote Causal product design doc from 37KB sub-agent prose to 16KB tight copy. Fixed hallucinated OWASP Agentic Top 10 refs to real OWASP AI Exchange. Added Section 8 Standards Alignment. File at projects/clawdsure-attestation/DESIGN.md. Sent to Mark via Telegram.\n",
+      "frontmatter": {
+        "title": "DESIGN.md v3.1 shipped",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:20.432Z"
+    },
+    {
+      "id": "facts/cron-jobs-active",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/cron-jobs-active.md",
+      "category": "facts",
+      "title": "Cron jobs active",
+      "content": "morning-brief 8am, clawdsure-daily-attest 9:30am, vuln-scan-daily 10am, gap-alert-check 9am/12pm/3pm/6pm, portfolio-morning/lunch/evening. All running on Haiku via isolated sessions.\n",
+      "frontmatter": {
+        "title": "Cron jobs active",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:20.858Z"
+    },
+    {
+      "id": "facts/cost-patterns",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/cost-patterns.md",
+      "category": "facts",
+      "title": "Cost patterns",
+      "content": "Model-to-task matching: Opus complex, Sonnet moderate, Haiku routine. Minimal context (5 root files, ref/ on demand). Sub-agents on cheap models. Target: 150/month (currently ~500/week). OpenRouter API key needed from Mark for cost reduction.\n",
+      "frontmatter": {
+        "title": "Cost patterns",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.385Z"
+    },
+    {
+      "id": "facts/clawhub-supply-chain-attack",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/clawhub-supply-chain-attack.md",
+      "category": "facts",
+      "title": "ClawHub supply chain attack",
+      "content": "Feb 5 2026. Top downloaded skill was malware. Attack: fake dep → staging page → obfuscated payload → binary + strip quarantine. Validates ClawdSure thesis.\n",
+      "frontmatter": {
+        "title": "ClawHub supply chain attack",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:37.089Z"
+    },
+    {
+      "id": "facts/clawhub-marketplace-audit",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/clawhub-marketplace-audit.md",
+      "category": "facts",
+      "title": "ClawHub marketplace audit",
+      "content": "Feb 10 2026. 60%+ suspicious skills are SKILL.md-only prompt injection (zero code). Blocklist: token-optimizeri, token-optimizercf, modelreadyn, clawdhub-copy, botcoin. Full report: projects/clawhub-audit-2026-02-10.md\n",
+      "frontmatter": {
+        "title": "ClawHub marketplace audit",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:37.229Z"
+    },
+    {
+      "id": "facts/clawdsure-stealth-mode",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/clawdsure-stealth-mode.md",
+      "category": "facts",
+      "title": "ClawdSure stealth mode",
+      "content": "CRITICAL — DO NOT discuss ClawdSure details publicly. No specifics about attestation chains, hash mechanisms, insurance model. Hint and tease only. Domain: causal.insure. Mark will say when stealth lifts.\n",
+      "frontmatter": {
+        "title": "ClawdSure stealth mode",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:18.561Z"
+    },
+    {
+      "id": "facts/causal-attestation-spec-needs-cleanup",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/causal-attestation-spec-needs-cleanup.md",
+      "category": "facts",
+      "title": "CAUSAL-ATTESTATION-SPEC needs cleanup",
+      "content": "Sub-agent wrote unified attestation spec at projects/clawdsure-attestation/specs/CAUSAL-ATTESTATION-SPEC.md (34KB). Still has hallucinated OWASP Agentic Top 10 refs. Needs same treatment as DESIGN.md: kill AI prose, fix OWASP to real AI Exchange.\n",
+      "frontmatter": {
+        "title": "CAUSAL-ATTESTATION-SPEC needs cleanup",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:20.574Z"
+    },
+    {
+      "id": "facts/ben-pouladian-ops-reference",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/ben-pouladian-ops-reference.md",
+      "category": "facts",
+      "title": "Ben Pouladian ops reference",
+      "content": "Most advanced public OpenClaw user. Key patterns: 150/month total by routing to Gemini Flash. 1-year session expiry + Telegram topics. Hybrid SQL+vector universal DB pattern. Daily markdown health check. Hourly git backup + DB to Google Drive. AI Council: 4 adversarial agents + moderator. Full transcript at ref/BEN-POULADIAN-OPS-REFERENCE.md. Council pattern at trading/BTC-COUNCIL-PATTERN.md.\n",
+      "frontmatter": {
+        "title": "Ben Pouladian ops reference",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:52.527Z"
+    },
+    {
+      "id": "facts/agentmail-credentials",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/facts/agentmail-credentials.md",
+      "category": "facts",
+      "title": "AgentMail credentials",
+      "content": "CRITICAL — Python SDK agentmail v0.2.11. Inbox clawdine@agentmail.to (ID 19120325619). API KEY NOT STORED — Mark needs to provide. Store: security add-generic-password -a clawdine -s agentmail-api-key -w KEY. Usage: AgentMail(api_key=key).inboxes.messages.send(inbox_id=clawdine@agentmail.to, to=recipient, subject=subj, text=body). GOTCHA: inline body sends BLANK emails, use attachments.\n",
+      "frontmatter": {
+        "title": "AgentMail credentials",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:24:46.972Z"
+    },
+    {
+      "id": "inbox/welcome",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/inbox/welcome.md",
+      "category": "inbox",
+      "title": "Welcome to vault",
+      "content": "\n# Welcome to vault\n\nYour vault is ready. Here's what you can do:\n\n## Quick Start\n\n- **Capture a thought:** `clawvault capture \"your note here\"`\n- **Store structured memory:** `clawvault store --category decisions --title \"My Choice\" --content \"...\"`\n- **Search your vault:** `clawvault search \"query\"`\n- **See your knowledge graph:** `clawvault graph`\n- **Get context for a topic:** `clawvault context \"topic\"`\n\n## Vault Structure\n\nYour vault organizes memories by type — decisions, lessons, people, projects, and more.\nEach category is a folder. Each memory is a markdown file with frontmatter.\n\n## Observational Memory\n\nWhen connected to an AI agent (like OpenClaw), your vault can automatically observe\nconversations and extract important memories — decisions, lessons, commitments — without\nmanual effort.\n\n## Wiki-Links\n\nUse `[[double brackets]]` to link between notes. Your memory graph tracks these\nconnections, building a knowledge network that grows with you.\n\n---\n\n*Delete this file anytime. It's just here to say hello.*\n",
+      "frontmatter": {
+        "title": "Welcome to vault",
+        "date": "2026-02-14T00:00:00.000Z",
+        "type": "fact",
+        "tags": [
+          "welcome",
+          "getting-started"
+        ]
+      },
+      "links": [
+        "double brackets"
+      ],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.802Z"
+    },
+    {
+      "id": "commitments/git-backup-repo",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/git-backup-repo.md",
+      "category": "commitments",
+      "title": "Git backup repo",
+      "content": "CRITICAL — Currently ZERO backups of workspace. Mark needs to create GitHub repo. Keep nudging.\n",
+      "frontmatter": {
+        "title": "Git backup repo",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.139Z"
+    },
+    {
+      "id": "commitments/clawdsure-relay-api-build",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/clawdsure-relay-api-build.md",
+      "category": "commitments",
+      "title": "ClawdSure relay API build",
+      "content": "Spec exists at skills/clawdsure/docs/relay-api.md. Due Feb 14. Not started. Needs Claude Code to build.\n",
+      "frontmatter": {
+        "title": "ClawdSure relay API build",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.282Z"
+    },
+    {
+      "id": "commitments/andrew-dsouza-follow-up",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/andrew-dsouza-follow-up.md",
+      "category": "commitments",
+      "title": "Andrew DSouza follow-up",
+      "content": "Draft email needed for Andrew DSouza (Boardy/Clearco, Ontario/EST). Roundy x Boardy alignment call. On Mark's list but hasn't sent yet.\n",
+      "frontmatter": {
+        "title": "Andrew DSouza follow-up",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.000Z"
+    },
+    {
+      "id": "decisions/priority-stack",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/priority-stack.md",
+      "category": "decisions",
+      "title": "Priority stack",
+      "content": "1. ClawdSure (unique moat, time-sensitive) 2. Roundy (paying customers, potential 2m exit) 3. Trading (ambient, prove by Feb 19) 4. Nightjar (cash cow, runs itself) 5. LinkedIn (30 min/day, building narrative for ClawdSure stealth drop)\n",
+      "frontmatter": {
+        "title": "Priority stack",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.671Z"
+    },
+    {
+      "id": "decisions/operating-model-chief-of-staff",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/operating-model-chief-of-staff.md",
+      "category": "decisions",
+      "title": "Operating model: chief of staff",
+      "content": "I am chief of staff, not chatbot. Track commitments, nudge deadlines, filter noise. Systems: ref/COMMITMENTS.md for open loops, ref/IDEAS.md as shiny object parking lot (7-day buffer), morning brief cron at 8am daily (Haiku). I nudge proactively when commitments drift. Permission granted.\n",
+      "frontmatter": {
+        "title": "Operating model: chief of staff",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.535Z"
+    },
+    {
+      "id": "decisions/dont-touch-code",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-touch-code.md",
+      "category": "decisions",
+      "title": "Don't touch code",
+      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan (200/mo unlimited). Got caught rewriting weather trading codebase on Feb 9-10 instead of flagging for Claude Code. Never again.\n",
+      "frontmatter": {
+        "title": "Don't touch code",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.812Z"
+    },
+    {
+      "id": "decisions/dont-relay-between-ais",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-relay-between-ais.md",
+      "category": "decisions",
+      "title": "Don't relay between AIs",
+      "content": "Mark writes brief → I write spec → Claude Code builds → I verify → Mark gets done message. His time is for decisions, not execution.\n",
+      "frontmatter": {
+        "title": "Don't relay between AIs",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.949Z"
+    },
+    {
+      "id": "decisions/causal-product-positioning",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/causal-product-positioning.md",
+      "category": "decisions",
+      "title": "Causal product positioning",
+      "content": "CRITICAL — From Sam Clifton Feb 14. NOT cyber insurance. Two tiers both capped. Tier 1: parametric B2C £50/yr £500 cap (gadget insurance). Tier 2: SME £5K/yr £25K cap (fleet telematics). Exclude enterprise. Linux in 1994 framing. Evidence-based mechanism pitched as parametric-like. Two paths to market: Greenlight Re or Daren McCauley regulated entity.\n",
+      "frontmatter": {
+        "title": "Causal product positioning",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:04.288Z"
+    }
+  ]
+}

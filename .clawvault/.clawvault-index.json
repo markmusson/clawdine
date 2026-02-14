@@ -1,0 +1,332 @@
+{
+  "documents": [
+    {
+      "id": "README",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/README.md",
+      "category": "root",
+      "title": "README",
+      "content": "# .clawvault\n\nAn elephant never forgets.\n\n## Structure\n\n### Memory Categories\n- `preferences/` — Likes, dislikes, how I want things\n- `decisions/` — Choices made with context and reasoning\n- `patterns/` — Recurring behaviors (→ lessons)\n- `people/` — Relationships, one file per person\n- `projects/` — Active work, ventures, ongoing efforts\n- `goals/` — Long-term and short-term objectives\n- `transcripts/` — Session summaries and logs\n- `inbox/` — Quick capture → process later\n- `lessons/` — What I learned, insights, patterns observed\n- `agents/` — Other agents — capabilities, trust levels, coordination notes\n- `commitments/` — Promises, goals, obligations to fulfill\n- `handoffs/` — Session bridges — what I was doing, what comes next\n- `research/` — Deep dives, analysis, reference material\n\n### Work Tracking\n- `tasks/` — Active work items with status and context\n- `backlog/` — Future work — ideas and tasks not yet started\n\n### Observational Memory\n- `ledger/raw/` — Raw session transcripts (source of truth)\n- `ledger/observations/` — Compressed observations with importance scores\n- `ledger/reflections/` — Weekly reflection summaries\n\n## Quick Reference\n\n```bash\n# Capture a thought\nclawvault capture \"important insight about X\"\n\n# Store structured memory\nclawvault store --category decisions --title \"Choice\" --content \"We chose X because...\"\n\n# Search\nclawvault search \"query\"\nclawvault vsearch \"semantic query\"    # vector search\n\n# Knowledge graph\nclawvault graph                       # vault stats\nclawvault context \"topic\"             # graph-aware context retrieval\n\n# Session lifecycle\nclawvault checkpoint --working-on \"task\"\nclawvault sleep \"what I did\" --next \"what's next\"\nclawvault wake                        # restore context on startup\n```\n\n---\n\n*Managed by [ClawVault](https://clawvault.dev)*\n",
+      "frontmatter": {},
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/project",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/project.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# {{title}}\n\n## Objective\n- \n\n## Status\n- [ ] Planning\n- [ ] In progress\n- [ ] Blocked\n- [ ] Done\n\n## Next\n- [ ]\n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "status": "active"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/person",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/person.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# {{title}}\n\n## Context\n- \n\n## Details\n- Contact:\n- Role:\n- Timezone:\n\n## History\n- {{date}}: \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "relationship": "contact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/lesson",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/lesson.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# Lesson: {{title}}\n\n## Insight\n- \n\n## Evidence\n- \n\n## Application\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/handoff",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/handoff.md",
+      "category": "templates",
+      "title": "Handoff {{datetime}}",
+      "content": "\n# Session Handoff\n\n## Working On\n- \n\n## Blocked\n- \n\n## Next\n- [ ]\n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "Handoff {{datetime}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/decision",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/decision.md",
+      "category": "templates",
+      "title": "{{title}}",
+      "content": "\n# Decision: {{title}}\n\n## Context\n- \n\n## Decision\n- \n\n## Consequences\n- \n",
+      "frontmatter": {
+        "title": "{{title}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        },
+        "status": "decided"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.168Z"
+    },
+    {
+      "id": "templates/daily-note",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/daily-note.md",
+      "category": "templates",
+      "title": "{{date}}",
+      "content": "\n# {{date}}\n\n## Focus\n- \n\n## Wins\n- \n\n## Notes\n- \n\n## Next\n- [ ]\n",
+      "frontmatter": {
+        "title": "{{date}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.167Z"
+    },
+    {
+      "id": "templates/checkpoint",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/templates/checkpoint.md",
+      "category": "templates",
+      "title": "Checkpoint {{datetime}}",
+      "content": "\n# Checkpoint\n\n## Working On\n- \n\n## Focus\n- \n\n## Blocked\n- \n\n## Notes\n- \n",
+      "frontmatter": {
+        "title": "Checkpoint {{datetime}}",
+        "date": {
+          "[object Object]": null
+        },
+        "type": {
+          "[object Object]": null
+        }
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.167Z"
+    },
+    {
+      "id": "tasks/marks-api-keys",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/tasks/marks-api-keys.md",
+      "category": "tasks",
+      "title": "marks-api-keys",
+      "content": "# Mark's API Keys & Auth — TODO\n\nKeys/credentials Clawdine needs. Do these when you have 20 minutes.\n\n## 1. X/Twitter API Keys\n- Go to https://developer.x.com → create a project/app\n- Account: @Clawdine_shoe (or your own, either works)\n- Need: API Key, API Secret, Access Token, Access Token Secret, Bearer Token\n- Free tier is fine (read-only)\n- Store: `security add-generic-password -a clawdine -s \"x-api-key\" -w \"KEY\"` (repeat for each)\n\n## 2. AgentMail API Key\n- Inbox exists: `clawdine@agentmail.to` (ID: `19120325619`)\n- Was working Feb 10, key lost in compaction\n- Get from: https://agentmail.to dashboard\n- Store: `security add-generic-password -a clawdine -s \"agentmail-api-key\" -w \"KEY\"`\n\n## 3. Google OAuth (for gog CLI / Gmail)\n- Go to Google Cloud Console → APIs & Services → Credentials\n- Create OAuth 2.0 Client ID (Desktop app)\n- Download `client_secret.json`\n- Then run: `gog auth credentials /path/to/client_secret.json`\n- Then: `gog auth add markmusson@gmail.com --services gmail`\n\n## 4. GitHub Repo for Workspace Backup\n- Create private repo (e.g. `clawdine-workspace`)\n- Then I'll set up git remote + daily push\n\n## Optional\n- **OpenRouter API Key** — cost reduction lever, routes cheaper models\n  - Get from: https://openrouter.ai\n  - Store: `security add-generic-password -a clawdine -s \"openrouter-api-key\" -w \"KEY\"`\n",
+      "frontmatter": {},
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:46:25.715Z"
+    },
+    {
+      "id": "projects/clawdsure-causal",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/projects/clawdsure-causal.md",
+      "category": "projects",
+      "title": "clawdsure-causal",
+      "content": "ClawdSure = telematics box for AI agents. Daily cryptographically signed, hash-linked attestation chain. Domain: causal.insure. Two paths to market: Greenlight (Lloyd's syndicate DA) or Daren's regulated entity. DeFi yield on insurance float. Vercel AI SDK = bigger market than OpenClaw alone.\n",
+      "frontmatter": {
+        "title": "clawdsure-causal",
+        "date": "2026-02-14",
+        "memoryType": "project"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:41.875Z"
+    },
+    {
+      "id": "preferences/owasp-ai-exchange",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/preferences/owasp-ai-exchange.md",
+      "category": "preferences",
+      "title": "owasp-ai-exchange",
+      "content": "OWASP AI Exchange (owaspai.org) is the real standards reference, NOT 'OWASP Agentic Top 10 2026' (hallucinated by sub-agent). 300+ pages, OWASP Flagship, CC0 licensed. Threat taxonomy maps to attestation checks.\n",
+      "frontmatter": {
+        "title": "owasp-ai-exchange",
+        "date": "2026-02-14",
+        "memoryType": "preference"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:40.926Z"
+    },
+    {
+      "id": "people/sam-clifton",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/people/sam-clifton.md",
+      "category": "people",
+      "title": "sam-clifton",
+      "content": "Sam Clifton @ Greenlightre. Reinsurer, risk capital/capacity, Lloyd's syndicate. Very keen to hear more (Feb 12). Lunch being scheduled. Key contact for Causal Tier 2 delegated authority.\n",
+      "frontmatter": {
+        "title": "sam-clifton",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:27.507Z"
+    },
+    {
+      "id": "people/daren-mccauley",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/people/daren-mccauley.md",
+      "category": "people",
+      "title": "daren-mccauley",
+      "content": "Daren McCauley. Actuary, ex-CEO of insurer behind Humn. Has regulated entity. Potential delegated authority/regulatory wrapper for Causal.\n",
+      "frontmatter": {
+        "title": "daren-mccauley",
+        "date": "2026-02-14",
+        "memoryType": "relationship"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:27.976Z"
+    },
+    {
+      "id": "lessons/sub-agents-lie",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/lessons/sub-agents-lie.md",
+      "category": "lessons",
+      "title": "sub-agents-lie",
+      "content": "Never send sub-agent output directly to Mark or external recipients. Always rewrite in voice. Sub-agents produce technically-correct-but-obviously-AI prose. Verified Feb 14 when DESIGN.md needed full rewrite from 37KB to 16KB.\n",
+      "frontmatter": {
+        "title": "sub-agents-lie",
+        "date": "2026-02-14",
+        "memoryType": "lesson"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:27.037Z"
+    },
+    {
+      "id": "inbox/welcome",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/inbox/welcome.md",
+      "category": "inbox",
+      "title": "Welcome to .clawvault",
+      "content": "\n# Welcome to .clawvault\n\nYour vault is ready. Here's what you can do:\n\n## Quick Start\n\n- **Capture a thought:** `clawvault capture \"your note here\"`\n- **Store structured memory:** `clawvault store --category decisions --title \"My Choice\" --content \"...\"`\n- **Search your vault:** `clawvault search \"query\"`\n- **See your knowledge graph:** `clawvault graph`\n- **Get context for a topic:** `clawvault context \"topic\"`\n\n## Vault Structure\n\nYour vault organizes memories by type — decisions, lessons, people, projects, and more.\nEach category is a folder. Each memory is a markdown file with frontmatter.\n\n## Observational Memory\n\nWhen connected to an AI agent (like OpenClaw), your vault can automatically observe\nconversations and extract important memories — decisions, lessons, commitments — without\nmanual effort.\n\n## Wiki-Links\n\nUse `[[double brackets]]` to link between notes. Your memory graph tracks these\nconnections, building a knowledge network that grows with you.\n\n---\n\n*Delete this file anytime. It's just here to say hello.*\n",
+      "frontmatter": {
+        "title": "Welcome to .clawvault",
+        "date": "2026-02-14T00:00:00.000Z",
+        "type": "fact",
+        "tags": [
+          "welcome",
+          "getting-started"
+        ]
+      },
+      "links": [
+        "double brackets"
+      ],
+      "tags": [],
+      "modified": "2026-02-14T08:42:51.169Z"
+    },
+    {
+      "id": "inbox/core-priorities",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/inbox/core-priorities.md",
+      "category": "inbox",
+      "title": "Core priorities",
+      "content": "Priority stack: ClawdSure > Roundy > Trading > Nightjar > LinkedIn. Sub-agents lie — verify everything.\n",
+      "frontmatter": {
+        "title": "Core priorities",
+        "date": "2026-02-14"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:06.710Z"
+    },
+    {
+      "id": "commitments/git-backup",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/commitments/git-backup.md",
+      "category": "commitments",
+      "title": "git-backup",
+      "content": "Mark needs to create GitHub repo for workspace backup. CRITICAL — currently zero backups. Keep nudging.\n",
+      "frontmatter": {
+        "title": "git-backup",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:41.400Z"
+    },
+    {
+      "id": "facts/trading-portfolio",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/facts/trading-portfolio.md",
+      "category": "facts",
+      "title": "trading-portfolio",
+      "content": "3 open positions totaling ~.12 at risk, ~/bin/zsh.08 cash. All-time realized P/L: -.99. Seoul NO won (+.24, 28.2%). Wellington NO lost (-.07). NYC pending. Wellington Feb 14 + Miami Feb 14 open.\n",
+      "frontmatter": {
+        "title": "trading-portfolio",
+        "date": "2026-02-14",
+        "memoryType": "fact"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:42.343Z"
+    },
+    {
+      "id": "decisions/causal-not-cyber",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/decisions/causal-not-cyber.md",
+      "category": "decisions",
+      "title": "causal-not-cyber",
+      "content": "Causal is NOT cyber insurance (Sam Clifton, Feb 14). Two capped tiers. Tier 1 = parametric-like B2C (gadget insurance). Tier 2 = SME with daily telematics. Exclude enterprise. Linux in 1994 = new asset class.\n",
+      "frontmatter": {
+        "title": "causal-not-cyber",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:43:26.564Z"
+    },
+    {
+      "id": "commitments/marks-api-keys",
+      "path": "/Users/clawdine/.openclaw/workspace/.clawvault/commitments/marks-api-keys.md",
+      "category": "commitments",
+      "title": "marks-api-keys",
+      "content": "Mark to provide: (1) X/Twitter API keys for @Clawdine_shoe, (2) AgentMail API key, (3) Google OAuth client_secret.json for gog/Gmail, (4) GitHub repo for workspace backup. Optional: OpenRouter API key. Full details in tasks/marks-api-keys.md\n",
+      "frontmatter": {
+        "title": "marks-api-keys",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:46:30.914Z"
+    }
+  ]
+}

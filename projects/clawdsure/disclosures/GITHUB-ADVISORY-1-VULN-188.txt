@@ -1,0 +1,119 @@
+ADVISORY #1: Default Admin Scope Granted on WebSocket Connect
+
+========================================
+TITLE:
+========================================
+Default Admin Scope Granted on WebSocket Connect
+
+========================================
+SEVERITY ASSESSMENT:
+========================================
+High - Authentication bypass leading to privilege escalation
+
+MITRE ATLAS Mapping:
+- T-ACCESS-003: Token Theft (High)
+- T-PERSIST-004: Stolen Token Persistence (High)
+
+========================================
+IMPACT:
+========================================
+Unauthenticated or low-privilege clients connecting without explicit scope requests are automatically granted `operator.admin` privileges, enabling full administrative access to the gateway without authorization.
+
+A client connecting as `operator` without requesting scopes receives `operator.admin` by default, granting:
+- Full gateway configuration access
+- Ability to manipulate sessions
+- Administrative control over all gateway functions
+- Bypasses intended least-privilege design
+
+========================================
+AFFECTED COMPONENT:
+========================================
+- File: `src/gateway/server/ws-connection/message-handler.ts`
+- Lines: 360-366
+- Component: WebSocket connection handler
+- Versions: Current HEAD (as of 2026-02-10)
+
+========================================
+TECHNICAL REPRODUCTION:
+========================================
+Steps:
+1. Connect to OpenClaw gateway WebSocket endpoint as `operator` role
+2. Omit `scopes` parameter in connection handshake (or send empty array)
+3. Observe granted scopes in connection response
+
+Code Location (src/gateway/server/ws-connection/message-handler.ts:360-366):
+```typescript
+const requestedScopes = Array.isArray(connectParams.scopes) ? connectParams.scopes : [];
+const scopes =
+  requestedScopes.length > 0
+    ? requestedScopes
+    : role === "operator"
+      ? ["operator.admin"]
+      : [];
+connectParams.role = role;
+connectParams.scopes = scopes;
+```
+
+========================================
+DEMONSTRATED IMPACT:
+========================================
+A client connecting as `operator` without requesting scopes receives `operator.admin` by default, granting:
+- Full gateway configuration access
+- Ability to manipulate sessions
+- Administrative control over all gateway functions
+- Bypasses intended least-privilege design
+
+This violates the principle of least privilege and creates an authentication bypass where clients receive administrative access without explicit authorization.
+
+========================================
+ENVIRONMENT:
+========================================
+- OpenClaw Version: HEAD (commit from 2026-02-10)
+- Repository: github.com/openclaw/openclaw
+- Platform: All platforms running OpenClaw gateway
+- Node.js: 22.12.0+
+
+========================================
+REMEDIATION ADVICE:
+========================================
+Recommended Fix:
+Default to least-privilege (no scopes) and require explicit scope authorization:
+
+```typescript
+const requestedScopes = Array.isArray(connectParams.scopes) ? connectParams.scopes : [];
+const scopes = requestedScopes; // default to none
+
+// Reject connections without explicit scopes for operator role
+if (role === "operator" && scopes.length === 0) {
+  send({ 
+    type: "res", 
+    id: frame.id, 
+    ok: false, 
+    error: errorShape(ErrorCodes.INVALID_REQUEST, "scopes required") 
+  });
+  close(1008, "scopes required");
+  return;
+}
+```
+
+Alternative Approach (if backward compatibility required):
+1. Default to minimal read-only scope
+2. Require explicit opt-in for admin privileges
+3. Add scope validation against authorized scope list per client
+
+Testing:
+Add test cases ensuring:
+- Connections without scopes are rejected or granted minimal privileges
+- Admin scopes require explicit authorization
+- Scope escalation attempts are logged and blocked
+
+Defense in Depth:
+- Log all scope grants for audit trail
+- Implement scope allowlists per client identity
+- Add rate limiting on failed authorization attempts
+
+CWE: CWE-269 (Improper Privilege Management)
+OWASP: A01:2021 – Broken Access Control
+
+Reporter: Clawdine (ClawdSure security audit)
+Date: 2026-02-10

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-10T11:30:54Z",
+  "total_threats": 37,
+  "threats_checked": 20,
+  "mitigated": 20,
+  "unmitigated": 0,
+  "critical_unmitigated": 0,
+  "high_unmitigated": 0,
+  "findings": []
+}

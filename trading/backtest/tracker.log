@@ -1,0 +1,62 @@
+=== Weather Market Snapshot: 2026-02-07 09:39 ===
+
+2026-02-08 (+1d): Forecast 14.8°F | Market favors 18-19 @ 39.0%
+
+Logged 1 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-07 17:00 ===
+
+2026-02-08 (+1d): Forecast 13.9°F | Market favors 18-19 @ 52.5%
+2026-02-09 (+2d): Forecast 27.3°F | Market favors 30-31 @ 30.0%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-08 17:00 ===
+
+2026-02-09 (+1d): Forecast 25.3°F | Market favors 30-31 @ 40.5%
+2026-02-10 (+2d): Forecast 32.5°F | Market favors >=36 @ 55.5%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-09 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-09: 30°F, 2026-02-10: 35°F, 2026-02-11: 39°F, 2026-02-12: 35°F, 2026-02-13: 34°F, 2026-02-14: 37°F, 2026-02-15: 37°F
+
+2026-02-10 (+1d): NOAA 35°F | Market favors >=36 @ 48.5%
+2026-02-11 (+2d): NOAA 39°F | Market favors 42-43 @ 35.0%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-10 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-10: 35°F, 2026-02-11: 40°F, 2026-02-12: 36°F, 2026-02-13: 34°F, 2026-02-14: 39°F, 2026-02-15: 38°F, 2026-02-16: 42°F
+
+2026-02-11 (+1d): NOAA 40°F | Market favors 40-41 @ 42.5%
+2026-02-12 (+2d): NOAA 36°F | Market favors 36-37 @ 39.5%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-11 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-11: 40°F, 2026-02-12: 36°F, 2026-02-13: 36°F, 2026-02-14: 40°F, 2026-02-15: 39°F, 2026-02-16: 43°F, 2026-02-17: 44°F
+
+2026-02-12 (+1d): NOAA 36°F | Market favors 36-37 @ 48.5%
+2026-02-13 (+2d): NOAA 36°F | Market favors 36-37 @ 45.0%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-12 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-12: 36°F, 2026-02-13: 37°F, 2026-02-14: 42°F, 2026-02-15: 40°F, 2026-02-16: 44°F, 2026-02-17: 45°F, 2026-02-18: 45°F
+
+2026-02-13 (+1d): NOAA 37°F | Market favors 36-37 @ 51.0%
+2026-02-14 (+2d): NOAA 42°F | Market favors 44-45 @ 31.0%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-13 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-13: 36°F, 2026-02-14: 42°F, 2026-02-15: 38°F, 2026-02-16: 41°F, 2026-02-17: 46°F, 2026-02-18: 46°F, 2026-02-19: 46°F
+
+2026-02-14 (+1d): NOAA 42°F | Market favors 42-43 @ 42.0%
+2026-02-15 (+2d): NOAA 38°F | Market favors 38-39 @ 33.0%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl

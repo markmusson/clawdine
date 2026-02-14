@@ -1,0 +1,35 @@
+{
+  "certificate_type": "clawdsure_security_attestation",
+  "version": "1.0",
+  "agent": {
+    "id": "clawdine",
+    "fingerprint": "fff4d493084465f4a5563f741f44ecbbf4055eb9c829e5677c9ae91ef6c40177",
+    "short": "CLWD-FFF4D493",
+    "host": "Clawdines-MacBook-Pro.local"
+  },
+  "audit": {
+    "tool": "clawdstrike",
+    "timestamp": "2026-02-07T09:53:00Z",
+    "result": "PASS",
+    "findings": {
+      "critical": 0,
+      "warn": 1,
+      "info": 1
+    },
+    "acceptable_risks": ["gateway.trusted_proxies_missing (loopback only)"],
+    "openclaw_version": "2026.2.6-3"
+  },
+  "remediation": {
+    "completed": [
+      "chmod 700 credentials dir",
+      "set plugins.allow allowlist",
+      "updated openclaw to latest"
+    ]
+  },
+  "policy": {
+    "premium_usd": 50,
+    "payout_usd": 500,
+    "term": "annual",
+    "conditions": ["continuous_attestation", "incident_verified"]
+  }
+}

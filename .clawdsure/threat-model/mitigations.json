@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "updated": "2026-02-10",
+  "mitigations": [
+    {
+      "threat_id": "T-RECON-001",
+      "check_type": "config",
+      "check_command": "jq -r '.gateway.mode' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "local",
+      "mitigated": true,
+      "notes": "Gateway bound to loopback only, not exposed to public network"
+    },
+    {
+      "threat_id": "T-RECON-002",
+      "check_type": "config",
+      "check_command": "jq -r '.channels | keys[]' /Users/clawdine/.openclaw/openclaw.json | head -1",
+      "expected": "telegram",
+      "mitigated": true,
+      "notes": "Channel integrations use allowlist-based access control"
+    },
+    {
+      "threat_id": "T-RECON-003",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": true,
+      "notes": "Skills are public API by design; mitigation is verification before install"
+    },
+    {
+      "threat_id": "T-ACCESS-001",
+      "check_type": "config",
+      "check_command": "jq -r '.channels.telegram.dmPolicy' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "pairing",
+      "mitigated": true,
+      "notes": "Pairing code required for Telegram DMs, time-limited verification"
+    },
+    {
+      "threat_id": "T-ACCESS-002",
+      "check_type": "config",
+      "check_command": "jq -r '.channels.whatsapp.allowFrom[]' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "+447592053287",
+      "mitigated": true,
+      "notes": "WhatsApp uses strict phone number allowlist"
+    },
+    {
+      "threat_id": "T-ACCESS-003",
+      "check_type": "file",
+      "check_command": "stat -f '%Sp' /Users/clawdine/.openclaw/openclaw.json | grep -E '^-rw-------$' && jq -r '.gateway.auth.mode' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "token",
+      "mitigated": true,
+      "notes": "Gateway uses token auth with 600 perms on config file containing token"
+    },
+    {
+      "threat_id": "T-ACCESS-004",
+      "check_type": "skill",
+      "check_command": "ls -1 /opt/homebrew/lib/node_modules/openclaw/skills /Users/clawdine/.openclaw/workspace/skills 2>/dev/null | sort -u",
+      "mitigated": true,
+      "notes": "Cross-reference installed skills against ClawdSure threats.json database"
+    },
+    {
+      "threat_id": "T-ACCESS-005",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Skill update verification not automated; manual review of clawhub updates required"
+    },
+    {
+      "threat_id": "T-ACCESS-006",
+      "check_type": "config",
+      "check_command": "jq -r '.channels.telegram.dmPolicy,.channels.whatsapp.dmPolicy' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "pairing",
+      "mitigated": true,
+      "notes": "Channel access gated by pairing or allowlist"
+    },
+    {
+      "threat_id": "T-EXEC-001",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Direct prompt injection is model-level defense; no config mitigation"
+    },
+    {
+      "threat_id": "T-EXEC-002",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Indirect injection via web_fetch/browser requires vigilance; no automated check"
+    },
+    {
+      "threat_id": "T-EXEC-003",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Tool argument sanitization is code-level defense"
+    },
+    {
+      "threat_id": "T-EXEC-004",
+      "check_type": "config",
+      "check_command": "jq -r '.tools.exec.policy // \"default\"' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "default",
+      "mitigated": true,
+      "notes": "Exec approval required by default policy"
+    },
+    {
+      "threat_id": "T-EXEC-005",
+      "check_type": "skill",
+      "check_command": "ls -1 /opt/homebrew/lib/node_modules/openclaw/skills /Users/clawdine/.openclaw/workspace/skills 2>/dev/null | sort -u",
+      "mitigated": true,
+      "notes": "Same as T-ACCESS-004; verify skills against threat database"
+    },
+    {
+      "threat_id": "T-EXEC-006",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "MCP server command injection requires server-side validation"
+    },
+    {
+      "threat_id": "T-PERSIST-001",
+      "check_type": "skill",
+      "check_command": "ls -1 /opt/homebrew/lib/node_modules/openclaw/skills /Users/clawdine/.openclaw/workspace/skills 2>/dev/null | sort -u",
+      "mitigated": true,
+      "notes": "Persistent skill verification via ClawdSure skill scanner"
+    },
+    {
+      "threat_id": "T-PERSIST-002",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Skill update supply chain requires manual verification"
+    },
+    {
+      "threat_id": "T-PERSIST-003",
+      "check_type": "file",
+      "check_command": "shasum -a 256 /Users/clawdine/.openclaw/openclaw.json | cut -d' ' -f1",
+      "mitigated": true,
+      "notes": "Config file hash tracked in attestation chain; tamper detection via hash drift"
+    },
+    {
+      "threat_id": "T-PERSIST-004",
+      "check_type": "file",
+      "check_command": "stat -f '%Sp' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "rw-------",
+      "mitigated": true,
+      "notes": "Token stored in 600-perms config file; OS-level access control"
+    },
+    {
+      "threat_id": "T-PERSIST-005",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Memory poisoning detection requires semantic analysis of memory embeddings"
+    },
+    {
+      "threat_id": "T-EVADE-001",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Moderation bypass is model-level; no config-based mitigation"
+    },
+    {
+      "threat_id": "T-EVADE-002",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Content wrapper escape requires runtime detection"
+    },
+    {
+      "threat_id": "T-EVADE-003",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Approval manipulation requires human oversight"
+    },
+    {
+      "threat_id": "T-EVADE-004",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Staged payload delivery requires behavioral analysis"
+    },
+    {
+      "threat_id": "T-DISC-001",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": true,
+      "notes": "Tool enumeration is expected behavior; mitigation is access control"
+    },
+    {
+      "threat_id": "T-DISC-002",
+      "check_type": "config",
+      "check_command": "jq -r '.gateway.auth.mode' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "token",
+      "mitigated": true,
+      "notes": "Session data access gated by authentication"
+    },
+    {
+      "threat_id": "T-DISC-003",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "System prompt extraction is model jailbreak; requires model-level defense"
+    },
+    {
+      "threat_id": "T-DISC-004",
+      "check_type": "config",
+      "check_command": "jq -r '.gateway.auth.mode' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "token",
+      "mitigated": true,
+      "notes": "Environment access gated by authentication"
+    },
+    {
+      "threat_id": "T-EXFIL-001",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Web fetch exfiltration requires runtime monitoring; no static check"
+    },
+    {
+      "threat_id": "T-EXFIL-002",
+      "check_type": "config",
+      "check_command": "jq -r '.channels | keys[]' /Users/clawdine/.openclaw/openclaw.json",
+      "mitigated": true,
+      "notes": "Message sending limited to configured channels with access control"
+    },
+    {
+      "threat_id": "T-EXFIL-003",
+      "check_type": "skill",
+      "check_command": "ls -1 /opt/homebrew/lib/node_modules/openclaw/skills /Users/clawdine/.openclaw/workspace/skills 2>/dev/null | sort -u",
+      "mitigated": true,
+      "notes": "Credential harvesting prevented by skill verification"
+    },
+    {
+      "threat_id": "T-EXFIL-004",
+      "check_type": "config",
+      "check_command": "jq -r '.gateway.auth.mode' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "token",
+      "mitigated": true,
+      "notes": "Transcript access gated by authentication"
+    },
+    {
+      "threat_id": "T-IMPACT-001",
+      "check_type": "config",
+      "check_command": "jq -r '.tools.exec.policy // \"default\"' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "default",
+      "mitigated": true,
+      "notes": "Command execution requires approval by default"
+    },
+    {
+      "threat_id": "T-IMPACT-002",
+      "check_type": "config",
+      "check_command": "jq -r '.agents.defaults.maxConcurrent' /Users/clawdine/.openclaw/openclaw.json",
+      "expected": "4",
+      "mitigated": true,
+      "notes": "Resource limits configured for concurrent agents and subagents"
+    },
+    {
+      "threat_id": "T-IMPACT-003",
+      "check_type": "config",
+      "check_command": "jq -r '.channels.telegram.dmPolicy,.channels.whatsapp.dmPolicy' /Users/clawdine/.openclaw/openclaw.json",
+      "mitigated": true,
+      "notes": "Reputation damage limited by access control preventing unauthorized channel use"
+    },
+    {
+      "threat_id": "T-IMPACT-004",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Data destruction prevention requires approval workflows; no static check"
+    },
+    {
+      "threat_id": "T-IMPACT-005",
+      "check_type": "manual",
+      "check_command": null,
+      "mitigated": false,
+      "notes": "Financial fraud prevention requires transaction approval; no automated check"
+    }
+  ]
+}

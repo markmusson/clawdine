@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "token-optimizeri": {
+      "version": "1.0.0",
+      "installedAt": 1770744226377
+    },
+    "token-optimizercf": {
+      "version": "1.0.0",
+      "installedAt": 1770744229742
+    },
+    "modelreadyn": {
+      "version": "1.0.0",
+      "installedAt": 1770744232479
+    },
+    "clawdwallet-0-1-0": {
+      "version": "1.0.0",
+      "installedAt": 1770744234964
+    },
+    "botcoin": {
+      "version": "1.0.0",
+      "installedAt": 1770744237654
+    },
+    "config-safe": {
+      "version": "1.0.0",
+      "installedAt": 1770744320759
+    },
+    "wallet": {
+      "version": "1.0.1",
+      "installedAt": 1770744323010
+    },
+    "crypto-wallet": {
+      "version": "1.0.1",
+      "installedAt": 1770744325744
+    },
+    "clawvault": {
+      "version": "2.0.4",
+      "installedAt": 1771057540172
+    },
+    "clawsec-suite": {
+      "version": "0.0.10",
+      "installedAt": 1771060754285
+    }
+  }
+}

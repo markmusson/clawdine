@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "source": "https://openclaw.org/trust",
+  "updated": "2026-02-10",
+  "threats": [
+    {"id": "T-RECON-001", "name": "Agent Endpoint Discovery", "atlas": "AML.T0006", "severity": "medium", "tactic": "recon"},
+    {"id": "T-RECON-002", "name": "Channel Integration Probing", "atlas": "AML.T0006", "severity": "low", "tactic": "recon"},
+    {"id": "T-RECON-003", "name": "Skill Capability Reconnaissance", "atlas": "AML.T0006", "severity": "low", "tactic": "recon"},
+    {"id": "T-ACCESS-001", "name": "Pairing Code Interception", "atlas": "AML.T0040", "severity": "medium", "tactic": "access"},
+    {"id": "T-ACCESS-002", "name": "AllowFrom Spoofing", "atlas": "AML.T0040", "severity": "medium", "tactic": "access"},
+    {"id": "T-ACCESS-003", "name": "Token Theft", "atlas": "AML.T0040", "severity": "high", "tactic": "access"},
+    {"id": "T-ACCESS-004", "name": "Malicious Skill as Entry Point", "atlas": "AML.T0010.001", "severity": "critical", "tactic": "access"},
+    {"id": "T-ACCESS-005", "name": "Compromised Skill Update", "atlas": "AML.T0010.001", "severity": "high", "tactic": "access"},
+    {"id": "T-ACCESS-006", "name": "Prompt Injection via Channel", "atlas": "AML.T0051.000", "severity": "high", "tactic": "access"},
+    {"id": "T-EXEC-001", "name": "Direct Prompt Injection", "atlas": "AML.T0051.000", "severity": "critical", "tactic": "execution"},
+    {"id": "T-EXEC-002", "name": "Indirect Prompt Injection", "atlas": "AML.T0051.001", "severity": "high", "tactic": "execution"},
+    {"id": "T-EXEC-003", "name": "Tool Argument Injection", "atlas": "AML.T0051.000", "severity": "high", "tactic": "execution"},
+    {"id": "T-EXEC-004", "name": "Exec Approval Bypass", "atlas": "AML.T0043", "severity": "high", "tactic": "execution"},
+    {"id": "T-EXEC-005", "name": "Malicious Skill Code Execution", "atlas": "AML.T0010.001", "severity": "critical", "tactic": "execution"},
+    {"id": "T-EXEC-006", "name": "MCP Server Command Injection", "atlas": "AML.T0051.000", "severity": "high", "tactic": "execution"},
+    {"id": "T-PERSIST-001", "name": "Skill-Based Persistence", "atlas": "AML.T0010.001", "severity": "critical", "tactic": "persistence"},
+    {"id": "T-PERSIST-002", "name": "Poisoned Skill Update Persistence", "atlas": "AML.T0010.001", "severity": "high", "tactic": "persistence"},
+    {"id": "T-PERSIST-003", "name": "Agent Configuration Tampering", "atlas": "AML.T0010.002", "severity": "medium", "tactic": "persistence"},
+    {"id": "T-PERSIST-004", "name": "Stolen Token Persistence", "atlas": "AML.T0040", "severity": "high", "tactic": "persistence"},
+    {"id": "T-PERSIST-005", "name": "Prompt Injection Memory Poisoning", "atlas": "AML.T0051.000", "severity": "medium", "tactic": "persistence"},
+    {"id": "T-EVADE-001", "name": "Moderation Pattern Bypass", "atlas": "AML.T0043", "severity": "high", "tactic": "evasion"},
+    {"id": "T-EVADE-002", "name": "Content Wrapper Escape", "atlas": "AML.T0043", "severity": "medium", "tactic": "evasion"},
+    {"id": "T-EVADE-003", "name": "Approval Prompt Manipulation", "atlas": "AML.T0043", "severity": "medium", "tactic": "evasion"},
+    {"id": "T-EVADE-004", "name": "Staged Payload Delivery", "atlas": "AML.T0043", "severity": "high", "tactic": "evasion"},
+    {"id": "T-DISC-001", "name": "Tool Enumeration", "atlas": "AML.T0040", "severity": "low", "tactic": "discovery"},
+    {"id": "T-DISC-002", "name": "Session Data Extraction", "atlas": "AML.T0040", "severity": "medium", "tactic": "discovery"},
+    {"id": "T-DISC-003", "name": "System Prompt Extraction", "atlas": "AML.T0040", "severity": "medium", "tactic": "discovery"},
+    {"id": "T-DISC-004", "name": "Environment Enumeration", "atlas": "AML.T0040", "severity": "medium", "tactic": "discovery"},
+    {"id": "T-EXFIL-001", "name": "Data Theft via web_fetch", "atlas": "AML.T0009", "severity": "high", "tactic": "exfiltration"},
+    {"id": "T-EXFIL-002", "name": "Unauthorized Message Sending", "atlas": "AML.T0009", "severity": "medium", "tactic": "exfiltration"},
+    {"id": "T-EXFIL-003", "name": "Credential Harvesting via Skill", "atlas": "AML.T0009", "severity": "critical", "tactic": "exfiltration"},
+    {"id": "T-EXFIL-004", "name": "Transcript Exfiltration", "atlas": "AML.T0009", "severity": "high", "tactic": "exfiltration"},
+    {"id": "T-IMPACT-001", "name": "Unauthorized Command Execution", "atlas": "AML.T0031", "severity": "critical", "tactic": "impact"},
+    {"id": "T-IMPACT-002", "name": "Resource Exhaustion (DoS)", "atlas": "AML.T0031", "severity": "high", "tactic": "impact"},
+    {"id": "T-IMPACT-003", "name": "Reputation Damage", "atlas": "AML.T0031", "severity": "medium", "tactic": "impact"},
+    {"id": "T-IMPACT-004", "name": "Data Destruction", "atlas": "AML.T0031", "severity": "high", "tactic": "impact"},
+    {"id": "T-IMPACT-005", "name": "Financial Fraud via Agent", "atlas": "AML.T0031", "severity": "high", "tactic": "impact"}
+  ],
+  "attack_chains": [
+    {
+      "name": "Malicious Skill Full Kill Chain",
+      "description": "Complete compromise via malicious skill installation",
+      "severity": "critical",
+      "chain": ["T-RECON-003", "T-EVADE-001", "T-ACCESS-004", "T-EXEC-005", "T-PERSIST-001", "T-EXFIL-003"]
+    },
+    {
+      "name": "Skill Supply Chain Attack",
+      "description": "Compromise via poisoned skill update mechanism",
+      "severity": "critical",
+      "chain": ["T-ACCESS-005", "T-EVADE-004", "T-EXEC-005", "T-PERSIST-002", "T-EXFIL-004"]
+    },
+    {
+      "name": "Prompt Injection to RCE",
+      "description": "Escalation from prompt injection to remote code execution",
+      "severity": "critical",
+      "chain": ["T-ACCESS-006", "T-EXEC-001", "T-EVADE-003", "T-EXEC-004", "T-IMPACT-001"]
+    },
+    {
+      "name": "Indirect Injection Data Theft",
+      "description": "Data exfiltration via indirect prompt injection",
+      "severity": "high",
+      "chain": ["T-EXEC-002", "T-DISC-004", "T-EXFIL-001"]
+    },
+    {
+      "name": "Token Theft Persistent Access",
+      "description": "Persistent access via stolen authentication tokens",
+      "severity": "high",
+      "chain": ["T-ACCESS-003", "T-PERSIST-004", "T-DISC-002", "T-EXFIL-002"]
+    },
+    {
+      "name": "Financial Fraud Chain",
+      "description": "Financial fraud via prompt injection and tool abuse",
+      "severity": "high",
+      "chain": ["T-ACCESS-006", "T-EXEC-001", "T-DISC-001", "T-IMPACT-005"]
+    }
+  ]
+}

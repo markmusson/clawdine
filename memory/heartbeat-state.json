@@ -1,0 +1,11 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null
+  },
+  "contextAlert": {
+    "lastAlertPct": 0,
+    "lastAlertTs": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "catalog_size": 197,
+  "seed_skills": 197,
+  "seed_threats": 0,
+  "total_entries": 198,
+  "top_by_downloads": [
+    {
+      "slug": "google-slides",
+      "downloads": 2581
+    },
+    {
+      "slug": "google-play",
+      "downloads": 2364
+    },
+    {
+      "slug": "woocommerce",
+      "downloads": 1124
+    },
+    {
+      "slug": "github-api",
+      "downloads": 1048
+    },
+    {
+      "slug": "monday",
+      "downloads": 967
+    },
+    {
+      "slug": "linear-api",
+      "downloads": 963
+    },
+    {
+      "slug": "attio-api",
+      "downloads": 961
+    },
+    {
+      "slug": "microsoft-excel",
+      "downloads": 956
+    },
+    {
+      "slug": "zoho-crm",
+      "downloads": 944
+    },
+    {
+      "slug": "zoho-inventory",
+      "downloads": 934
+    }
+  ]
+}
