@@ -1,7 +1,7 @@
 {
-  "total_trades": 351,
-  "wins": 85,
-  "losses": 255,
+  "total_trades": 352,
+  "wins": 86,
+  "losses": 257,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -91,38 +91,16 @@
       "timestamp": "2026-02-15T01:30:04.682133+00:00",
       "hour": 1
     },
-    "KXBTC-26FEB1500-B69875": {
-      "ticker": "KXBTC-26FEB1500-B69875",
+    "KXBTC-26FEB1501-B70125": {
+      "ticker": "KXBTC-26FEB1501-B70125",
       "direction": "YES",
-      "entry_price": 29,
-      "subtitle": "$69,750 to 69,999.99",
-      "btc_at_entry": 69951,
-      "event_key": "26FEB1500",
-      "close_time": "2026-02-15T05:00:00Z",
-      "timestamp": "2026-02-15T04:02:43.991682+00:00",
-      "hour": 4
-    },
-    "KXBTC-26FEB1500-B70375": {
-      "ticker": "KXBTC-26FEB1500-B70375",
-      "direction": "YES",
-      "entry_price": 21,
-      "subtitle": "$70,250 to 70,499.99",
-      "btc_at_entry": 70332,
-      "event_key": "26FEB1500",
-      "close_time": "2026-02-15T05:00:00Z",
-      "timestamp": "2026-02-15T04:12:49.844515+00:00",
-      "hour": 4
-    },
-    "KXBTC-26FEB1500-B70125": {
-      "ticker": "KXBTC-26FEB1500-B70125",
-      "direction": "YES",
-      "entry_price": 39,
+      "entry_price": 36,
       "subtitle": "$70,000 to 70,249.99",
-      "btc_at_entry": 70196,
-      "event_key": "26FEB1500",
-      "close_time": "2026-02-15T05:00:00Z",
-      "timestamp": "2026-02-15T04:28:11.808641+00:00",
-      "hour": 4
+      "btc_at_entry": 70180,
+      "event_key": "26FEB1501",
+      "close_time": "2026-02-15T06:00:00Z",
+      "timestamp": "2026-02-15T05:08:52.840610+00:00",
+      "hour": 5
     }
   },
   "by_hour": {
@@ -229,10 +207,10 @@
       "pnl": -102
     },
     "4": {
-      "trades": 12,
-      "wins": 3,
-      "losses": 9,
-      "pnl": -33
+      "trades": 15,
+      "wins": 4,
+      "losses": 11,
+      "pnl": -22
     },
     "5": {
       "trades": 8,
@@ -271,5 +249,5 @@
       "pnl": -37
     }
   },
-  "total_pnl": -437
+  "total_pnl": -426
 }
