@@ -1,7 +1,7 @@
 {
-  "total_trades": 376,
+  "total_trades": 380,
   "wins": 92,
-  "losses": 272,
+  "losses": 274,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -124,16 +124,38 @@
       "timestamp": "2026-02-15T13:37:09.175748+00:00",
       "hour": 13
     },
-    "KXBTC-26FEB1513-B69125": {
-      "ticker": "KXBTC-26FEB1513-B69125",
+    "KXBTC-26FEB1517-B68250": {
+      "ticker": "KXBTC-26FEB1517-B68250",
       "direction": "YES",
-      "entry_price": 40,
-      "subtitle": "$69,000 to 69,249.99",
-      "btc_at_entry": 69002,
-      "event_key": "26FEB1513",
-      "close_time": "2026-02-15T18:00:00Z",
-      "timestamp": "2026-02-15T17:41:16.125915+00:00",
+      "entry_price": 29,
+      "subtitle": "$68,000 to 68,499.99",
+      "btc_at_entry": 68294,
+      "event_key": "26FEB1517",
+      "close_time": "2026-02-15T22:00:00Z",
+      "timestamp": "2026-02-15T17:51:41.506322+00:00",
       "hour": 17
+    },
+    "KXBTC-26FEB1514-B68625": {
+      "ticker": "KXBTC-26FEB1514-B68625",
+      "direction": "YES",
+      "entry_price": 29,
+      "subtitle": "$68,500 to 68,749.99",
+      "btc_at_entry": 68552,
+      "event_key": "26FEB1514",
+      "close_time": "2026-02-15T19:00:00Z",
+      "timestamp": "2026-02-15T18:02:23.256791+00:00",
+      "hour": 18
+    },
+    "KXBTC-26FEB1514-B68375": {
+      "ticker": "KXBTC-26FEB1514-B68375",
+      "direction": "YES",
+      "entry_price": 31,
+      "subtitle": "$68,250 to 68,499.99",
+      "btc_at_entry": 68429,
+      "event_key": "26FEB1514",
+      "close_time": "2026-02-15T19:00:00Z",
+      "timestamp": "2026-02-15T18:07:35.262927+00:00",
+      "hour": 18
     }
   },
   "by_hour": {
@@ -186,10 +208,10 @@
       "pnl": 170
     },
     "17": {
-      "trades": 20,
+      "trades": 22,
       "wins": 5,
-      "losses": 15,
-      "pnl": 37
+      "losses": 17,
+      "pnl": -27
     },
     "18": {
       "trades": 21,
@@ -282,5 +304,5 @@
       "pnl": -37
     }
   },
-  "total_pnl": -513
+  "total_pnl": -577
 }
