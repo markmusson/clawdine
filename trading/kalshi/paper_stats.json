@@ -1,6 +1,6 @@
 {
   "total_trades": 361,
-  "wins": 87,
+  "wins": 88,
   "losses": 263,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
@@ -112,17 +112,6 @@
       "close_time": "2026-02-20T22:00:00Z",
       "timestamp": "2026-02-15T07:41:32.414103+00:00",
       "hour": 7
-    },
-    "KXBTC-26FEB1506-B70375": {
-      "ticker": "KXBTC-26FEB1506-B70375",
-      "direction": "YES",
-      "entry_price": 40,
-      "subtitle": "$70,250 to 70,499.99",
-      "btc_at_entry": 70386,
-      "event_key": "26FEB1506",
-      "close_time": "2026-02-15T11:00:00Z",
-      "timestamp": "2026-02-15T10:06:25.600244+00:00",
-      "hour": 10
     }
   },
   "by_hour": {
@@ -133,10 +122,10 @@
       "pnl": 13
     },
     "10": {
-      "trades": 19,
-      "wins": 3,
+      "trades": 20,
+      "wins": 4,
       "losses": 16,
-      "pnl": -122
+      "pnl": -62
     },
     "11": {
       "trades": 11,
@@ -271,5 +260,5 @@
       "pnl": -37
     }
   },
-  "total_pnl": -587
+  "total_pnl": -527
 }
