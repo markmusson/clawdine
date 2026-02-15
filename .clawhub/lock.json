@@ -40,6 +40,10 @@
     "clawsec-suite": {
       "version": "0.0.10",
       "installedAt": 1771060754285
+    },
+    "grok": {
+      "version": "1.0.3",
+      "installedAt": 1771170233865
     }
   }
 }
