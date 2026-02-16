@@ -1,7 +1,7 @@
 {
-  "total_trades": 403,
+  "total_trades": 410,
   "wins": 101,
-  "losses": 289,
+  "losses": 291,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -113,28 +113,6 @@
       "timestamp": "2026-02-16T03:32:40.938911+00:00",
       "hour": 3
     },
-    "KXBTC-26FEB1608-B68875": {
-      "ticker": "KXBTC-26FEB1608-B68875",
-      "direction": "YES",
-      "entry_price": 37,
-      "subtitle": "$68,750 to 68,999.99",
-      "btc_at_entry": 68814,
-      "event_key": "26FEB1608",
-      "close_time": "2026-02-16T13:00:00Z",
-      "timestamp": "2026-02-16T12:01:25.055903+00:00",
-      "hour": 12
-    },
-    "KXBTC-26FEB1608-B69375": {
-      "ticker": "KXBTC-26FEB1608-B69375",
-      "direction": "YES",
-      "entry_price": 33,
-      "subtitle": "$69,250 to 69,499.99",
-      "btc_at_entry": 69420,
-      "event_key": "26FEB1608",
-      "close_time": "2026-02-16T13:00:00Z",
-      "timestamp": "2026-02-16T12:32:41.299917+00:00",
-      "hour": 12
-    },
     "KXBTC-26FEB1617-B69500": {
       "ticker": "KXBTC-26FEB1617-B69500",
       "direction": "YES",
@@ -145,6 +123,83 @@
       "close_time": "2026-02-16T22:00:00Z",
       "timestamp": "2026-02-16T12:32:41.302491+00:00",
       "hour": 12
+    },
+    "KXBTC-26FEB1609-B69875": {
+      "ticker": "KXBTC-26FEB1609-B69875",
+      "direction": "YES",
+      "entry_price": 21,
+      "subtitle": "$69,750 to 69,999.99",
+      "btc_at_entry": 69928,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:04:14.396760+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1617-B70000": {
+      "ticker": "KXBTC-26FEB1617-B70000",
+      "direction": "YES",
+      "entry_price": 24,
+      "subtitle": "$69,750 to 70,249.99",
+      "btc_at_entry": 69928,
+      "event_key": "26FEB1617",
+      "close_time": "2026-02-16T22:00:00Z",
+      "timestamp": "2026-02-16T13:04:14.399490+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1609-B69625": {
+      "ticker": "KXBTC-26FEB1609-B69625",
+      "direction": "YES",
+      "entry_price": 26,
+      "subtitle": "$69,500 to 69,749.99",
+      "btc_at_entry": 69665,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:14:55.772279+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1609-B69375": {
+      "ticker": "KXBTC-26FEB1609-B69375",
+      "direction": "YES",
+      "entry_price": 28,
+      "subtitle": "$69,250 to 69,499.99",
+      "btc_at_entry": 69391,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:25:23.513047+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1609-B68625": {
+      "ticker": "KXBTC-26FEB1609-B68625",
+      "direction": "YES",
+      "entry_price": 23,
+      "subtitle": "$68,500 to 68,749.99",
+      "btc_at_entry": 68721,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:30:36.013376+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1609-B68875": {
+      "ticker": "KXBTC-26FEB1609-B68875",
+      "direction": "YES",
+      "entry_price": 17,
+      "subtitle": "$68,750 to 68,999.99",
+      "btc_at_entry": 68760,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:35:46.238754+00:00",
+      "hour": 13
+    },
+    "KXBTC-26FEB1609-B68375": {
+      "ticker": "KXBTC-26FEB1609-B68375",
+      "direction": "YES",
+      "entry_price": 29,
+      "subtitle": "$68,250 to 68,499.99",
+      "btc_at_entry": 68367,
+      "event_key": "26FEB1609",
+      "close_time": "2026-02-16T14:00:00Z",
+      "timestamp": "2026-02-16T13:41:01.331463+00:00",
+      "hour": 13
     }
   },
   "by_hour": {
@@ -167,10 +222,10 @@
       "pnl": -162
     },
     "12": {
-      "trades": 16,
+      "trades": 18,
       "wins": 5,
-      "losses": 11,
-      "pnl": -2
+      "losses": 13,
+      "pnl": -72
     },
     "13": {
       "trades": 20,
@@ -293,5 +348,5 @@
       "pnl": -72
     }
   },
-  "total_pnl": -364
+  "total_pnl": -434
 }
