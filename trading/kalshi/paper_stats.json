@@ -1,7 +1,7 @@
 {
-  "total_trades": 390,
+  "total_trades": 392,
   "wins": 97,
-  "losses": 282,
+  "losses": 284,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -102,27 +102,27 @@
       "timestamp": "2026-02-15T21:35:40.369024+00:00",
       "hour": 21
     },
-    "KXBTC-26FEB1519-B68625": {
-      "ticker": "KXBTC-26FEB1519-B68625",
-      "direction": "YES",
-      "entry_price": 28,
-      "subtitle": "$68,500 to 68,749.99",
-      "btc_at_entry": 68700,
-      "event_key": "26FEB1519",
-      "close_time": "2026-02-16T00:00:00Z",
-      "timestamp": "2026-02-15T23:04:44.585330+00:00",
-      "hour": 23
-    },
-    "KXBTC-26FEB1519-B68375": {
-      "ticker": "KXBTC-26FEB1519-B68375",
+    "KXBTC-26FEB1520-B68875": {
+      "ticker": "KXBTC-26FEB1520-B68875",
       "direction": "YES",
       "entry_price": 32,
-      "subtitle": "$68,250 to 68,499.99",
-      "btc_at_entry": 68439,
-      "event_key": "26FEB1519",
-      "close_time": "2026-02-16T00:00:00Z",
-      "timestamp": "2026-02-15T23:09:47.918793+00:00",
-      "hour": 23
+      "subtitle": "$68,750 to 68,999.99",
+      "btc_at_entry": 68769,
+      "event_key": "26FEB1520",
+      "close_time": "2026-02-16T01:00:00Z",
+      "timestamp": "2026-02-16T00:01:42.238865+00:00",
+      "hour": 0
+    },
+    "KXBTC-26FEB1520-B68625": {
+      "ticker": "KXBTC-26FEB1520-B68625",
+      "direction": "YES",
+      "entry_price": 34,
+      "subtitle": "$68,500 to 68,749.99",
+      "btc_at_entry": 68721,
+      "event_key": "26FEB1520",
+      "close_time": "2026-02-16T01:00:00Z",
+      "timestamp": "2026-02-16T00:07:08.337158+00:00",
+      "hour": 0
     }
   },
   "by_hour": {
@@ -199,10 +199,10 @@
       "pnl": 101
     },
     "23": {
-      "trades": 12,
+      "trades": 14,
       "wins": 3,
-      "losses": 9,
-      "pnl": -40
+      "losses": 11,
+      "pnl": -100
     },
     "0": {
       "trades": 14,
@@ -271,5 +271,5 @@
       "pnl": -72
     }
   },
-  "total_pnl": -409
+  "total_pnl": -469
 }
