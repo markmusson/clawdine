@@ -1,5 +1,5 @@
 {
-  "total_trades": 423,
+  "total_trades": 424,
   "wins": 106,
   "losses": 303,
   "pending": {
@@ -156,6 +156,17 @@
       "close_time": "2026-02-20T22:00:00Z",
       "timestamp": "2026-02-16T15:36:55.265711+00:00",
       "hour": 15
+    },
+    "KXBTC-26FEB1717-B68500": {
+      "ticker": "KXBTC-26FEB1717-B68500",
+      "direction": "YES",
+      "entry_price": 14,
+      "subtitle": "$68,250 to 68,749.99",
+      "btc_at_entry": 68429,
+      "event_key": "26FEB1717",
+      "close_time": "2026-02-17T22:00:00Z",
+      "timestamp": "2026-02-16T21:04:41.099678+00:00",
+      "hour": 21
     }
   },
   "by_hour": {
