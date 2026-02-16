@@ -7,9 +7,9 @@
 | Commitment | Owner | Deadline | Status |
 |-----------|-------|----------|--------|
 | Nightjar: Superorganism follow-up | Kevin Webb | This week (w/c Feb 17) | 🟡 Kevin said "back in touch next week" on Feb 14. Chase if no reply by Fri Feb 21 |
-| ClawdSure: Set up lunch with Sam Clifton @ Greenlight Re | Mark | This week | 🟡 Sam replied Feb 12 "very keen", Mark needs to send times |
-| ClawdSure: Set up lunch with Daren McCauley | Mark | This week | 🟡 Awaiting Daren's reply on dates |
-| ClawdSure: Pitch narrative ready for Sam | Mark + Clawdine | Before Sam lunch | 🟡 Draft done, AMMO + DEAL-SHEET ready, Mark to review |
+| ClawdSure: Sam Clifton follow-up | Mark | TBD | ✅ Had beers Fri Feb 14. Next step TBD. AMMO + DEAL-SHEET ready. |
+| ClawdSure: Daren McCauley lunch | Mark | Next week+ | 🟡 Mark holding off — internal Causal design work needed first |
+| ClawdSure: Pitch narrative ready for Sam | Mark + Clawdine | Done | ✅ Draft done, AMMO + DEAL-SHEET ready |
 | ClawdSure v3 Phase 1 → Claude Code | Mark | TBD | ⏳ ARCHITECTURE-v3.md ready for handoff |
 | Position Manager Phase 1 → Claude Code | Mark | TBD | ⏳ POSITION-MANAGER.md ready for handoff |
 | Paper trader fix — resolution source mismatch | Claude Code | TBD | 🔴 Spec at specs/PAPER-TRADER-FIX.md. 83% win rate is fiction. |
