@@ -164,5 +164,26 @@ Every story is a founder celebrating "look what my agent did unsupervised!" with
 - Architecture patterns (connector abstraction, order lifecycle tracking, triple barrier risk, controller/executor separation) being repurposed for Polymarket weather trading bot
 - **Underwriter angle:** Battle-tested risk management patterns from high-frequency crypto trading applied to prediction market agent. Shows engineering discipline in agent trading systems — the opposite of "YOLO deploy."
 
+## OpenAI Acqui-Hires OpenClaw Creator (Feb 16, 2026)
+- Peter Steinberger (OpenClaw creator) joining OpenAI
+- OpenClaw transitions to foundation governance, OpenAI as sponsor
+- Steinberger: "my next mission is to build an agent that even my mum can use"
+- Mass-market distribution incoming — OpenAI backing = consumer-grade UX at scale
+- **Underwriter angle:** Single biggest market validation event. OpenAI's investment signals mainstream adoption is inevitable. The hobby-tier market we're underwriting today becomes the consumer mass market tomorrow. Foundation governance is better for Causal — neutral platform means attestation can be embedded at protocol level, not sold to users. Insurance as a platform feature, not a product.
+- URL: https://steipete.me/posts/2026/openclaw
+
+## Jason Calacanis: Live $250K Termsheets for OpenClaw Builders (Feb 16, 2026)
+- This Week in Startups podcast now funding OpenClaw ecosystem builders live on air
+- Standard YC deal structure (7.5% equity)
+- Silicon Valley "pilled on OpenClaw" — active VC capital flowing into the ecosystem
+- **Underwriter angle:** VC momentum creates funded companies deploying agents at scale. Every funded startup is a potential Tier 2 policyholder. The ecosystem is professionalizing — moving from hobbyists to funded businesses with insurance budgets. Timing is perfect: capital is arriving before the insurance market is crowded.
+
+## Foundation Structure: Better for Causal than a Company (Feb 16, 2026)
+- OpenClaw moving to foundation governance (neutral, community-driven)
+- Creates embedded distribution opportunity for Causal attestation
+- Insurance doesn't need to be sold — it can be baked into the platform at protocol level
+- Foundation neutrality = no competitive conflicts with commercial agent platforms
+- **Underwriter angle:** Attestation becomes infrastructure, not a vendor relationship. Every agent running on OpenClaw could have Causal attestation by default. Distribution scales without sales team. Premium collection automated. This is the telematics black box mandated at manufacturing, not sold after purchase.
+
 ---
-*Updated: 2026-02-15*
+*Updated: 2026-02-16*

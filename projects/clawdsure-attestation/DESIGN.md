@@ -30,9 +30,11 @@ This is not cyber insurance. Not enterprise. Not open-ended liability.
 
 AI agents are where Linux was in 1994. Hobbyist territory going mainstream, with enterprises experimenting but nobody underwriting the risk.
 
+OpenAI just acqui-hired Peter Steinberger, creator of OpenClaw. He's joining OpenAI. OpenClaw transitions to foundation governance with OpenAI as sponsor. His stated mission: "build an agent that even my mum can use." Mass-market distribution is coming. The ecosystem is professionalizing at speed — Jason Calacanis is funding OpenClaw builders live on his podcast with $250K termsheets (YC terms). Capital is arriving. The market is moving from hobbyists to funded companies deploying production agents.
+
 An AI agent can execute shell commands, call APIs, hold auth tokens, install its own plugins, modify its own configuration, and operate without human approval. The personal ones run on laptops. The business ones handle customer service, code review, trading, operations.
 
-There are roughly 2 million deployed in 2026. By 2028, conservatively 10 million. Zero dedicated insurance products exist.
+There are roughly 2 million deployed in 2026. With OpenAI backing and VC momentum, conservatively 10 million by 2028. Zero dedicated insurance products exist.
 
 ### Why traditional cyber doesn't work
 
@@ -211,15 +213,17 @@ Protection: working layer retained (first £250K), first XOL to £2M (~£125K/yr
 
 ## 5. Distribution
 
-**Tier 1: embedded.** Built into agent platforms. `openclaw insurance enroll` command. One-click during setup wizard. Daily attestation runs via cron — zero operator effort after enrollment. Platform gets 10-15% commission. CAC: £5-7 per policy.
+**Tier 1: embedded at protocol level.** OpenClaw moves to foundation governance. Neutral, community-driven. This creates an embedded distribution opportunity: attestation can be built into the platform itself, not sold as a third-party product. `openclaw insurance enroll` during initial setup. Daily attestation runs via cron — zero operator effort. Insurance becomes infrastructure, like TLS certificates. CAC approaches zero. Platform commission: 10-15% of premium.
+
+Foundation structure eliminates competitive conflicts with commercial platforms. Every agent runner — OpenClaw, Vercel AI, custom builds — can adopt the same attestation standard. Cross-platform interoperability. Network effects compound: more insurers → more adoption → more data → better pricing → more insurers.
 
 **Tier 2: direct + broker.** Landing page at causal.insure, self-service quote, OTEL exporter integration, bound in 48h. Also via tech-focused brokers (15-20% commission). CAC: £200-1,000 depending on channel.
 
-Future: "Causal Attested" badges on Vercel marketplace, ClawHub, etc.
+Future: "Causal Attested" badges on Vercel marketplace, ClawHub, and other skill/agent registries. Verified security posture becomes a market differentiator.
 
 ---
 
-## 6. Reinsurance: Greenlight Re
+## 6. Reinsurance Structure
 
 ### Proposed quota share
 
@@ -232,7 +236,7 @@ Future: "Causal Attested" badges on Vercel marketplace, ClawHub, etc.
 | Territory | Global (English-speaking initially) |
 | Duration | 3 years, annual review |
 
-### Projections (Greenlight Re's 50% share)
+### Projections (Lead Reinsurer 50% share)
 
 | Year | Policies (T1/T2) | Ceded GWP | Expected Loss | Net Profit |
 |---|---|---|---|---|
@@ -242,11 +246,21 @@ Future: "Causal Attested" badges on Vercel marketplace, ClawHub, etc.
 
 Initial capacity: £15M. Year 3: £150M with XOL above £5M per event.
 
-### Why Greenlight
+### Value Proposition for Reinsurer
 
-You get: a new asset class with zero competition, continuous data (not annual snapshots), defined caps (you always know max exposure), short-tail (reserve fast), and a selection effect that filters out bad risks by design.
+**What the reinsurer gets:**
+- New asset class with zero competition
+- Continuous risk data (daily attestation, not annual questionnaires)
+- Defined caps (always know maximum exposure)
+- Short-tail (90-day reporting window, reserves fast)
+- Selection effect (operators who refuse monitoring self-select out)
+- Data moat (every policy generates proprietary actuarial intelligence)
 
-We need: £15M capacity scaling to £150M+, actuarial collaboration on the loss model, and regulatory guidance on the MGA structure.
+**What we need:**
+- £15M capacity scaling to £150M+ by Year 3
+- Actuarial collaboration on loss model calibration
+- Regulatory guidance on MGA/DA structure
+- Optional: equity participation in underwriting entity
 
 ---
 
@@ -279,7 +293,7 @@ The Exchange defines four threat categories:
 3. **Runtime application threats** — unauthorized access, privilege escalation. Our sandbox, firewall, and gateway checks cover this.
 4. **Agentic AI threats** — specific to autonomous agents (tool misuse, cascading failures, trust boundary violations). Both tiers address these through attestation and behavioural scoring.
 
-When Sam asks "what standard are you checking against?" — it's OWASP AI Exchange + ISO/IEC 27090. Not something we invented.
+Foundation-level adoption of OWASP standards means every agent platform can implement compatible attestation. Standards-based interoperability accelerates market adoption.
 
 Reference: [owaspai.org](https://owaspai.org)
 
@@ -340,4 +354,4 @@ Agent CLWD-3F8B0233 has been running daily attestations since February 2026. All
 
 **Prepared by:** Kryptoplus Labs (krypto.plus)  
 **Contact:** markmusson@gmail.com  
-**February 2026**
+**Updated:** February 16, 2026

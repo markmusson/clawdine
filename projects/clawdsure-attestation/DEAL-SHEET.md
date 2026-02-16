@@ -8,6 +8,8 @@
 
 No insurance product covers the adversarial security risks of autonomous AI agents. The January 2026 Verisk ISO exclusion forms are stripping AI coverage from standard policies. 40,000+ agent instances are exposed, 9,000+ already compromised. The protection gap is widening at the exact moment the threat has materialised.
 
+OpenAI just acqui-hired the OpenClaw creator. The framework transitions to foundation governance with OpenAI as sponsor. VCs are funding OpenClaw builders live on podcasts ($250K termsheets, YC terms). The ecosystem is professionalizing at speed — from hobbyists to funded companies deploying production agents. Nobody is insuring any of it.
+
 **Category:** New asset class (agent security), not cyber liability  
 **Analogy:** Motor telematics (1996–present), software-only from Day 1  
 **Domain:** causal.insure
@@ -86,12 +88,13 @@ No insurance product covers the adversarial security risks of autonomous AI agen
 | **Fronting fee** | 7.5% (if fronting required) | 5% |
 | **Reinsurer participation** | 1 lead | 2–3 panel |
 
-**Lead reinsurer ask:** £5M capacity, Year 1, with co-development support on risk models.
+**Lead reinsurer requirements:** £5M initial capacity, co-development support on risk models and attestation-to-pricing integration.
 
-**Preferred partners:**
-1. **Greenlight Re Innovations** — equity + capacity model, Lloyd's Syndicate 3456, AI/IoT focus
-2. **Munich Re** — aiSure pedigree, Insurtech Programs team, Innovation Syndicate at Lloyd's
-3. **Swiss Re** — parametric expertise, API-automated claims, $40B+ balance sheet
+**Target reinsurer profile:**
+- Lloyd's syndicate or specialty reinsurer with parametric/telematics experience
+- AI/IoT innovation mandate or emerging risk appetite
+- Capacity for £15M+ by Year 3 with XOL layering above £5M per event
+- Regulatory guidance capability for MGA structure
 
 ---
 
@@ -119,10 +122,10 @@ No insurance product covers the adversarial security risks of autonomous AI agen
 |---|---|---|---|
 | **FCA AI Live Testing** (Cohort 2, open now) | 6–12 months | Sandbox waivers, regulatory guidance, 50% more likely to raise funding | Competitive application |
 | **Lloyd's Product Launchpad** | 12–18 months | £150M capacity, ICX innovation class, credibility | Lloyd's process overhead |
-| **Delegated Authority** (via Greenlight or partner) | 3–6 months | Fastest to market, uses partner's regulatory wrapper | Revenue share, less control |
-| **Daren McCauley's regulated entity** | 1–3 months | Existing authorisation, actuary-led | Scope limitations TBD |
+| **Delegated Authority** (via lead reinsurer) | 3–6 months | Fastest to market, uses partner's regulatory wrapper | Revenue share, less control |
+| **Independent MGA + fronting partner** | 3–6 months | Full control, scalable structure | FCA authorisation required or DA arrangement |
 
-**Recommended:** Dual-track — Daren's entity for immediate Tier 1 launch + FCA sandbox application for long-term independence.
+**Recommended:** Delegated Authority with lead reinsurer for immediate Tier 1 launch, parallel FCA sandbox application for independence by Year 2.
 
 ---
 
@@ -145,26 +148,27 @@ No insurance product covers the adversarial security risks of autonomous AI agen
 
 | Date | Milestone |
 |---|---|
-| **Feb 2026** | Architecture spec complete, deal sheet, Sam Clifton lunch |
-| **Mar 2026** | Daren McCauley engagement, regulatory pathway decision |
+| **Feb 2026** | Architecture spec complete, deal sheet, foundation structure confirmed |
+| **Mar 2026** | Lead reinsurer engagement, regulatory pathway decision |
 | **Q2 2026** | FCA sandbox application OR DA agreement signed |
 | **H2 2026** | Tier 1 launch (beta), first policies bound |
-| **Q1 2027** | Tier 2 launch, second reinsurer onboarded |
+| **Q1 2027** | Tier 2 launch, second reinsurer onboarded, embedded distribution via OpenClaw Foundation |
 | **H2 2027** | £3M+ GWP, GENIUS Act stablecoin option live |
 
 ---
 
 ## The Ask
 
-**For Sam Clifton (Greenlight Re):**
-- £5M initial capacity via Syndicate 3456
-- Co-development on risk models (attestation data → pricing)
-- Equity participation option (GRI model)
+**For Lead Reinsurer:**
+- £5M initial capacity, scaling to £15M+ by Year 3
+- Co-development on risk models (attestation data → actuarial pricing)
+- Delegated Authority arrangement for immediate market entry
+- Optional: equity participation in MGA structure
 
-**For Daren McCauley:**
-- Regulatory wrapper for immediate Tier 1 launch
-- Actuarial modelling partnership
-- Potential DA holder for Causal product
+**For Regulatory Partner:**
+- FCA-authorised entity for product binding (DA holder or fronting arrangement)
+- Actuarial modelling collaboration on loss ratios and reserve adequacy
+- Regulatory guidance on parametric trigger structures and cross-border expansion
 
 ---
 

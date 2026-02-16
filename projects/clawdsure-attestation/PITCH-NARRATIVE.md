@@ -68,31 +68,34 @@ This is the data layer that makes AI agent insurance possible.
 
 At even 10,000 agents (a fraction of the market), that's $1.2M-$3M annual premium at basic/pro mix. The market is growing 10x year-over-year.
 
-### 5. Why Greenlight Re (1 min)
+### 5. Why Now (1 min)
 
-We don't want to build an insurance company. We want to build the risk intelligence layer and partner with someone who knows how to deploy capacity.
+Three things happened in the last week that changed everything:
 
-Greenlight Re is the right partner because:
+**OpenAI acqui-hired the OpenClaw creator.** Peter Steinberger is joining OpenAI. OpenClaw moves to a foundation. OpenAI sponsors. His stated mission: "build an agent that even my mum can use." This is mass-market distribution coming. The 2 million agents today become 20 million within 18 months.
 
-1. **You understand new risk pools.** This isn't another cyber product — it's a new asset class. AI agent operational risk doesn't fit neatly into existing cyber policies. It needs fresh thinking.
+**VCs are funding OpenClaw builders live on podcasts.** Jason Calacanis is doing $250K termsheets on This Week in Startups. Standard YC deal. Every funded startup is professionalizing — going from hobbyist to production deployment. Every production deployment needs insurance.
 
-2. **Capacity + capital.** We need reinsurance capacity to backstop the product and investment to build the platform. Greenlight does both.
+**Foundation structure is better for us than a company.** Neutral governance means attestation can be embedded at protocol level, not sold as a product. Insurance becomes platform infrastructure. Distribution without a sales team. This is the telematics black box fitted at the factory, not retrofitted after purchase.
 
-3. **Speed.** The window is open now. Every month without an insurance product is a month where the market is training itself that AI agents are uninsurable. First mover sets the standard.
+The window is six months. After that, someone else will have figured this out.
 
 ### 6. What We're Asking For (1 min)
 
-**Design partnership.** Work together on:
-- Loss model calibration (we have the data, you have the actuarial expertise)
-- Coverage structure and exclusions
-- Capacity commitment for launch
-- Optional: seed investment to accelerate platform build
+**Capacity + co-development.**
+
+£5M initial capacity. Quota share structure. You get continuous risk data nobody else has — every policy generates attestation data that improves the actuarial model. By Year 2, the dataset is unreplicable. Same dynamic as Progressive's 14 billion miles.
+
+Work together on loss model calibration. We have the telemetry. You have the actuarial expertise. Build the pricing engine together.
 
 **Timeline:**
-- Relay API (attestation infrastructure): live this month
+- Attestation infrastructure: live now
 - Verification dashboard: March
-- First policies bound: Q2 2026
-- We've been running our own attestation chain for 10 days. All PASS. The system works.
+- DA agreement: Q2 2026
+- First policies bound: H2 2026
+- Embedded distribution via foundation: Q1 2027
+
+We've been running our own attestation chain for 10 days. All PASS. The system works. This is production, not a prototype.
 
 ---
 
