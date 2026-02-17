@@ -1,5 +1,5 @@
 {
-  "total_trades": 471,
+  "total_trades": 474,
   "wins": 119,
   "losses": 342,
   "pending": {
@@ -112,6 +112,39 @@
       "close_time": "2026-02-18T22:00:00Z",
       "timestamp": "2026-02-17T21:00:57.446666+00:00",
       "hour": 21
+    },
+    "KXBTC-26FEB1817-B67250": {
+      "ticker": "KXBTC-26FEB1817-B67250",
+      "direction": "YES",
+      "entry_price": 15,
+      "subtitle": "$67,000 to 67,499.99",
+      "btc_at_entry": 67490,
+      "event_key": "26FEB1817",
+      "close_time": "2026-02-18T22:00:00Z",
+      "timestamp": "2026-02-17T23:02:48.458417+00:00",
+      "hour": 23
+    },
+    "KXBTC-26FEB1719-B67625": {
+      "ticker": "KXBTC-26FEB1719-B67625",
+      "direction": "YES",
+      "entry_price": 35,
+      "subtitle": "$67,500 to 67,749.99",
+      "btc_at_entry": 67500,
+      "event_key": "26FEB1719",
+      "close_time": "2026-02-18T00:00:00Z",
+      "timestamp": "2026-02-17T23:07:57.108938+00:00",
+      "hour": 23
+    },
+    "KXBTC-26FEB1719-B67375": {
+      "ticker": "KXBTC-26FEB1719-B67375",
+      "direction": "YES",
+      "entry_price": 37,
+      "subtitle": "$67,250 to 67,499.99",
+      "btc_at_entry": 67490,
+      "event_key": "26FEB1719",
+      "close_time": "2026-02-18T00:00:00Z",
+      "timestamp": "2026-02-17T23:18:12.170100+00:00",
+      "hour": 23
     }
   },
   "by_hour": {
