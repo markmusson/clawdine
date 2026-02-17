@@ -1,0 +1,6 @@
+# Capability Log
+# Format: [DATE] ACTION: description | STATUS: works/broken | NOTES: details
+
+[2026-02-17] DISCOVERED: clawmail.py | STATUS: works | NOTES: sent Causal note to Mark
+[2026-02-17] DISCOVERED: gog gmail | STATUS: broken | NOTES: no tokens stored
+[2026-02-17] SETUP: qmd-daily-embed cron | STATUS: works | NOTES: 05:00 daily, no force flag

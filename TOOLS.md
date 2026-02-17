@@ -65,3 +65,23 @@ Retrieve: `security find-generic-password -a clawdine -s "quicknode-polygon" -w`
 - Also `--slides` mode for visual summaries
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+---
+
+## CAPABILITIES (always check before saying "I can't")
+
+### Email
+- **USE THIS**: `python3 scripts/clawmail.py send <to> <subject> <body>`
+- From: clawdine@agentmail.to
+- API key: `.credentials/agentmail-api-key`
+- gog/Gmail: NOT CONFIGURED
+
+### Memory
+- qmd: semantic search (daily embed 05:00)
+- clawvault: primitives, checkpoint
+
+### Voice Corrections
+- When flagged: append to `skills/my-voice/references/corrections.log`
+- Rules: `skills/my-voice/references/rules.md`
+
+*Full capability scan: read `skills/self-model/SKILL.md`*
