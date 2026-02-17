@@ -1,7 +1,7 @@
 {
-  "total_trades": 455,
-  "wins": 114,
-  "losses": 324,
+  "total_trades": 457,
+  "wins": 115,
+  "losses": 326,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -135,39 +135,6 @@
       "timestamp": "2026-02-17T10:53:36.899775+00:00",
       "hour": 10
     },
-    "KXBTC-26FEB1710-B68125": {
-      "ticker": "KXBTC-26FEB1710-B68125",
-      "direction": "YES",
-      "entry_price": 26,
-      "subtitle": "$68,000 to 68,249.99",
-      "btc_at_entry": 68093,
-      "event_key": "26FEB1710",
-      "close_time": "2026-02-17T15:00:00Z",
-      "timestamp": "2026-02-17T14:04:32.063149+00:00",
-      "hour": 14
-    },
-    "KXBTC-26FEB1710-B67625": {
-      "ticker": "KXBTC-26FEB1710-B67625",
-      "direction": "YES",
-      "entry_price": 22,
-      "subtitle": "$67,500 to 67,749.99",
-      "btc_at_entry": 67605,
-      "event_key": "26FEB1710",
-      "close_time": "2026-02-17T15:00:00Z",
-      "timestamp": "2026-02-17T14:41:30.916855+00:00",
-      "hour": 14
-    },
-    "KXBTC-26FEB1710-B66875": {
-      "ticker": "KXBTC-26FEB1710-B66875",
-      "direction": "YES",
-      "entry_price": 29,
-      "subtitle": "$66,750 to 66,999.99",
-      "btc_at_entry": 66923,
-      "event_key": "26FEB1710",
-      "close_time": "2026-02-17T15:00:00Z",
-      "timestamp": "2026-02-17T14:47:39.336656+00:00",
-      "hour": 14
-    },
     "KXBTC-26FEB1717-B67000": {
       "ticker": "KXBTC-26FEB1717-B67000",
       "direction": "YES",
@@ -189,6 +156,28 @@
       "close_time": "2026-02-20T22:00:00Z",
       "timestamp": "2026-02-17T14:47:39.344668+00:00",
       "hour": 14
+    },
+    "KXBTC-26FEB1711-B67125": {
+      "ticker": "KXBTC-26FEB1711-B67125",
+      "direction": "YES",
+      "entry_price": 18,
+      "subtitle": "$67,000 to 67,249.99",
+      "btc_at_entry": 67023,
+      "event_key": "26FEB1711",
+      "close_time": "2026-02-17T16:00:00Z",
+      "timestamp": "2026-02-17T15:08:32.196703+00:00",
+      "hour": 15
+    },
+    "KXBTC-26FEB1711-B66875": {
+      "ticker": "KXBTC-26FEB1711-B66875",
+      "direction": "YES",
+      "entry_price": 21,
+      "subtitle": "$66,750 to 66,999.99",
+      "btc_at_entry": 66976,
+      "event_key": "26FEB1711",
+      "close_time": "2026-02-17T16:00:00Z",
+      "timestamp": "2026-02-17T15:13:42.785745+00:00",
+      "hour": 15
     }
   },
   "by_hour": {
@@ -223,10 +212,10 @@
       "pnl": -8
     },
     "14": {
-      "trades": 32,
-      "wins": 6,
-      "losses": 26,
-      "pnl": -92
+      "trades": 35,
+      "wins": 7,
+      "losses": 28,
+      "pnl": -69
     },
     "15": {
       "trades": 34,
@@ -337,5 +326,5 @@
       "pnl": 0
     }
   },
-  "total_pnl": -486
+  "total_pnl": -463
 }
