@@ -34,8 +34,8 @@
       "installedAt": 1770744325744
     },
     "clawvault": {
-      "version": "2.0.4",
-      "installedAt": 1771057540172
+      "version": "2.5.13",
+      "installedAt": 1771313176631
     },
     "clawsec-suite": {
       "version": "0.0.10",
@@ -44,6 +44,10 @@
     "grok": {
       "version": "1.0.3",
       "installedAt": 1771170233865
+    },
+    "agent-autonomy-primitives": {
+      "version": "1.0.0",
+      "installedAt": 1771313182810
     }
   }
 }

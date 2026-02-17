@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "vaultPath": "/Users/clawdine/.openclaw/workspace/vault",
-  "generatedAt": "2026-02-14T08:30:46.497Z",
+  "generatedAt": "2026-02-17T07:40:12.317Z",
   "files": {
     "commitments/andrew-dsouza-follow-up.md": {
       "relativePath": "commitments/andrew-dsouza-follow-up.md",
@@ -744,7 +744,7 @@
     },
     "people/sam-clifton.md": {
       "relativePath": "people/sam-clifton.md",
-      "mtimeMs": 1771057792948.9163,
+      "mtimeMs": 1771230755076.055,
       "nodes": [
         {
           "id": "note:people/sam-clifton",
@@ -755,7 +755,7 @@
           "tags": [],
           "missing": false,
           "degree": 0,
-          "modifiedAt": "2026-02-14T08:29:52.948Z"
+          "modifiedAt": "2026-02-16T08:32:35.076Z"
         }
       ],
       "edges": []
@@ -1428,7 +1428,7 @@
         "tags": [],
         "missing": false,
         "degree": 0,
-        "modifiedAt": "2026-02-14T08:29:52.948Z"
+        "modifiedAt": "2026-02-16T08:32:35.076Z"
       },
       {
         "id": "note:preferences/no-code-writing",
@@ -1628,7 +1628,7 @@
       }
     ],
     "stats": {
-      "generatedAt": "2026-02-14T08:30:46.497Z",
+      "generatedAt": "2026-02-17T07:40:12.317Z",
       "nodeCount": 55,
       "edgeCount": 3,
       "nodeTypeCounts": {

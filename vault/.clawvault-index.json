@@ -148,6 +148,21 @@
       "modified": "2026-02-14T08:24:20.797Z"
     },
     {
+      "id": "preferences/no-code-writing",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/preferences/no-code-writing.md",
+      "category": "preferences",
+      "title": "No code writing",
+      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan for unlimited builds. Expensive work through those, not my API tokens.\n",
+      "frontmatter": {
+        "title": "No code writing",
+        "date": "2026-02-14",
+        "memoryType": "preference"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:18.697Z"
+    },
+    {
       "id": "projects/roundy",
       "path": "/Users/clawdine/.openclaw/workspace/vault/projects/roundy.md",
       "category": "projects",
@@ -208,26 +223,11 @@
       "modified": "2026-02-14T08:30:42.240Z"
     },
     {
-      "id": "preferences/no-code-writing",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/preferences/no-code-writing.md",
-      "category": "preferences",
-      "title": "No code writing",
-      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan for unlimited builds. Expensive work through those, not my API tokens.\n",
-      "frontmatter": {
-        "title": "No code writing",
-        "date": "2026-02-14",
-        "memoryType": "preference"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:25:18.697Z"
-    },
-    {
       "id": "people/sam-clifton",
       "path": "/Users/clawdine/.openclaw/workspace/vault/people/sam-clifton.md",
       "category": "people",
       "title": "Sam Clifton",
-      "content": "Greenlight Re. Reinsurer. Risk capital/capacity, Lloyd's syndicate. Very keen to hear more (replied Feb 12). Lunch being scheduled. Provided key product positioning feedback Feb 14: not cyber, two capped tiers, exclude enterprise, Linux in 1994 framing.\n",
+      "content": "Greenlight Re. Reinsurer. Risk capital/capacity, Lloyd's syndicate. Very keen to hear more (replied Feb 12). Lunch being scheduled. Provided key product positioning feedback Feb 14: not cyber, two capped tiers, exclude enterprise, Linux in 1994 framing.\n\n## Feb 13 Beers — Key Takeaways\n- Positioning advice: two tiers, not enterprise cyber. B2C parametric + SME capped.\n- \"Day 1 like Linux 1994\" story arc for underwriters who don't know the tech.\n- Uses Sonnet 4.5 personally — reviewing CLN conversion clauses on phone at pub.\n- Engaged enough to co-design GTM. Not just polite interest.\n- Called Clawdine \"fancy Apache Airflow\" — sees orchestration, skeptical on intelligence.\n- Next: Mark needs internal Causal design work before scheduling formal follow-up.\n",
       "frontmatter": {
         "title": "Sam Clifton",
         "date": "2026-02-14",
@@ -235,7 +235,7 @@
       },
       "links": [],
       "tags": [],
-      "modified": "2026-02-14T08:29:52.949Z"
+      "modified": "2026-02-16T08:32:35.076Z"
     },
     {
       "id": "people/peter-steinberger",
@@ -416,6 +416,147 @@
       "links": [],
       "tags": [],
       "modified": "2026-02-14T08:29:24.059Z"
+    },
+    {
+      "id": "decisions/priority-stack",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/priority-stack.md",
+      "category": "decisions",
+      "title": "Priority stack",
+      "content": "1. ClawdSure (unique moat, time-sensitive) 2. Roundy (paying customers, potential 2m exit) 3. Trading (ambient, prove by Feb 19) 4. Nightjar (cash cow, runs itself) 5. LinkedIn (30 min/day, building narrative for ClawdSure stealth drop)\n",
+      "frontmatter": {
+        "title": "Priority stack",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.671Z"
+    },
+    {
+      "id": "decisions/operating-model-chief-of-staff",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/operating-model-chief-of-staff.md",
+      "category": "decisions",
+      "title": "Operating model: chief of staff",
+      "content": "I am chief of staff, not chatbot. Track commitments, nudge deadlines, filter noise. Systems: ref/COMMITMENTS.md for open loops, ref/IDEAS.md as shiny object parking lot (7-day buffer), morning brief cron at 8am daily (Haiku). I nudge proactively when commitments drift. Permission granted.\n",
+      "frontmatter": {
+        "title": "Operating model: chief of staff",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.535Z"
+    },
+    {
+      "id": "decisions/dont-touch-code",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-touch-code.md",
+      "category": "decisions",
+      "title": "Don't touch code",
+      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan (200/mo unlimited). Got caught rewriting weather trading codebase on Feb 9-10 instead of flagging for Claude Code. Never again.\n",
+      "frontmatter": {
+        "title": "Don't touch code",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.812Z"
+    },
+    {
+      "id": "decisions/dont-relay-between-ais",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-relay-between-ais.md",
+      "category": "decisions",
+      "title": "Don't relay between AIs",
+      "content": "Mark writes brief → I write spec → Claude Code builds → I verify → Mark gets done message. His time is for decisions, not execution.\n",
+      "frontmatter": {
+        "title": "Don't relay between AIs",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:29:36.949Z"
+    },
+    {
+      "id": "decisions/causal-product-positioning",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/causal-product-positioning.md",
+      "category": "decisions",
+      "title": "Causal product positioning",
+      "content": "CRITICAL — From Sam Clifton Feb 14. NOT cyber insurance. Two tiers both capped. Tier 1: parametric B2C £50/yr £500 cap (gadget insurance). Tier 2: SME £5K/yr £25K cap (fleet telematics). Exclude enterprise. Linux in 1994 framing. Evidence-based mechanism pitched as parametric-like. Two paths to market: Greenlight Re or Daren McCauley regulated entity.\n",
+      "frontmatter": {
+        "title": "Causal product positioning",
+        "date": "2026-02-14",
+        "memoryType": "decision"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:25:04.288Z"
+    },
+    {
+      "id": "inbox/welcome",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/inbox/welcome.md",
+      "category": "inbox",
+      "title": "Welcome to vault",
+      "content": "\n# Welcome to vault\n\nYour vault is ready. Here's what you can do:\n\n## Quick Start\n\n- **Capture a thought:** `clawvault capture \"your note here\"`\n- **Store structured memory:** `clawvault store --category decisions --title \"My Choice\" --content \"...\"`\n- **Search your vault:** `clawvault search \"query\"`\n- **See your knowledge graph:** `clawvault graph`\n- **Get context for a topic:** `clawvault context \"topic\"`\n\n## Vault Structure\n\nYour vault organizes memories by type — decisions, lessons, people, projects, and more.\nEach category is a folder. Each memory is a markdown file with frontmatter.\n\n## Observational Memory\n\nWhen connected to an AI agent (like OpenClaw), your vault can automatically observe\nconversations and extract important memories — decisions, lessons, commitments — without\nmanual effort.\n\n## Wiki-Links\n\nUse `[[double brackets]]` to link between notes. Your memory graph tracks these\nconnections, building a knowledge network that grows with you.\n\n---\n\n*Delete this file anytime. It's just here to say hello.*\n",
+      "frontmatter": {
+        "title": "Welcome to vault",
+        "date": "2026-02-14T00:00:00.000Z",
+        "type": "fact",
+        "tags": [
+          "welcome",
+          "getting-started"
+        ]
+      },
+      "links": [
+        "double brackets"
+      ],
+      "tags": [],
+      "modified": "2026-02-14T08:24:20.802Z"
+    },
+    {
+      "id": "commitments/git-backup-repo",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/git-backup-repo.md",
+      "category": "commitments",
+      "title": "Git backup repo",
+      "content": "CRITICAL — Currently ZERO backups of workspace. Mark needs to create GitHub repo. Keep nudging.\n",
+      "frontmatter": {
+        "title": "Git backup repo",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.139Z"
+    },
+    {
+      "id": "commitments/clawdsure-relay-api-build",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/clawdsure-relay-api-build.md",
+      "category": "commitments",
+      "title": "ClawdSure relay API build",
+      "content": "Spec exists at skills/clawdsure/docs/relay-api.md. Due Feb 14. Not started. Needs Claude Code to build.\n",
+      "frontmatter": {
+        "title": "ClawdSure relay API build",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.282Z"
+    },
+    {
+      "id": "commitments/andrew-dsouza-follow-up",
+      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/andrew-dsouza-follow-up.md",
+      "category": "commitments",
+      "title": "Andrew DSouza follow-up",
+      "content": "Draft email needed for Andrew DSouza (Boardy/Clearco, Ontario/EST). Roundy x Boardy alignment call. On Mark's list but hasn't sent yet.\n",
+      "frontmatter": {
+        "title": "Andrew DSouza follow-up",
+        "date": "2026-02-14",
+        "memoryType": "commitment"
+      },
+      "links": [],
+      "tags": [],
+      "modified": "2026-02-14T08:30:21.000Z"
     },
     {
       "id": "facts/trading-portfolio-feb-14",
@@ -671,147 +812,6 @@
       "links": [],
       "tags": [],
       "modified": "2026-02-14T08:24:46.972Z"
-    },
-    {
-      "id": "inbox/welcome",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/inbox/welcome.md",
-      "category": "inbox",
-      "title": "Welcome to vault",
-      "content": "\n# Welcome to vault\n\nYour vault is ready. Here's what you can do:\n\n## Quick Start\n\n- **Capture a thought:** `clawvault capture \"your note here\"`\n- **Store structured memory:** `clawvault store --category decisions --title \"My Choice\" --content \"...\"`\n- **Search your vault:** `clawvault search \"query\"`\n- **See your knowledge graph:** `clawvault graph`\n- **Get context for a topic:** `clawvault context \"topic\"`\n\n## Vault Structure\n\nYour vault organizes memories by type — decisions, lessons, people, projects, and more.\nEach category is a folder. Each memory is a markdown file with frontmatter.\n\n## Observational Memory\n\nWhen connected to an AI agent (like OpenClaw), your vault can automatically observe\nconversations and extract important memories — decisions, lessons, commitments — without\nmanual effort.\n\n## Wiki-Links\n\nUse `[[double brackets]]` to link between notes. Your memory graph tracks these\nconnections, building a knowledge network that grows with you.\n\n---\n\n*Delete this file anytime. It's just here to say hello.*\n",
-      "frontmatter": {
-        "title": "Welcome to vault",
-        "date": "2026-02-14T00:00:00.000Z",
-        "type": "fact",
-        "tags": [
-          "welcome",
-          "getting-started"
-        ]
-      },
-      "links": [
-        "double brackets"
-      ],
-      "tags": [],
-      "modified": "2026-02-14T08:24:20.802Z"
-    },
-    {
-      "id": "commitments/git-backup-repo",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/git-backup-repo.md",
-      "category": "commitments",
-      "title": "Git backup repo",
-      "content": "CRITICAL — Currently ZERO backups of workspace. Mark needs to create GitHub repo. Keep nudging.\n",
-      "frontmatter": {
-        "title": "Git backup repo",
-        "date": "2026-02-14",
-        "memoryType": "commitment"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:30:21.139Z"
-    },
-    {
-      "id": "commitments/clawdsure-relay-api-build",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/clawdsure-relay-api-build.md",
-      "category": "commitments",
-      "title": "ClawdSure relay API build",
-      "content": "Spec exists at skills/clawdsure/docs/relay-api.md. Due Feb 14. Not started. Needs Claude Code to build.\n",
-      "frontmatter": {
-        "title": "ClawdSure relay API build",
-        "date": "2026-02-14",
-        "memoryType": "commitment"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:30:21.282Z"
-    },
-    {
-      "id": "commitments/andrew-dsouza-follow-up",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/commitments/andrew-dsouza-follow-up.md",
-      "category": "commitments",
-      "title": "Andrew DSouza follow-up",
-      "content": "Draft email needed for Andrew DSouza (Boardy/Clearco, Ontario/EST). Roundy x Boardy alignment call. On Mark's list but hasn't sent yet.\n",
-      "frontmatter": {
-        "title": "Andrew DSouza follow-up",
-        "date": "2026-02-14",
-        "memoryType": "commitment"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:30:21.000Z"
-    },
-    {
-      "id": "decisions/priority-stack",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/priority-stack.md",
-      "category": "decisions",
-      "title": "Priority stack",
-      "content": "1. ClawdSure (unique moat, time-sensitive) 2. Roundy (paying customers, potential 2m exit) 3. Trading (ambient, prove by Feb 19) 4. Nightjar (cash cow, runs itself) 5. LinkedIn (30 min/day, building narrative for ClawdSure stealth drop)\n",
-      "frontmatter": {
-        "title": "Priority stack",
-        "date": "2026-02-14",
-        "memoryType": "decision"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:29:36.671Z"
-    },
-    {
-      "id": "decisions/operating-model-chief-of-staff",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/operating-model-chief-of-staff.md",
-      "category": "decisions",
-      "title": "Operating model: chief of staff",
-      "content": "I am chief of staff, not chatbot. Track commitments, nudge deadlines, filter noise. Systems: ref/COMMITMENTS.md for open loops, ref/IDEAS.md as shiny object parking lot (7-day buffer), morning brief cron at 8am daily (Haiku). I nudge proactively when commitments drift. Permission granted.\n",
-      "frontmatter": {
-        "title": "Operating model: chief of staff",
-        "date": "2026-02-14",
-        "memoryType": "decision"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:29:36.535Z"
-    },
-    {
-      "id": "decisions/dont-touch-code",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-touch-code.md",
-      "category": "decisions",
-      "title": "Don't touch code",
-      "content": "I flag, spec, monitor, report. Claude Code and Cowork build. Mark has Claude Max plan (200/mo unlimited). Got caught rewriting weather trading codebase on Feb 9-10 instead of flagging for Claude Code. Never again.\n",
-      "frontmatter": {
-        "title": "Don't touch code",
-        "date": "2026-02-14",
-        "memoryType": "decision"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:29:36.812Z"
-    },
-    {
-      "id": "decisions/dont-relay-between-ais",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/dont-relay-between-ais.md",
-      "category": "decisions",
-      "title": "Don't relay between AIs",
-      "content": "Mark writes brief → I write spec → Claude Code builds → I verify → Mark gets done message. His time is for decisions, not execution.\n",
-      "frontmatter": {
-        "title": "Don't relay between AIs",
-        "date": "2026-02-14",
-        "memoryType": "decision"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:29:36.949Z"
-    },
-    {
-      "id": "decisions/causal-product-positioning",
-      "path": "/Users/clawdine/.openclaw/workspace/vault/decisions/causal-product-positioning.md",
-      "category": "decisions",
-      "title": "Causal product positioning",
-      "content": "CRITICAL — From Sam Clifton Feb 14. NOT cyber insurance. Two tiers both capped. Tier 1: parametric B2C £50/yr £500 cap (gadget insurance). Tier 2: SME £5K/yr £25K cap (fleet telematics). Exclude enterprise. Linux in 1994 framing. Evidence-based mechanism pitched as parametric-like. Two paths to market: Greenlight Re or Daren McCauley regulated entity.\n",
-      "frontmatter": {
-        "title": "Causal product positioning",
-        "date": "2026-02-14",
-        "memoryType": "decision"
-      },
-      "links": [],
-      "tags": [],
-      "modified": "2026-02-14T08:25:04.288Z"
     }
   ]
 }
