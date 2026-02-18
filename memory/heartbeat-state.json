@@ -5,7 +5,7 @@
     "weather": null
   },
   "contextAlert": {
-    "lastAlertPct": 0,
-    "lastAlertTs": null
+    "lastAlertPct": 50,
+    "lastAlertTs": "2026-02-18T09:14:57Z"
   }
 }
