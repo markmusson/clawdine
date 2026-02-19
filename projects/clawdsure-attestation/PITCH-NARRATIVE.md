@@ -1,123 +1,111 @@
-# ClawdSure — Pitch Narrative for Greenlight Re
+# Causal — Pitch Narrative
 
-> **Audience:** Sam Clifton, Greenlight Re. Reinsurance capacity + investment capital.
-> **Setting:** Lunch at Olympic Studios, Barnes. Informal. 10-minute story, then conversation.
-> **Goal:** Design partner commitment. Greenlight provides capacity, ClawdSure provides the risk model.
+> **Audience:** Sam Clifton (Greenlight Re), Daren McCauley, senior partners
+> **Setting:** Informal lunch or intro call. 10-minute story, then conversation.
+> **Goal:** Design partner commitment. Risk capital + regulatory wrapper.
+
+---
+
+## The Opening Line
+
+"The AI stack is collapsing to four layers: infra, model, harness, knowledge. The harness is the surviving substrate. Nobody is underwriting it."
 
 ---
 
 ## The Story (10 minutes)
 
-### 1. The Problem (2 min)
+### 1. The Harness Thesis (2 min)
 
-There are now more AI agents running unsupervised than there are people managing them.
+Every serious observer of AI now agrees: the model is becoming a commodity. What matters is the harness — the runtime that gives the agent identity, memory, tools, and persistence across sessions.
 
-Every company deploying AI agents — from startups with a single bot to enterprises with hundreds — is running uninsured. Not because they don't want insurance, but because nobody knows how to underwrite it. The agents have root access, API keys, can send emails, move money, deploy code. When something goes wrong — and it does, daily — there's no safety net.
+LangChain proved this empirically two days ago. Same model. Same tasks. They changed only the harness. Their coding agent went from Top 30 to Top 5 on the industry benchmark. +13.7 points. Zero model changes.
 
-This isn't theoretical. Two weeks ago, a supply chain attack hit the largest AI agent skill marketplace. Top downloaded skill was a malware delivery vehicle. Fake dependency, staging page, obfuscated payload, binary download with quarantine stripping. Thousands of agents potentially compromised. No insurance policy on the planet covers that today.
+OpenClaw and Claude Code are the early signals of what harness infrastructure looks like at scale. The harness is where the agent lives. It's persistent. It controls credentials, tool access, communication channels. It makes decisions.
 
-The market for AI agent operations is growing exponentially. The market for AI agent insurance is zero. That gap is the opportunity.
+And it's under active attack.
 
-### 2. Why Insurance Can't Underwrite This Today (1 min)
+### 2. The Attack Surface (2 min)
 
-Traditional cyber insurance relies on questionnaires. "Do you have a firewall? Do you patch regularly?" Self-reported, verified annually, gamed constantly. The loss ratios in cyber are already terrible because the data is garbage.
+The harness is the gap in the security stack.
 
-AI agents are worse. They change configuration daily. They install new capabilities. They operate autonomously. A questionnaire from January is worthless by February. There's no telematics. No continuous signal. No way to distinguish a hardened agent from a compromised one.
+Two weeks ago: 1,184 malicious skills injected into ClawHub — the main AI agent skill marketplace. Data theft and backdoor payloads. Multiple coordinated threat actors. Thousands of agents potentially compromised. No insurance policy on the planet covers that today.
 
-Without continuous, verifiable risk data, you can't price the risk. And if you can't price it, you can't insure it.
+OWASP published their Top 10 for Agentic Applications in December. The top risks are all harness-layer: supply chain compromise, rogue agents, identity abuse, memory poisoning. The threat model has been formally documented. The insurance product hasn't been built.
 
-### 3. ClawdSure: Telematics for AI Agents (3 min)
+CVE count for OpenClaw alone in 2026: 16 tracked vulnerabilities, 9 critical currently unpatched. This is not theoretical.
 
-We built the telematics box.
+### 3. The Insurance Gap (1 min)
 
-Think of it like the black box in a car — the one that proved you weren't speeding when someone hit you. Except it's for AI agents, and it runs continuously.
+You can't insure workflows — they're disposable.
+You can't insure models — Anthropic carries that risk.
+You can't insure infra — AWS does.
 
-**How it works:**
+The harness is the gap. That's where credentials live. That's where damage happens. That's where the liability lands.
 
-Every day, the agent runs a security audit — 19 automated checks across filesystem permissions, network exposure, firewall status, skill integrity, sandbox configuration. The results get cryptographically signed with the agent's private key, hash-linked to the previous day's attestation, and published to an immutable ledger.
+Current AI agent insurance coverage: approximately zero. The market for AI agent operations is growing 10x year-over-year. The insurance market hasn't started.
 
-The chain is tamper-evident. Modify any entry and every subsequent hash breaks. Miss a day and there's a 48-hour grace period. Miss two days and the chain breaks. The chain is the evidence.
+### 4. Causal: Telematics for the Harness Layer (3 min)
 
-**What this gives an underwriter:**
+We built the telematics black box.
 
+Every day, the agent runs a security audit — 19 automated checks across filesystem permissions, network exposure, firewall state, skill integrity, execution sandbox configuration. Results are cryptographically signed, hash-linked to the previous day, published to an immutable ledger on IPFS.
+
+The chain is tamper-evident. Modify any entry and every subsequent hash breaks. The chain is the evidence.
+
+What this gives an underwriter:
 - Continuous, machine-verified security posture — not self-reported, not annual
 - Tamper-evident audit trail — can't fake a clean record after an incident
-- Real-time risk signal — config drift, new vulnerabilities, chain gaps all visible
-- Claims verification — was the agent hardened at the time of the incident? Check the chain.
+- Real-time risk signal — config drift, skill changes, chain gaps all visible
+- Claims verification — was the agent hardened at incident time? Check the chain.
 
-This is the data layer that makes AI agent insurance possible.
+This is the data layer that makes harness insurance possible. The attestation chain is also a proprietary dataset — it compounds. Every policy generates more actuarial signal. By Year 2, it's unreplicable. Same dynamic as Progressive's 14 billion miles.
 
-### 4. The Product (2 min)
+### 5. The Product (1 min)
 
-**For agent operators:**
-- Install ClawdSure (one command)
-- Daily attestation runs automatically
-- Maintain an unbroken chain → qualify for coverage
-- Incident happens → file claim → chain verified → payout
+For agent operators: install Causal, maintain an unbroken chain, qualify for coverage.
 
-**For underwriters (Greenlight Re):**
-- Continuous risk data per agent, per day
-- Actuarial signal that improves with every attestation
-- Portfolio-level view across all insured agents
-- Parametric-style payout: chain intact at incident time = valid claim. No claims adjusters, no ambiguity.
-
-**Coverage tiers (initial):**
+Coverage tiers:
 - Basic: $500 incident coverage, $10/month
 - Pro: $2,500 coverage, $25/month
-- Enterprise: custom limits, custom pricing
+- Enterprise: custom limits
 
-At even 10,000 agents (a fraction of the market), that's $1.2M-$3M annual premium at basic/pro mix. The market is growing 10x year-over-year.
-
-### 5. Why Now (1 min)
-
-Three things happened in the last week that changed everything:
-
-**OpenAI acqui-hired the OpenClaw creator.** Peter Steinberger is joining OpenAI. OpenClaw moves to a foundation. OpenAI sponsors. His stated mission: "build an agent that even my mum can use." This is mass-market distribution coming. The 2 million agents today become 20 million within 18 months.
-
-**VCs are funding OpenClaw builders live on podcasts.** Jason Calacanis is doing $250K termsheets on This Week in Startups. Standard YC deal. Every funded startup is professionalizing — going from hobbyist to production deployment. Every production deployment needs insurance.
-
-**Foundation structure is better for us than a company.** Neutral governance means attestation can be embedded at protocol level, not sold as a product. Insurance becomes platform infrastructure. Distribution without a sales team. This is the telematics black box fitted at the factory, not retrofitted after purchase.
-
-The window is six months. After that, someone else will have figured this out.
+At 10,000 agents (a fraction of the 500K-2M in production today): $1.2M-$3M annual premium. Market growing 10x.
 
 ### 6. What We're Asking For (1 min)
 
 **Capacity + co-development.**
 
-£5M initial capacity. Quota share structure. You get continuous risk data nobody else has — every policy generates attestation data that improves the actuarial model. By Year 2, the dataset is unreplicable. Same dynamic as Progressive's 14 billion miles.
+Risk capital to back the first policies. Work together on loss model calibration — we have the telemetry, you have the actuarial expertise. DA agreement or regulatory wrapper to bind the first policies.
 
-Work together on loss model calibration. We have the telemetry. You have the actuarial expertise. Build the pricing engine together.
+Timeline: Attestation infrastructure live now. First policies: H2 2026.
 
-**Timeline:**
-- Attestation infrastructure: live now
-- Verification dashboard: March
-- DA agreement: Q2 2026
-- First policies bound: H2 2026
-- Embedded distribution via foundation: Q1 2027
+We've been running our own chain for 18 days. All PASS. This is production, not a prototype.
 
-We've been running our own attestation chain for 10 days. All PASS. The system works. This is production, not a prototype.
+---
+
+## The Moat
+
+Three things simultaneously that almost nobody else has:
+
+1. **Insurance domain expertise** — built and sold a dynamic motor pricing MGA to AON (£40m GWP). Ran data science at an insurer. Knows the actuarial value chain cold.
+2. **Harness-layer understanding** — active contributor to OpenClaw core. Running an agent (Clawdine) in production. Built Causal to insure the agent he runs himself.
+3. **Attestation data nobody else is collecting** — 18 consecutive days of proprietary risk data. The cold-start dataset that makes the loss model possible.
 
 ---
 
 ## Objection Handling
 
 **"The market is too early."**
-That's exactly why you want to be in now. The data advantage compounds. Every attestation we collect makes the loss model better. By the time the market is "ready," the early mover has 12 months of actuarial data nobody else has.
+That's exactly why you want to be in now. The data advantage compounds. By the time the market is "ready," the early mover has 18 months of actuarial data nobody can replicate.
 
-**"How do you prevent agents from gaming the attestation?"**
-The audit checks are machine-verified, not self-reported. Filesystem permissions are measured, not declared. The chain is cryptographically signed — you'd need the private key to forge an entry, and the private key never leaves the host. Config drift is detected automatically via hash fingerprinting.
-
-**"What's the loss model based on?"**
-Initially: the ClawHub supply chain audit (60%+ of marketplace skills had suspicious patterns), public AI incident data, and our own attestation history. The model improves with every policy — we're collecting the training data as we insure. This is the cold-start advantage.
+**"How do you prevent gaming?"**
+Machine-verified, not self-reported. Filesystem permissions are measured. The chain is cryptographically signed — you'd need the private key to forge it, and it never leaves the host.
 
 **"Isn't this just cyber insurance?"**
-No. Cyber insurance covers data breaches, ransomware, business interruption from network events. AI agent risk is operational — the agent itself causes the damage. It deploys bad code, sends unauthorized communications, leaks credentials, makes bad trades. The risk surface is fundamentally different. The telematics approach is different. The payout model is different.
-
-**"Why not just improve agent security instead of insuring the failures?"**
-Both. The attestation chain incentivises better security (you need a PASS to maintain coverage). The insurance covers residual risk that security alone can't eliminate. This is the same model as auto insurance — seatbelts and airbags reduce accidents, insurance covers the ones that still happen.
+No. Cyber covers data breaches and ransomware. AI agent risk is operational — the agent itself causes the damage. Deploys bad code, sends unauthorized communications, leaks credentials, makes bad trades. Different risk surface, different telematics approach, different payout model.
 
 **"What about regulatory?"**
-Parametric insurance has established regulatory frameworks. We're not inventing a new insurance structure — we're applying an existing one (parametric triggers) to a new risk class (AI agent operations). The attestation chain is the trigger mechanism. Greenlight Re's regulatory infrastructure handles the rest.
+Parametric insurance has established frameworks. We're applying a known structure (parametric triggers) to a new risk class. The attestation chain is the trigger. Your regulated entity handles the rest.
 
 ---
 
@@ -125,25 +113,28 @@ Parametric insurance has established regulatory frameworks. We're not inventing 
 
 | Metric | Value |
 |--------|-------|
-| AI agents in production (est. 2026) | 500K-2M+ |
-| Current insurance coverage for AI agents | ~0 |
-| ClawdSure attestation chain | 10 days, all PASS |
-| Avg. premium (basic) | $120/year |
-| Avg. premium (pro) | $300/year |
-| 10K agents at blended $200/year | $2M GWP |
-| 100K agents | $20M GWP |
-| ClawHub marketplace attack | Feb 5, 2026 — validated thesis |
-| Time to first policy (est.) | Q2 2026 |
-
-## Mark's Unfair Advantage
-
-- Built and sold a dynamic motor pricing MGA to AON (£40m GWP) — knows the insurance value chain cold
-- Ran a data science team at an insurer — built the actuarial models
-- Running an AI agent himself (Clawdine) — built ClawdSure to insure his own agent first
-- "Dogfooding" — the attestation chain was built because he needed it, not because he thought it would sell
-- Deep understanding of both sides: insurance underwriting AND AI agent operations
-- Almost nobody else on the planet has both
+| AI agents in production (est. 2026) | 500K–2M+ |
+| Current insurance coverage | ~0 |
+| Causal attestation chain | 18 days, all PASS |
+| LangChain benchmark lift (harness only) | +13.7 points, Top 30 → Top 5 |
+| ClawHub malicious skills (Feb 2026) | 1,184 confirmed |
+| OpenClaw CVEs (2026 YTD) | 16 tracked, 9 critical unpatched |
+| Avg. premium target | $120–300/year |
+| 10K agents at blended $200 | $2M GWP |
+| Time to first policy | H2 2026 |
 
 ---
 
-*Draft v1. Mark to review, tear apart, and tighten. The story should feel like a conversation, not a deck.*
+## Receipts
+
+- LangChain Harness Engineering blog — Feb 17, 2026: https://blog.langchain.com/improving-deep-agents-with-harness-engineering/
+- OWASP Top 10 for Agentic Applications — Dec 2025: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+- OWASP AI Exchange (ISO/IEC 27090) — Feb 2026: https://owaspai.org
+- ClawHavoc campaign — internal vuln DB, Feb 19, 2026
+- Causal attestation chain — 18 days PASS, internal ledger
+- Full thesis + evidence: HARNESS-THESIS.md
+
+---
+
+*Domain: causal.insure — Stealth mode*
+*Updated: Feb 19, 2026*
