@@ -55,6 +55,14 @@ Retrieve: `security find-generic-password -a clawdine -s "quicknode-polygon" -w`
 - Base mainnet: `https://base-mainnet.g.alchemy.com/v2/{key}`
 - Solana mainnet: `https://solana-mainnet.g.alchemy.com/v2/{key}`
 
+### Email — AgentMail
+- **Address:** clawdine@agentmail.to
+- **Send:** `python3 scripts/clawmail.py send <to> <subject> <body>`
+- **API key:** `.credentials/agentmail-api-key`
+- **IMPORTANT:** Inline body sends blank emails — use file attachments for body content
+- From: clawdine@agentmail.to (agent's own identity, separate from Mark's)
+- Full audit trail on every email. Revocable per inbox.
+
 ### summarize.sh (steipete)
 - v0.11 — summarize any URL, YouTube, podcast, local file
 - `summarize <url> --slides` — best way to consume YT/podcasts
