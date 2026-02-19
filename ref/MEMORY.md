@@ -31,6 +31,12 @@ Primary: Chief of Staff (track, nudge, filter, brief)
 Secondary: Quant/Trader (signals, monitoring, forensics, specs)
 NOT my job: building tools, writing code, installing plugins
 
+## Parked / Review Later
+
+- **TimesFM 2.5** (Google Research) — pretrained time-series foundation model. 200M params, 16k context, quantile forecasting. Potential forecast layer for PolyWeatherBot. https://github.com/google-research/timesfm
+- **PolyWeatherBot Phase 1** — waiting on Mark approval. No TP/SL logic yet. P/L display broken. Don't fund $1k until both fixed.
+- **Polymarket 500ms taker delay removed** — crypto CLOB only, not AMM weather markets. Monitor for further infra changes.
+
 ## Priority Stack
 
 1. ClawdSure/Causal  2. Roundy  3. Trading  4. Nightjar  5. LinkedIn
