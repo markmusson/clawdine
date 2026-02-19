@@ -1,7 +1,7 @@
 {
-  "total_trades": 544,
-  "wins": 141,
-  "losses": 384,
+  "total_trades": 547,
+  "wins": 142,
+  "losses": 386,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -179,38 +179,38 @@
       "timestamp": "2026-02-19T14:37:19.594491+00:00",
       "hour": 14
     },
-    "KXBTC-26FEB1913-B66375": {
-      "ticker": "KXBTC-26FEB1913-B66375",
-      "direction": "YES",
-      "entry_price": 29,
-      "subtitle": "$66,250 to 66,499.99",
-      "btc_at_entry": 66290,
-      "event_key": "26FEB1913",
-      "close_time": "2026-02-19T18:00:00Z",
-      "timestamp": "2026-02-19T17:04:31.357721+00:00",
-      "hour": 17
-    },
-    "KXBTC-26FEB1913-B66625": {
-      "ticker": "KXBTC-26FEB1913-B66625",
-      "direction": "YES",
-      "entry_price": 30,
-      "subtitle": "$66,500 to 66,749.99",
-      "btc_at_entry": 66528,
-      "event_key": "26FEB1913",
-      "close_time": "2026-02-19T18:00:00Z",
-      "timestamp": "2026-02-19T17:15:00.685945+00:00",
-      "hour": 17
-    },
-    "KXBTC-26FEB1913-B66875": {
-      "ticker": "KXBTC-26FEB1913-B66875",
+    "KXBTC-26FEB1914-B66375": {
+      "ticker": "KXBTC-26FEB1914-B66375",
       "direction": "YES",
       "entry_price": 26,
+      "subtitle": "$66,250 to 66,499.99",
+      "btc_at_entry": 66322,
+      "event_key": "26FEB1914",
+      "close_time": "2026-02-19T19:00:00Z",
+      "timestamp": "2026-02-19T18:03:13.454137+00:00",
+      "hour": 18
+    },
+    "KXBTC-26FEB1914-B66625": {
+      "ticker": "KXBTC-26FEB1914-B66625",
+      "direction": "YES",
+      "entry_price": 33,
+      "subtitle": "$66,500 to 66,749.99",
+      "btc_at_entry": 66555,
+      "event_key": "26FEB1914",
+      "close_time": "2026-02-19T19:00:00Z",
+      "timestamp": "2026-02-19T18:19:07.385282+00:00",
+      "hour": 18
+    },
+    "KXBTC-26FEB1914-B66875": {
+      "ticker": "KXBTC-26FEB1914-B66875",
+      "direction": "YES",
+      "entry_price": 37,
       "subtitle": "$66,750 to 66,999.99",
-      "btc_at_entry": 66894,
-      "event_key": "26FEB1913",
-      "close_time": "2026-02-19T18:00:00Z",
-      "timestamp": "2026-02-19T17:20:07.171996+00:00",
-      "hour": 17
+      "btc_at_entry": 66853,
+      "event_key": "26FEB1914",
+      "close_time": "2026-02-19T19:00:00Z",
+      "timestamp": "2026-02-19T18:29:29.142928+00:00",
+      "hour": 18
     }
   },
   "by_hour": {
@@ -263,10 +263,10 @@
       "pnl": 187
     },
     "17": {
-      "trades": 30,
-      "wins": 8,
-      "losses": 22,
-      "pnl": 49
+      "trades": 33,
+      "wins": 9,
+      "losses": 24,
+      "pnl": 64
     },
     "18": {
       "trades": 33,
@@ -359,5 +359,5 @@
       "pnl": -29
     }
   },
-  "total_pnl": -233
+  "total_pnl": -218
 }
