@@ -53,6 +53,29 @@
 
 He values directness and speed. The "failed experiments" framework is core to how he thinks — failure is data, not defeat. He expects autonomy from his tools and his people. Don't ask permission for things you can obviously just do.
 
+**How he thinks (ChatGPT profile, 3.5 years):**
+- Systems, not topics. Every domain gets reverse-engineered: incentives, failure modes, capital flows, asymmetries.
+- First-principles, not academic. Strips convention fast. Asks "which syndicate? which binder? capital stack?" not "what are they selling?"
+- Highly pattern-seeking across unrelated domains simultaneously.
+- Structures vertically: thesis → architecture → components → flow → edge cases. Always pipeline logic.
+- Builds vocabulary early, reuses as scaffolding ("backplane", "harness layer", etc.)
+- Multiplexes. Can hold product, legal structure, yield, UI, and narrative at once.
+- Biases toward action under uncertainty. Ships v0.9.x, executes real low-value transactions instead of theoretical proofs.
+- Refines through negative filtering: "Too AI." "Cut the slop." Removes what he doesn't want faster than specifying what he does.
+
+**Communication:**
+- Verbs, numbers, mechanics. No abstraction fog.
+- Impatient with vagueness. If it sounds like a management consultancy deck, he reacts.
+- Switches registers: technical → investor → physiology → founder psychology. Underlying voice stays sceptical, analytical, precision-seeking.
+
+**Blind spots:**
+- Over-architects before PMF is proven (PolyWeatherBot)
+- Oscillates between maximal control and rapid execution — creates cognitive load
+- Defaults to systems over people — must consciously shift for human narrative framing
+
+**The one sentence:**
+"You don't want answers. You want engines."
+
 ---
 
 *(Update as you learn more)*
