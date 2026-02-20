@@ -1,7 +1,7 @@
 {
-  "total_trades": 579,
-  "wins": 154,
-  "losses": 411,
+  "total_trades": 581,
+  "wins": 155,
+  "losses": 412,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -135,27 +135,27 @@
       "timestamp": "2026-02-19T14:37:19.594491+00:00",
       "hour": 14
     },
-    "KXBTC-26FEB2014-B67625": {
-      "ticker": "KXBTC-26FEB2014-B67625",
+    "KXBTC-26FEB2015-B67875": {
+      "ticker": "KXBTC-26FEB2015-B67875",
       "direction": "YES",
-      "entry_price": 21,
-      "subtitle": "$67,500 to 67,749.99",
-      "btc_at_entry": 67534,
-      "event_key": "26FEB2014",
-      "close_time": "2026-02-20T19:00:00Z",
-      "timestamp": "2026-02-20T18:03:19.997465+00:00",
-      "hour": 18
-    },
-    "KXBTC-26FEB2014-B67875": {
-      "ticker": "KXBTC-26FEB2014-B67875",
-      "direction": "YES",
-      "entry_price": 35,
+      "entry_price": 25,
       "subtitle": "$67,750 to 67,999.99",
-      "btc_at_entry": 67805,
-      "event_key": "26FEB2014",
-      "close_time": "2026-02-20T19:00:00Z",
-      "timestamp": "2026-02-20T18:34:33.218906+00:00",
-      "hour": 18
+      "btc_at_entry": 67931,
+      "event_key": "26FEB2015",
+      "close_time": "2026-02-20T20:00:00Z",
+      "timestamp": "2026-02-20T19:02:02.287836+00:00",
+      "hour": 19
+    },
+    "KXBTC-26FEB2015-B67625": {
+      "ticker": "KXBTC-26FEB2015-B67625",
+      "direction": "YES",
+      "entry_price": 24,
+      "subtitle": "$67,500 to 67,749.99",
+      "btc_at_entry": 67728,
+      "event_key": "26FEB2015",
+      "close_time": "2026-02-20T20:00:00Z",
+      "timestamp": "2026-02-20T19:07:11.935807+00:00",
+      "hour": 19
     }
   },
   "by_hour": {
@@ -214,10 +214,10 @@
       "pnl": 90
     },
     "18": {
-      "trades": 36,
-      "wins": 10,
-      "losses": 26,
-      "pnl": 24
+      "trades": 38,
+      "wins": 11,
+      "losses": 27,
+      "pnl": 68
     },
     "19": {
       "trades": 25,
@@ -304,5 +304,5 @@
       "pnl": -42
     }
   },
-  "total_pnl": -10
+  "total_pnl": 34
 }
