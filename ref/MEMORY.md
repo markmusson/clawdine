@@ -53,4 +53,4 @@ NOT my job: building tools, writing code, installing plugins
 - Peter Steinberger (@steipete) — OpenClaw creator
 - Ben Pouladian — reference OpenClaw user ($150/mo, model routing)
 
-*Last updated: Feb 14, 2026*
+*Last updated: Feb 20, 2026*
