@@ -1,0 +1,3 @@
+[2026-02-20 14:10:40] session-cleanup starting (keep=7d)
+[2026-02-20 14:10:59] session-cleanup starting (keep=7d)
+[2026-02-20 14:10:59] done — deleted=49 kept=357 before=406files/ 79M after=357files/ 44M
