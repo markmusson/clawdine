@@ -1,7 +1,7 @@
 {
-  "total_trades": 577,
-  "wins": 153,
-  "losses": 409,
+  "total_trades": 579,
+  "wins": 154,
+  "losses": 411,
   "pending": {
     "KXBTC-26FEB2017-B69000": {
       "ticker": "KXBTC-26FEB2017-B69000",
@@ -135,38 +135,27 @@
       "timestamp": "2026-02-19T14:37:19.594491+00:00",
       "hour": 14
     },
-    "KXBTC-26FEB2013-B67875": {
-      "ticker": "KXBTC-26FEB2013-B67875",
+    "KXBTC-26FEB2014-B67625": {
+      "ticker": "KXBTC-26FEB2014-B67625",
       "direction": "YES",
-      "entry_price": 33,
-      "subtitle": "$67,750 to 67,999.99",
-      "btc_at_entry": 67757,
-      "event_key": "26FEB2013",
-      "close_time": "2026-02-20T18:00:00Z",
-      "timestamp": "2026-02-20T17:00:15.917320+00:00",
-      "hour": 17
-    },
-    "KXBTC-26FEB2013-B67625": {
-      "ticker": "KXBTC-26FEB2013-B67625",
-      "direction": "YES",
-      "entry_price": 17,
+      "entry_price": 21,
       "subtitle": "$67,500 to 67,749.99",
-      "btc_at_entry": 67506,
-      "event_key": "26FEB2013",
-      "close_time": "2026-02-20T18:00:00Z",
-      "timestamp": "2026-02-20T17:10:35.123328+00:00",
-      "hour": 17
+      "btc_at_entry": 67534,
+      "event_key": "26FEB2014",
+      "close_time": "2026-02-20T19:00:00Z",
+      "timestamp": "2026-02-20T18:03:19.997465+00:00",
+      "hour": 18
     },
-    "KXBTC-26FEB2013-B67125": {
-      "ticker": "KXBTC-26FEB2013-B67125",
+    "KXBTC-26FEB2014-B67875": {
+      "ticker": "KXBTC-26FEB2014-B67875",
       "direction": "YES",
-      "entry_price": 24,
-      "subtitle": "$67,000 to 67,249.99",
-      "btc_at_entry": 67242,
-      "event_key": "26FEB2013",
-      "close_time": "2026-02-20T18:00:00Z",
-      "timestamp": "2026-02-20T17:16:15.271212+00:00",
-      "hour": 17
+      "entry_price": 35,
+      "subtitle": "$67,750 to 67,999.99",
+      "btc_at_entry": 67805,
+      "event_key": "26FEB2014",
+      "close_time": "2026-02-20T19:00:00Z",
+      "timestamp": "2026-02-20T18:34:33.218906+00:00",
+      "hour": 18
     }
   },
   "by_hour": {
@@ -219,10 +208,10 @@
       "pnl": 213
     },
     "17": {
-      "trades": 33,
-      "wins": 9,
-      "losses": 24,
-      "pnl": 64
+      "trades": 36,
+      "wins": 10,
+      "losses": 26,
+      "pnl": 90
     },
     "18": {
       "trades": 36,
@@ -315,5 +304,5 @@
       "pnl": -42
     }
   },
-  "total_pnl": -36
+  "total_pnl": -10
 }

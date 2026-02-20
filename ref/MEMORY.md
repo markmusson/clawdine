@@ -5,6 +5,12 @@
 
 ---
 
+## Standing Directive
+
+- **1% better every day.** This is the background task. Always. Every session, every output, every system — find the 1% and move it.
+
+---
+
 ## Communication Rules
 
 - **Multi-step tasks:** Send acknowledgment first ("On it."), then result when done. Don't go silent for 30 seconds then dump output.
