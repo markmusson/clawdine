@@ -132,3 +132,12 @@ NOAA KLGA forecasts: 2026-02-21: 46°F, 2026-02-22: 37°F, 2026-02-23: 36°F, 20
 2026-02-23 (+2d): NOAA 36°F | Market favors >=36 @ 39.5%
 
 Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
+=== Weather Market Snapshot: 2026-02-22 17:00 ===
+Source: NOAA weather.gov KLGA
+
+NOAA KLGA forecasts: 2026-02-22: 37°F, 2026-02-23: 35°F, 2026-02-24: 31°F, 2026-02-25: 40°F, 2026-02-26: 41°F, 2026-02-27: 41°F, 2026-02-28: 43°F
+
+2026-02-23 (+1d): NOAA 35°F | Market favors 34-35 @ 39.0%
+2026-02-24 (+2d): NOAA 31°F | Market favors 30-31 @ 37.5%
+
+Logged 2 entries to /Users/clawdine/.openclaw/workspace/trading/backtest/price_log.jsonl
