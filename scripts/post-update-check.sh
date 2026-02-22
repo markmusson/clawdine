@@ -23,6 +23,21 @@ else
   echo "OK"
 fi
 
+# 1b. Pending device repairs (missed by health check)
+echo -n "Pending device repairs... "
+PENDING=$(openclaw devices list 2>/dev/null | grep -c "repair" || true)
+if [[ "$PENDING" -gt 0 ]]; then
+  echo "WARN — $PENDING device(s) need re-approval"
+  ISSUES+=("$PENDING device repair pending — run: openclaw devices list && openclaw devices approve <id> (sub-agent spawning will fail until resolved)")
+  # Auto-approve if only one pending
+  REPAIR_ID=$(openclaw devices list 2>/dev/null | grep "repair" | awk '{print $2}' | head -1)
+  if [[ -n "$REPAIR_ID" ]]; then
+    openclaw devices approve "$REPAIR_ID" 2>/dev/null && echo "  → auto-approved $REPAIR_ID" || true
+  fi
+else
+  echo "OK"
+fi
+
 # 2. Duplicate gateway processes
 echo -n "Duplicate gateway processes... "
 GW_COUNT=$(ps aux | grep openclaw-gateway | grep -v grep | wc -l | tr -d ' ')
