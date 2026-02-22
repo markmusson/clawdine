@@ -56,13 +56,14 @@ Nobody is doing continuous cryptographic attestation of harness configuration st
 
 ## TIER 3 — Insurance / risk transfer for AI agents
 
-### Armilla (armilla.ai) ⭐ PARTNER CANDIDATE
+### Armilla (armilla.ai) ⚠️ COMPETITOR
 - First MGA dedicated to AI liability
 - Backed by Lloyd's (Chaucer syndicate)
 - Covers: hallucinations, model errors, regulatory violations, data leakage, agent misquoting
 - **Underwriting method:** Third-party testing, red-teaming, point-of-time assessment
-- **CRITICAL GAP:** They assess once at underwriting, not continuously. No runtime attestation feed.
-- **Action:** Partnership conversation — they need a continuous attestation signal, we have one
+- **Their gap:** Assess once at underwriting, no continuous runtime attestation
+- **Our position:** We out-compete them on continuous verification and parametric triggers
+- **Action:** Do NOT share IP with them. Monitor their product evolution.
 
 ### Testudo
 - Lloyd's Lab graduate, coverholder from late 2025
@@ -117,7 +118,7 @@ From Substack (Dec 2025): insurers rolling frontier models into claims/underwrit
 
 | Company | Why | Next step |
 |---|---|---|
-| Armilla | Lloyd's MGA, needs continuous attestation feed | Outreach — partnership conversation |
+| Armilla | Competitor — MGA with point-in-time assessment, no continuous attestation | Monitor, do not engage |
 | Acuvity | Closest framework competitor, 2 weeks old | Monitor, track product launches |
 | Testudo | Lloyd's Lab, AI liability MGA, early | Watch for methodology publication |
 | Invariant Labs | Tool-call invariants = complementary technical layer | Assess technical partnership |

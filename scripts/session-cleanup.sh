@@ -5,7 +5,7 @@
 # Active sessions (modified last 2h) are never touched.
 # Moves to Trash instead of hard delete.
 
-KEEP_DAYS="${SESSION_KEEP_DAYS:-7}"
+KEEP_DAYS="${SESSION_KEEP_DAYS:-3}"
 SESSIONS_BASE="$HOME/.openclaw/agents"
 LOG_DIR="$HOME/.openclaw/workspace/logs"
 LOG_FILE="$LOG_DIR/session-cleanup.log"

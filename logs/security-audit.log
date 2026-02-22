@@ -27,3 +27,72 @@ hooks.internal: enabled
 browser control: enabled
 [2026-02-21 07:07:08] WARN: FileVault: off — disk encryption recommended
 [2026-02-21 07:07:08] audit complete — 3 issue(s): Stealth mode off (optional but recommended) openclaw security audit: issues found (check logs) FileVault: off — disk encryption recommended
+[2026-02-22 07:20:06] security-audit starting
+[2026-02-22 07:20:06] PASS: Firewall enabled
+[2026-02-22 07:20:06] WARN: Stealth mode off (optional but recommended)
+[2026-02-22 07:20:06] PASS: SSH daemon not running
+[2026-02-22 07:20:06] PASS: No externally-listening TCP ports detected
+[2026-02-22 07:20:06] PASS: Docker not installed
+[2026-02-22 07:20:06] FAIL: openclaw security audit: issues found (check logs)
+[2026-02-22 07:20:06] OC audit output: OpenClaw security audit
+Summary: 0 critical · 2 warn · 1 info
+Run deeper: openclaw security audit --deep
+
+WARN
+gateway.trusted_proxies_missing Reverse proxy headers are not trusted
+  gateway.bind is loopback and gateway.trustedProxies is empty. If you expose the Control UI through a reverse proxy, configure trusted proxies so local-client checks cannot be spoofed.
+  Fix: Set gateway.trustedProxies to your proxy IPs or keep the Control UI local-only.
+models.weak_tier Some configured models are below recommended tiers
+  Smaller/older models are generally more susceptible to prompt injection and tool misuse.
+- anthropic/claude-haiku-4-5 (Haiku tier (smaller model)) @ agents.list.groups-lite.model.primary
+  Fix: Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+.
+
+INFO
+summary.attack_surface Attack surface summary
+  groups: open=0, allowlist=2
+tools.elevated: enabled
+hooks.webhooks: disabled
+hooks.internal: enabled
+browser control: enabled
+[2026-02-22 07:20:06] WARN: FileVault: off — disk encryption recommended
+[2026-02-22 07:20:06] audit complete — 3 issue(s): Stealth mode off (optional but recommended) openclaw security audit: issues found (check logs) FileVault: off — disk encryption recommended
+[2026-02-22 08:11:35] security-audit starting
+[2026-02-22 08:11:35] PASS: Firewall enabled
+[2026-02-22 08:11:35] INFO: Stealth mode off (optional)
+[2026-02-22 08:11:35] PASS: SSH daemon not running
+[2026-02-22 08:11:35] PASS: No unexpected externally-listening TCP ports
+[2026-02-22 08:11:35] PASS: Docker not installed
+[2026-02-22 08:11:35] FAIL: openclaw security audit: Summary: 0 critical · 2 warn · 1 info
+[2026-02-22 08:11:35] OC audit output: OpenClaw security audit
+Summary: 0 critical · 2 warn · 1 info
+Run deeper: openclaw security audit --deep
+
+WARN
+gateway.trusted_proxies_missing Reverse proxy headers are not trusted
+  gateway.bind is loopback and gateway.trustedProxies is empty. If you expose the Control UI through a reverse proxy, configure trusted proxies so local-client checks cannot be spoofed.
+  Fix: Set gateway.trustedProxies to your proxy IPs or keep the Control UI local-only.
+models.weak_tier Some configured models are below recommended tiers
+  Smaller/older models are generally more susceptible to prompt injection and tool misuse.
+- anthropic/claude-haiku-4-5 (Haiku tier (smaller model)) @ agents.list.groups-lite.model.primary
+  Fix: Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+.
+
+INFO
+summary.attack_surface Attack surface summary
+  groups: open=0, allowlist=2
+tools.elevated: enabled
+hooks.webhooks: disabled
+hooks.internal: enabled
+browser control: enabled
+[2026-02-22 08:11:35] WARN: FileVault: off — enable disk encryption (System Settings → Privacy & Security)
+[2026-02-22 08:11:35] PASS: Sandbox: unknown
+[2026-02-22 08:11:35] audit complete — 2 issue(s): openclaw security audit: Summary: 0 critical · 2 warn · 1 info FileVault: off — enable disk encryption (System Settings → Privacy & Security)
+[2026-02-22 08:11:57] security-audit starting
+[2026-02-22 08:11:57] PASS: Firewall enabled
+[2026-02-22 08:11:57] INFO: Stealth mode off (optional)
+[2026-02-22 08:11:57] PASS: SSH daemon not running
+[2026-02-22 08:11:57] PASS: No unexpected externally-listening TCP ports
+[2026-02-22 08:11:57] PASS: Docker not installed
+[2026-02-22 08:11:57] PASS: openclaw security audit: clean
+[2026-02-22 08:11:57] WARN: FileVault: off — enable disk encryption (System Settings → Privacy & Security)
+[2026-02-22 08:11:57] PASS: Sandbox: unknown
+[2026-02-22 08:11:57] audit complete — 1 issue(s): FileVault: off — enable disk encryption (System Settings → Privacy & Security)
